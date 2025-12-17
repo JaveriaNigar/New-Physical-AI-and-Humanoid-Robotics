@@ -1,0 +1,21 @@
+{
+  "label": "Isaac ROS",
+  "permalink": "/physical-ai-book/docs/tags/isaac-ros",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "week-8-10/week-8-10",
+      "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+      "description": "Weeks 8-10 - NVIDIA Isaac Sim, Isaac ROS, and Nav2 for perception and path planning in humanoid robotics",
+      "permalink": "/physical-ai-book/docs/week-8-10/"
+    },
+    {
+      "id": "week-8-10/nvidia-isaac-architecture",
+      "title": "NVIDIA Isaac Architecture",
+      "description": "Comprehensive overview of the NVIDIA Isaac platform architecture for AI-powered robotics",
+      "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture"
+    }
+  ],
+  "unlisted": false
+}

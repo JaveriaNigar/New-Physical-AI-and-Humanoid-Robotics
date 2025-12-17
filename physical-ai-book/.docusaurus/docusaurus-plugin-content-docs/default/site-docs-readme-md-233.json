@@ -1,0 +1,15 @@
+{
+  "id": "README",
+  "title": "Physical AI & Humanoid Robotics Textbook - Modules Structure",
+  "description": "This textbook is organized into modules that build upon each other to provide a comprehensive learning path in Physical AI and Humanoid Robotics.",
+  "source": "@site/docs/README.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/physical-ai-book/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

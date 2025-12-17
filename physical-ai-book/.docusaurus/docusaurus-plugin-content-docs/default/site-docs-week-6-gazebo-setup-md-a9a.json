@@ -1,0 +1,50 @@
+{
+  "id": "week-6/gazebo-setup",
+  "title": "Gazebo Simulation Environment Setup",
+  "description": "Setting up the Gazebo simulation environment for humanoid robotics development",
+  "source": "@site/docs/week-6/gazebo-setup.md",
+  "sourceDirName": "week-6",
+  "slug": "/week-6/gazebo-setup",
+  "permalink": "/physical-ai-book/docs/week-6/gazebo-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6/gazebo-setup.md",
+  "tags": [
+    {
+      "label": "Gazebo",
+      "permalink": "/physical-ai-book/docs/tags/gazebo"
+    },
+    {
+      "label": "Simulation",
+      "permalink": "/physical-ai-book/docs/tags/simulation"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "Environment Setup",
+      "permalink": "/physical-ai-book/docs/tags/environment-setup"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gazebo Simulation Environment Setup",
+    "description": "Setting up the Gazebo simulation environment for humanoid robotics development",
+    "tags": [
+      "Gazebo",
+      "Simulation",
+      "Robotics",
+      "Environment Setup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NVIDIA Isaac Sim Environments",
+    "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-sim"
+  },
+  "next": {
+    "title": "URDF and SDF Robot Description Formats",
+    "permalink": "/physical-ai-book/docs/week-6/urdf-sdf"
+  }
+}

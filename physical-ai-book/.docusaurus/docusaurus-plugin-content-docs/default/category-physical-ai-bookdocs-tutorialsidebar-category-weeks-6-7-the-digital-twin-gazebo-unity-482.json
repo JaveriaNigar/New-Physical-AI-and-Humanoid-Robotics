@@ -1,0 +1,16 @@
+{
+  "title": "Weeks 6-7: The Digital Twin (Gazebo & Unity)",
+  "description": "Simulation environments: Gazebo physics, collisions, sensor simulation, and Unity visualization.",
+  "slug": "/category/weeks-6-7-the-digital-twin-gazebo--unity",
+  "permalink": "/physical-ai-book/docs/category/weeks-6-7-the-digital-twin-gazebo--unity",
+  "navigation": {
+    "previous": {
+      "title": "ROS 2 with Python - rclpy Usage",
+      "permalink": "/physical-ai-book/docs/week-3-5/ros2-python-rclpy"
+    },
+    "next": {
+      "title": "Gazebo Physics, Collisions, Environment Design",
+      "permalink": "/physical-ai-book/docs/week-6-7/gazebo-simulation"
+    }
+  }
+}

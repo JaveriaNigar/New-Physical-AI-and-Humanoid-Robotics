@@ -1,0 +1,21 @@
+{
+  "label": "Architecture",
+  "permalink": "/physical-ai-book/docs/tags/architecture",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "week-3-5/ros2-architecture",
+      "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+      "description": "Understanding the fundamental architecture of ROS 2 for robot development",
+      "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture"
+    },
+    {
+      "id": "week-3-5/ros2-architecture-nodes-topics-services-actions",
+      "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+      "description": "Understanding ROS 2 architecture with nodes, topics, services, and actions for robotic applications",
+      "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions"
+    }
+  ],
+  "unlisted": false
+}

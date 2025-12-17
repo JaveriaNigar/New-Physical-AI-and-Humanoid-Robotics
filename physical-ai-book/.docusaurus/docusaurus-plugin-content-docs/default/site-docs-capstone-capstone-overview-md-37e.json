@@ -1,0 +1,55 @@
+{
+  "id": "capstone/capstone-overview",
+  "title": "Capstone: Autonomous Humanoid Project Overview",
+  "description": "Comprehensive overview of the capstone project integrating all concepts learned throughout the Physical AI & Humanoid Robotics course",
+  "source": "@site/docs/capstone/capstone-overview.md",
+  "sourceDirName": "capstone",
+  "slug": "/capstone/capstone-overview",
+  "permalink": "/physical-ai-book/docs/capstone/capstone-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/capstone/capstone-overview.md",
+  "tags": [
+    {
+      "label": "Capstone",
+      "permalink": "/physical-ai-book/docs/tags/capstone"
+    },
+    {
+      "label": "Humanoid Robotics",
+      "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+    },
+    {
+      "label": "Autonomous Systems",
+      "permalink": "/physical-ai-book/docs/tags/autonomous-systems"
+    },
+    {
+      "label": "Integration Project",
+      "permalink": "/physical-ai-book/docs/tags/integration-project"
+    },
+    {
+      "label": "Physical AI",
+      "permalink": "/physical-ai-book/docs/tags/physical-ai"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Capstone: Autonomous Humanoid Project Overview",
+    "description": "Comprehensive overview of the capstone project integrating all concepts learned throughout the Physical AI & Humanoid Robotics course",
+    "tags": [
+      "Capstone",
+      "Humanoid Robotics",
+      "Autonomous Systems",
+      "Integration Project",
+      "Physical AI"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Capstone: Autonomous Humanoid Project",
+    "permalink": "/physical-ai-book/docs/category/capstone-autonomous-humanoid-project"
+  },
+  "next": {
+    "title": "Physical AI & Humanoid Robotics Textbook - Modules Structure",
+    "permalink": "/physical-ai-book/docs/"
+  }
+}

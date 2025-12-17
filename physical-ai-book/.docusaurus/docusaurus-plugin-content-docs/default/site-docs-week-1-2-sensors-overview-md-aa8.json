@@ -1,0 +1,50 @@
+{
+  "id": "week-1-2/sensors-overview",
+  "title": "Sensors in Physical AI Systems",
+  "description": "Overview of sensors used in Physical AI and humanoid robotics",
+  "source": "@site/docs/week-1-2/sensors-overview.md",
+  "sourceDirName": "week-1-2",
+  "slug": "/week-1-2/sensors-overview",
+  "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-1-2/sensors-overview.md",
+  "tags": [
+    {
+      "label": "Sensors",
+      "permalink": "/physical-ai-book/docs/tags/sensors"
+    },
+    {
+      "label": "Physical AI",
+      "permalink": "/physical-ai-book/docs/tags/physical-ai"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "Perception",
+      "permalink": "/physical-ai-book/docs/tags/perception"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Sensors in Physical AI Systems",
+    "description": "Overview of sensors used in Physical AI and humanoid robotics",
+    "tags": [
+      "Sensors",
+      "Physical AI",
+      "Robotics",
+      "Perception"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physical AI and Embodied Intelligence",
+    "permalink": "/physical-ai-book/docs/week-1-2/physical-ai-intro"
+  },
+  "next": {
+    "title": "Humanoid URDF - Links, Joints, Sensors",
+    "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors"
+  }
+}

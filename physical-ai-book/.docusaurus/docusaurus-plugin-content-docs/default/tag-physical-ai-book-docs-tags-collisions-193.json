@@ -1,0 +1,15 @@
+{
+  "label": "Collisions",
+  "permalink": "/physical-ai-book/docs/tags/collisions",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "week-6-7/gazebo-simulation",
+      "title": "Gazebo Physics, Collisions, Environment Design",
+      "description": "Advanced Gazebo simulation focusing on physics, collisions, and environment design for humanoid robotics",
+      "permalink": "/physical-ai-book/docs/week-6-7/gazebo-simulation"
+    }
+  ],
+  "unlisted": false
+}

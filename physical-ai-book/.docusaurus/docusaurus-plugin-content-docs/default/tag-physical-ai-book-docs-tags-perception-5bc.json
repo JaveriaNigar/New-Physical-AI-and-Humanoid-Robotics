@@ -1,0 +1,21 @@
+{
+  "label": "Perception",
+  "permalink": "/physical-ai-book/docs/tags/perception",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "week-8-10/week-8-10",
+      "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+      "description": "Weeks 8-10 - NVIDIA Isaac Sim, Isaac ROS, and Nav2 for perception and path planning in humanoid robotics",
+      "permalink": "/physical-ai-book/docs/week-8-10/"
+    },
+    {
+      "id": "week-1-2/sensors-overview",
+      "title": "Sensors in Physical AI Systems",
+      "description": "Overview of sensors used in Physical AI and humanoid robotics",
+      "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview"
+    }
+  ],
+  "unlisted": false
+}

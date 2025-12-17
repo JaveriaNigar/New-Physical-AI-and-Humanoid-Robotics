@@ -1,0 +1,57 @@
+{
+  "label": "ROS 2",
+  "permalink": "/physical-ai-book/docs/tags/ros-2",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 8,
+  "items": [
+    {
+      "id": "week-3-5/humanoid-urdf",
+      "title": "Humanoid URDF - Links, Joints, Sensors",
+      "description": "Understanding Unified Robot Description Format for humanoid robots",
+      "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf"
+    },
+    {
+      "id": "week-3-5/humanoid-urdf-links-joints-sensors",
+      "title": "Humanoid URDF - Links, Joints, Sensors",
+      "description": "Understanding URDF representation for humanoid robots with links, joints, and sensor configurations",
+      "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors"
+    },
+    {
+      "id": "week-11-13/week-11-13",
+      "title": "Module 4: Vision-Language-Action (VLA) Systems",
+      "description": "Week 11-13 content covering Vision-Language-Action systems, multimodal robotics, LLM planning, and autonomous humanoid implementation",
+      "permalink": "/physical-ai-book/docs/week-11-13/"
+    },
+    {
+      "id": "week-3-5/robot-data-flow",
+      "title": "Robot Data Flow - Sensor→Processing→Actuation",
+      "description": "Understanding data flow in robotic systems from sensor input through processing to actuator output",
+      "permalink": "/physical-ai-book/docs/week-3-5/robot-data-flow"
+    },
+    {
+      "id": "week-3-5/ros2-architecture",
+      "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+      "description": "Understanding the fundamental architecture of ROS 2 for robot development",
+      "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture"
+    },
+    {
+      "id": "week-3-5/ros2-architecture-nodes-topics-services-actions",
+      "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+      "description": "Understanding ROS 2 architecture with nodes, topics, services, and actions for robotic applications",
+      "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions"
+    },
+    {
+      "id": "week-3-5/ros2-python-rclpy",
+      "title": "ROS 2 with Python - rclpy Usage",
+      "description": "Introduction to using ROS 2 with Python through the rclpy client library",
+      "permalink": "/physical-ai-book/docs/week-3-5/ros2-python-rclpy"
+    },
+    {
+      "id": "week-3-5/ros2-with-python-rclpy",
+      "title": "ROS 2 with Python - rclpy Usage",
+      "description": "Comprehensive guide to using ROS 2 with Python through the rclpy client library",
+      "permalink": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy"
+    }
+  ],
+  "unlisted": false
+}

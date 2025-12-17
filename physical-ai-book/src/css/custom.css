@@ -1,0 +1,228 @@
+/**
+ * Custom CSS for Physical AI & Humanoid Robotics Textbook
+ *
+ * Simple Color Palette:
+ * - Primary: Soft Pink (#FFC0CB)
+ * - Background: White (#FFFFFF)
+ * - Text: Black (#000000)
+ */
+
+:root {
+  /* Simple color palette */
+  --ifm-color-primary: #FFC0CB; /* soft pink */
+  --ifm-color-primary-dark: #FF8DA8; /* darker pink */
+  --ifm-color-primary-darker: #FF6B8A; /* even darker pink */
+  --ifm-color-primary-darkest: #FF496D; /* darkest pink */
+  --ifm-color-primary-light: #FFD6DB; /* lighter pink */
+  --ifm-color-primary-lighter: #FFE7EB; /* even lighter pink */
+  --ifm-color-primary-lightest: #FFF8F9; /* lightest pink */
+
+  /* Background and text colors */
+  --ifm-background-color: #FFFFFF; /* pure white background */
+  --ifm-background-surface-color: #FFFFFF; /* white surface */
+  --ifm-font-color-base: #000000; /* pure black text */
+  --ifm-font-color-base-inverse: #FFFFFF; /* white text */
+
+  /* Border colors */
+  --ifm-border-color: #FFC0CB; /* pink border */
+
+  /* Global shadow */
+  --ifm-global-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+  /* Code block colors */
+  --ifm-code-background: #FFFFFF; /* white for code */
+  --ifm-code-color: #000000; /* black for code text */
+}
+
+/* Remove dark mode completely - only use light mode */
+html[data-theme='dark'] {
+  /* Force light theme - no dark mode */
+  --ifm-color-primary: #FFC0CB; /* soft pink */
+  --ifm-color-primary-dark: #FF8DA8; /* darker pink */
+  --ifm-color-primary-darker: #FF6B8A; /* even darker pink */
+  --ifm-color-primary-darkest: #FF496D; /* darkest pink */
+  --ifm-color-primary-light: #FFD6DB; /* lighter pink */
+  --ifm-color-primary-lighter: #FFE7EB; /* even lighter pink */
+  --ifm-color-primary-lightest: #FFF8F9; /* lightest pink */
+
+  /* Background and text colors */
+  --ifm-background-color: #FFFFFF; /* pure white background */
+  --ifm-background-surface-color: #FFFFFF; /* white surface */
+  --ifm-font-color-base: #000000; /* pure black text */
+  --ifm-font-color-base-inverse: #FFFFFF; /* white text */
+
+  /* Border colors */
+  --ifm-border-color: #FFC0CB; /* pink border */
+
+  /* Global shadow */
+  --ifm-global-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+  /* Code block colors */
+  --ifm-code-background: #FFFFFF; /* white for code */
+  --ifm-code-color: #000000; /* black for code text */
+}
+
+/* Simple styling for readability */
+.docusaurus-highlight-code-line {
+  background-color: rgba(255, 192, 203, 0.1); /* soft pink highlight */
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* Simple sidebar styling */
+.menu {
+  background-color: var(--ifm-background-surface-color); /* white background */
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid var(--ifm-border-color);
+}
+
+.menu__list {
+  --ifm-menu-color: var(--ifm-font-color-base);
+  --ifm-menu-color-active: var(--ifm-color-primary); /* pink color for active items */
+  --ifm-menu-color-background-hover: rgba(255, 192, 203, 0.2); /* soft pink hover */
+  --ifm-menu-color-background-active: rgba(255, 192, 203, 0.3); /* pink for active */
+}
+
+.menu__link {
+  border-radius: 6px;
+  margin: 0.25rem 0;
+  color: var(--ifm-font-color-base);
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover,
+.menu__link--active {
+  background-color: var(--ifm-menu-color-background-hover);
+  color: var(--ifm-color-primary);
+}
+
+/* Simple button styling */
+.button {
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  border: 1px solid var(--ifm-color-primary);
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-font-color-base-inverse);
+}
+
+.button:hover {
+  background-color: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(255, 192, 203, 0.4);
+}
+
+/* Simple header styling */
+.navbar {
+  background-color: var(--ifm-background-color); /* white background */
+  border-bottom: 1px solid var(--ifm-border-color);
+  padding: 0.75rem 1rem;
+}
+
+.navbar__title {
+  color: var(--ifm-color-primary); /* pink color for title */
+  font-weight: 600;
+}
+
+.navbar__link {
+  color: var(--ifm-font-color-base); /* black text */
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+}
+
+.navbar__link:hover {
+  background-color: rgba(255, 192, 203, 0.2); /* soft pink hover */
+  color: var(--ifm-color-primary); /* pink on hover */
+}
+
+/* Simple footer styling */
+.footer {
+  background-color: var(--ifm-background-color); /* white background */
+  color: var(--ifm-font-color-base);
+  padding: 2rem 0 1rem 0;
+  border-top: 1px solid var(--ifm-border-color);
+}
+
+/* Simple card styling */
+.card {
+  border-radius: 8px;
+  box-shadow: var(--ifm-global-shadow);
+  border: 1px solid var(--ifm-border-color);
+  background-color: var(--ifm-background-color);
+}
+
+/* Simple table styling */
+.table-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--ifm-global-shadow);
+  border: 1px solid var(--ifm-border-color);
+}
+
+table {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--ifm-background-color);
+}
+
+th, td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--ifm-border-color);
+  color: var(--ifm-font-color-base);
+}
+
+th {
+  background-color: rgba(255, 192, 203, 0.2); /* soft pink header */
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 192, 203, 0.05); /* very light pink for even rows */
+}
+
+tr:hover {
+  background-color: rgba(255, 192, 203, 0.1);
+}
+
+/* Simple input styling */
+input, textarea, select {
+  border-radius: 6px;
+  border: 1px solid var(--ifm-border-color);
+  padding: 0.5rem;
+  transition: all 0.2s ease;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 2px rgba(255, 192, 203, 0.4);
+}
+
+/* Ensure all text is black */
+p, li, span, div, h1, h2, h3, h4, h5, h6, a, th, td {
+  color: var(--ifm-font-color-base) !important;
+}
+
+/* Simple link styling */
+a {
+  color: var(--ifm-color-primary);
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Content container */
+.main-wrapper {
+  background-color: var(--ifm-background-color); /* white background */
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: var(--ifm-global-shadow);
+  border: 1px solid var(--ifm-border-color);
+}

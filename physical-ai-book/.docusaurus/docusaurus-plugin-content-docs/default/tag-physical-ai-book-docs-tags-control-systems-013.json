@@ -1,0 +1,15 @@
+{
+  "label": "Control Systems",
+  "permalink": "/physical-ai-book/docs/tags/control-systems",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "week-3-5/robot-data-flow",
+      "title": "Robot Data Flow - Sensor→Processing→Actuation",
+      "description": "Understanding data flow in robotic systems from sensor input through processing to actuator output",
+      "permalink": "/physical-ai-book/docs/week-3-5/robot-data-flow"
+    }
+  ],
+  "unlisted": false
+}

@@ -1,0 +1,112 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.homepageLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.bookOverview, .authorIntroduction {
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.bookOverview {
+  background-color: #f8f9fa;
+}
+
+.authorIntroduction {
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.authorPhotoPlaceholder {
+  margin: 1rem 0;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #adb5bd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #495057;
+  font-size: 0.8rem;
+  margin: 0 auto;
+}
+
+.photo::before {
+  content: "Photo";
+}
+
+h2 {
+  color: #212529;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #0d6efd;
+}
+
+h3 {
+  color: #495057;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  color: #495057;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 1.5rem;
+  color: #6c757d;
+}
+
+@media screen and (max-width: 768px) {
+  .homepageLayout {
+    grid-template-columns: 1fr; /* Stack columns on mobile */
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .bookOverview, .authorIntroduction {
+    padding: 1rem;
+  }
+}

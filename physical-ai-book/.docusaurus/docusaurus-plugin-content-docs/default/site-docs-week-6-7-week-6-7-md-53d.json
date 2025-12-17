@@ -1,0 +1,61 @@
+{
+  "id": "week-6-7/week-6-7",
+  "title": "Weeks 6-7: Robot Simulation with Gazebo",
+  "description": "Module covering Gazebo simulation environment setup, URDF/SDF formats, physics simulation, sensor simulation, and introduction to Unity for robot visualization",
+  "source": "@site/docs/week-6-7/week-6-7.md",
+  "sourceDirName": "week-6-7",
+  "slug": "/week-6-7/",
+  "permalink": "/physical-ai-book/docs/week-6-7/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/week-6-7.md",
+  "tags": [
+    {
+      "label": "Gazebo",
+      "permalink": "/physical-ai-book/docs/tags/gazebo"
+    },
+    {
+      "label": "Unity",
+      "permalink": "/physical-ai-book/docs/tags/unity"
+    },
+    {
+      "label": "Simulation",
+      "permalink": "/physical-ai-book/docs/tags/simulation"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "Humanoid",
+      "permalink": "/physical-ai-book/docs/tags/humanoid"
+    },
+    {
+      "label": "URDF",
+      "permalink": "/physical-ai-book/docs/tags/urdf"
+    },
+    {
+      "label": "SDF",
+      "permalink": "/physical-ai-book/docs/tags/sdf"
+    },
+    {
+      "label": "Physics",
+      "permalink": "/physical-ai-book/docs/tags/physics"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Weeks 6-7: Robot Simulation with Gazebo",
+    "description": "Module covering Gazebo simulation environment setup, URDF/SDF formats, physics simulation, sensor simulation, and introduction to Unity for robot visualization",
+    "tags": [
+      "Gazebo",
+      "Unity",
+      "Simulation",
+      "Robotics",
+      "Humanoid",
+      "URDF",
+      "SDF",
+      "Physics"
+    ]
+  }
+}

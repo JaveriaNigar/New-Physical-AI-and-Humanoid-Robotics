@@ -1,0 +1,51 @@
+{
+  "id": "week-6-7/gazebo-simulation",
+  "title": "Gazebo Physics, Collisions, Environment Design",
+  "description": "Advanced Gazebo simulation focusing on physics, collisions, and environment design for humanoid robotics",
+  "source": "@site/docs/week-6-7/gazebo-simulation.md",
+  "sourceDirName": "week-6-7",
+  "slug": "/week-6-7/gazebo-simulation",
+  "permalink": "/physical-ai-book/docs/week-6-7/gazebo-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/gazebo-simulation.md",
+  "tags": [
+    {
+      "label": "Gazebo",
+      "permalink": "/physical-ai-book/docs/tags/gazebo"
+    },
+    {
+      "label": "Physics",
+      "permalink": "/physical-ai-book/docs/tags/physics"
+    },
+    {
+      "label": "Collisions",
+      "permalink": "/physical-ai-book/docs/tags/collisions"
+    },
+    {
+      "label": "Environment",
+      "permalink": "/physical-ai-book/docs/tags/environment"
+    },
+    {
+      "label": "Simulation",
+      "permalink": "/physical-ai-book/docs/tags/simulation"
+    },
+    {
+      "label": "Humanoid",
+      "permalink": "/physical-ai-book/docs/tags/humanoid"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gazebo Physics, Collisions, Environment Design",
+    "description": "Advanced Gazebo simulation focusing on physics, collisions, and environment design for humanoid robotics",
+    "tags": [
+      "Gazebo",
+      "Physics",
+      "Collisions",
+      "Environment",
+      "Simulation",
+      "Humanoid"
+    ]
+  }
+}

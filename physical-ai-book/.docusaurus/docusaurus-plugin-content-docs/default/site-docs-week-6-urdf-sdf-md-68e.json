@@ -1,0 +1,51 @@
+{
+  "id": "week-6/urdf-sdf",
+  "title": "URDF and SDF Robot Description Formats",
+  "description": "Understanding the relationship between URDF and SDF formats for robot simulation",
+  "source": "@site/docs/week-6/urdf-sdf.md",
+  "sourceDirName": "week-6",
+  "slug": "/week-6/urdf-sdf",
+  "permalink": "/physical-ai-book/docs/week-6/urdf-sdf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6/urdf-sdf.md",
+  "tags": [
+    {
+      "label": "URDF",
+      "permalink": "/physical-ai-book/docs/tags/urdf"
+    },
+    {
+      "label": "SDF",
+      "permalink": "/physical-ai-book/docs/tags/sdf"
+    },
+    {
+      "label": "Simulation",
+      "permalink": "/physical-ai-book/docs/tags/simulation"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "Robot Description",
+      "permalink": "/physical-ai-book/docs/tags/robot-description"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "URDF and SDF Robot Description Formats",
+    "description": "Understanding the relationship between URDF and SDF formats for robot simulation",
+    "tags": [
+      "URDF",
+      "SDF",
+      "Simulation",
+      "Robotics",
+      "Robot Description"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gazebo Simulation Environment Setup",
+    "permalink": "/physical-ai-book/docs/week-6/gazebo-setup"
+  }
+}

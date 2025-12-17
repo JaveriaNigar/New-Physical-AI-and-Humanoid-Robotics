@@ -1,0 +1,16 @@
+{
+  "title": "Weeks 11-12: Humanoid Development",
+  "description": "Humanoid kinematics, dynamics, and manipulation techniques.",
+  "slug": "/category/weeks-11-12-humanoid-development",
+  "permalink": "/physical-ai-book/docs/category/weeks-11-12-humanoid-development",
+  "navigation": {
+    "previous": {
+      "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+      "permalink": "/physical-ai-book/docs/week-8-10/"
+    },
+    "next": {
+      "title": "Module 4: Vision-Language-Action (VLA) Systems",
+      "permalink": "/physical-ai-book/docs/week-11-13/"
+    }
+  }
+}

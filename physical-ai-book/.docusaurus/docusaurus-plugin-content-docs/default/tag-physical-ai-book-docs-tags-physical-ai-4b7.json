@@ -1,0 +1,21 @@
+{
+  "label": "Physical AI",
+  "permalink": "/physical-ai-book/docs/tags/physical-ai",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "week-1-2/physical-ai-intro",
+      "title": "Physical AI and Embodied Intelligence",
+      "description": "Introduction to Physical AI and embodied intelligence concepts in robotics",
+      "permalink": "/physical-ai-book/docs/week-1-2/physical-ai-intro"
+    },
+    {
+      "id": "week-1-2/sensors-overview",
+      "title": "Sensors in Physical AI Systems",
+      "description": "Overview of sensors used in Physical AI and humanoid robotics",
+      "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview"
+    }
+  ],
+  "unlisted": false
+}

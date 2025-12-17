@@ -1,0 +1,301 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "Physical AI & Humanoid Robotics Textbook ",
+        "items": [
+          {
+            "type": "category",
+            "label": "Module 1: Weeks 1-2: Introduction to Physical AI",
+            "items": [
+              {
+                "type": "link",
+                "label": "Humanoid Robotics Overview",
+                "href": "/physical-ai-book/docs/week-1-2/humanoid-robots",
+                "docId": "week-1-2/humanoid-robots",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Physical AI and Embodied Intelligence",
+                "href": "/physical-ai-book/docs/week-1-2/physical-ai-intro",
+                "docId": "week-1-2/physical-ai-intro",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Sensors in Physical AI Systems",
+                "href": "/physical-ai-book/docs/week-1-2/sensors-overview",
+                "docId": "week-1-2/sensors-overview",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Module 2: Weeks 3-7: ROS 2 Fundamentals & Robot Simulation with Gazebo",
+            "items": [
+              {
+                "type": "link",
+                "label": "Humanoid URDF - Links, Joints, Sensors",
+                "href": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors",
+                "docId": "week-3-5/humanoid-urdf-links-joints-sensors",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Robot Data Flow - Sensor→Processing→Actuation",
+                "href": "/physical-ai-book/docs/week-3-5/robot-data-flow",
+                "docId": "week-3-5/robot-data-flow",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+                "href": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions",
+                "docId": "week-3-5/ros2-architecture-nodes-topics-services-actions",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "ROS 2 with Python - rclpy Usage",
+                "href": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy",
+                "docId": "week-3-5/ros2-with-python-rclpy",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Gazebo Physics, Collisions, Environment Design",
+                "href": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design",
+                "docId": "week-6-7/gazebo-physics-collisions-environment-design",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Sensor Simulation (LiDAR, Depth, IMU)",
+                "href": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu",
+                "docId": "week-6-7/sensor-simulation-lidar-depth-imu",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Module 3: Weeks 8-10: The AI-Robot Brain (NVIDIA Isaac™)",
+            "items": [
+              {
+                "type": "link",
+                "label": "AI-Robot Brain Overview",
+                "href": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview",
+                "docId": "week-8-10/ai-robot-brain-overview",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "NVIDIA Isaac Architecture",
+                "href": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture",
+                "docId": "week-8-10/nvidia-isaac-architecture",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Cognitive Planning & Actions",
+                "href": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions",
+                "docId": "week-8-10/cognitive-planning-actions",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Module 4: Weeks 11-12: Humanoid Development & VLA Systems",
+            "items": [
+              {
+                "type": "link",
+                "label": "Humanoid Development Overview",
+                "href": "/physical-ai-book/docs/week-11-13/humanoid-development-overview",
+                "docId": "week-11-13/humanoid-development-overview",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Vision-Language-Action Systems",
+                "href": "/physical-ai-book/docs/week-11-13/vision-language-action-systems",
+                "docId": "week-11-13/vision-language-action-systems",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Context-Aware Behavior",
+                "href": "/physical-ai-book/docs/week-11-13/context-aware-behavior",
+                "docId": "week-11-13/context-aware-behavior",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "README": {
+      "id": "README",
+      "title": "Physical AI & Humanoid Robotics Textbook - Modules Structure",
+      "description": "This textbook is organized into modules that build upon each other to provide a comprehensive learning path in Physical AI and Humanoid Robotics."
+    },
+    "tasks-sidebar-implementation": {
+      "id": "tasks-sidebar-implementation",
+      "title": "tasks-sidebar-implementation",
+      "description": "qw---"
+    },
+    "week-1-2/humanoid-robots": {
+      "id": "week-1-2/humanoid-robots",
+      "title": "Humanoid Robotics Overview",
+      "description": "Introduction to humanoid robotics and their applications",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-1-2/physical-ai-intro": {
+      "id": "week-1-2/physical-ai-intro",
+      "title": "Physical AI and Embodied Intelligence",
+      "description": "Introduction to Physical AI and embodied intelligence concepts in robotics",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-1-2/sensors-overview": {
+      "id": "week-1-2/sensors-overview",
+      "title": "Sensors in Physical AI Systems",
+      "description": "Overview of sensors used in Physical AI and humanoid robotics",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-11-13/context-aware-behavior": {
+      "id": "week-11-13/context-aware-behavior",
+      "title": "Context-Aware Behavior",
+      "description": "Understanding context-aware behavior in robotics and how robots adapt to environmental and social contexts",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-11-13/humanoid-development-overview": {
+      "id": "week-11-13/humanoid-development-overview",
+      "title": "Humanoid Development Overview",
+      "description": "Understanding the fundamentals of humanoid robot development from design to control",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-11-13/vision-language-action-systems": {
+      "id": "week-11-13/vision-language-action-systems",
+      "title": "Vision-Language-Action Systems",
+      "description": "Understanding Vision-Language-Action (VLA) systems that integrate perception, language understanding, and robotic action",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-11-13/week-11-13": {
+      "id": "week-11-13/week-11-13",
+      "title": "Module 4: Vision-Language-Action (VLA) Systems",
+      "description": "Week 11-13 content covering Vision-Language-Action systems, multimodal robotics, LLM planning, and autonomous humanoid implementation"
+    },
+    "week-3-5/humanoid-urdf": {
+      "id": "week-3-5/humanoid-urdf",
+      "title": "Humanoid URDF - Links, Joints, Sensors",
+      "description": "Understanding Unified Robot Description Format for humanoid robots"
+    },
+    "week-3-5/humanoid-urdf-links-joints-sensors": {
+      "id": "week-3-5/humanoid-urdf-links-joints-sensors",
+      "title": "Humanoid URDF - Links, Joints, Sensors",
+      "description": "Understanding URDF representation for humanoid robots with links, joints, and sensor configurations",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-3-5/robot-data-flow": {
+      "id": "week-3-5/robot-data-flow",
+      "title": "Robot Data Flow - Sensor→Processing→Actuation",
+      "description": "Understanding data flow in robotic systems from sensor input through processing to actuator output",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-3-5/ros2-architecture": {
+      "id": "week-3-5/ros2-architecture",
+      "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+      "description": "Understanding the fundamental architecture of ROS 2 for robot development"
+    },
+    "week-3-5/ros2-architecture-nodes-topics-services-actions": {
+      "id": "week-3-5/ros2-architecture-nodes-topics-services-actions",
+      "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+      "description": "Understanding ROS 2 architecture with nodes, topics, services, and actions for robotic applications",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-3-5/ros2-python-rclpy": {
+      "id": "week-3-5/ros2-python-rclpy",
+      "title": "ROS 2 with Python - rclpy Usage",
+      "description": "Introduction to using ROS 2 with Python through the rclpy client library"
+    },
+    "week-3-5/ros2-with-python-rclpy": {
+      "id": "week-3-5/ros2-with-python-rclpy",
+      "title": "ROS 2 with Python - rclpy Usage",
+      "description": "Comprehensive guide to using ROS 2 with Python through the rclpy client library",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-6-7/gazebo-physics-collisions-environment-design": {
+      "id": "week-6-7/gazebo-physics-collisions-environment-design",
+      "title": "Gazebo Physics, Collisions, Environment Design",
+      "description": "Understanding Gazebo physics simulation, collision detection, and environment design for robotics",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-6-7/gazebo-simulation": {
+      "id": "week-6-7/gazebo-simulation",
+      "title": "Gazebo Physics, Collisions, Environment Design",
+      "description": "Advanced Gazebo simulation focusing on physics, collisions, and environment design for humanoid robotics"
+    },
+    "week-6-7/sensor-simulation": {
+      "id": "week-6-7/sensor-simulation",
+      "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+      "description": "Simulating various sensors in Gazebo for humanoid robotics applications"
+    },
+    "week-6-7/sensor-simulation-lidar-depth-imu": {
+      "id": "week-6-7/sensor-simulation-lidar-depth-imu",
+      "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+      "description": "Understanding sensor simulation in Gazebo for LiDAR, depth cameras, and IMU sensors",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-6-7/week-6-7": {
+      "id": "week-6-7/week-6-7",
+      "title": "Weeks 6-7: Robot Simulation with Gazebo",
+      "description": "Module covering Gazebo simulation environment setup, URDF/SDF formats, physics simulation, sensor simulation, and introduction to Unity for robot visualization"
+    },
+    "week-8-10/ai-robot-brain-overview": {
+      "id": "week-8-10/ai-robot-brain-overview",
+      "title": "AI-Robot Brain Overview",
+      "description": "Understanding the integration of artificial intelligence with robotic systems in the NVIDIA Isaac ecosystem",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-8-10/cognitive-planning-actions": {
+      "id": "week-8-10/cognitive-planning-actions",
+      "title": "Cognitive Planning & Actions",
+      "description": "Understanding cognitive planning in robotics and how intelligent agents select and execute actions",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-8-10/nvidia-isaac-architecture": {
+      "id": "week-8-10/nvidia-isaac-architecture",
+      "title": "NVIDIA Isaac Architecture",
+      "description": "Comprehensive overview of the NVIDIA Isaac platform architecture for AI-powered robotics",
+      "sidebar": "tutorialSidebar"
+    },
+    "week-8-10/week-8-10": {
+      "id": "week-8-10/week-8-10",
+      "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+      "description": "Weeks 8-10 - NVIDIA Isaac Sim, Isaac ROS, and Nav2 for perception and path planning in humanoid robotics"
+    }
+  }
+}

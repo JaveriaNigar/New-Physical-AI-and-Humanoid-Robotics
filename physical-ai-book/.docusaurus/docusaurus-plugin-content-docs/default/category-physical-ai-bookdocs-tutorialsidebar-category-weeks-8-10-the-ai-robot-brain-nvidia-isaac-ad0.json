@@ -1,0 +1,16 @@
+{
+  "title": "Weeks 8-10: The AI-Robot Brain (NVIDIA Isaac)",
+  "description": "NVIDIA Isaac platform: Isaac Sim, Isaac ROS, perception, navigation, Nav2 for humanoids.",
+  "slug": "/category/weeks-8-10-the-ai-robot-brain-nvidia-isaac",
+  "permalink": "/physical-ai-book/docs/category/weeks-8-10-the-ai-robot-brain-nvidia-isaac",
+  "navigation": {
+    "previous": {
+      "title": "Weeks 6-7: Robot Simulation with Gazebo",
+      "permalink": "/physical-ai-book/docs/week-6-7/"
+    },
+    "next": {
+      "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+      "permalink": "/physical-ai-book/docs/week-8-10/"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "week-7/unity-intro",
+  "title": "Introduction to Unity for Robot Visualization",
+  "description": "Understanding Unity as a visualization tool for robotics and humanoid simulation",
+  "source": "@site/docs/week-7/unity-intro.md",
+  "sourceDirName": "week-7",
+  "slug": "/week-7/unity-intro",
+  "permalink": "/physical-ai-book/docs/week-7/unity-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-7/unity-intro.md",
+  "tags": [
+    {
+      "label": "Unity",
+      "permalink": "/physical-ai-book/docs/tags/unity"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "Visualization",
+      "permalink": "/physical-ai-book/docs/tags/visualization"
+    },
+    {
+      "label": "Humanoid",
+      "permalink": "/physical-ai-book/docs/tags/humanoid"
+    },
+    {
+      "label": "Simulation",
+      "permalink": "/physical-ai-book/docs/tags/simulation"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Introduction to Unity for Robot Visualization",
+    "description": "Understanding Unity as a visualization tool for robotics and humanoid simulation",
+    "tags": [
+      "Unity",
+      "Robotics",
+      "Visualization",
+      "Humanoid",
+      "Simulation"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physics Simulation & Sensor Simulation",
+    "permalink": "/physical-ai-book/docs/week-7/physics-simulation"
+  }
+}

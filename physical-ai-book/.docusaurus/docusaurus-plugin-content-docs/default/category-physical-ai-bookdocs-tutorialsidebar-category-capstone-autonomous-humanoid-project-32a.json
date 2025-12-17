@@ -1,0 +1,16 @@
+{
+  "title": "Capstone: Autonomous Humanoid Project",
+  "description": "Complete integration project with voice command integration, path planning, navigation, and object interaction.",
+  "slug": "/category/capstone-autonomous-humanoid-project",
+  "permalink": "/physical-ai-book/docs/category/capstone-autonomous-humanoid-project",
+  "navigation": {
+    "previous": {
+      "title": "Module 4: Vision-Language-Action (VLA) Systems",
+      "permalink": "/physical-ai-book/docs/week-11-13/"
+    },
+    "next": {
+      "title": "Capstone: Autonomous Humanoid Project Overview",
+      "permalink": "/physical-ai-book/docs/capstone/capstone-overview"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "week-3-5/ros2-architecture",
+  "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+  "description": "Understanding the fundamental architecture of ROS 2 for robot development",
+  "source": "@site/docs/week-3-5/ros2-architecture.md",
+  "sourceDirName": "week-3-5",
+  "slug": "/week-3-5/ros2-architecture",
+  "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/ros2-architecture.md",
+  "tags": [
+    {
+      "label": "ROS 2",
+      "permalink": "/physical-ai-book/docs/tags/ros-2"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "Architecture",
+      "permalink": "/physical-ai-book/docs/tags/architecture"
+    },
+    {
+      "label": "Middleware",
+      "permalink": "/physical-ai-book/docs/tags/middleware"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+    "description": "Understanding the fundamental architecture of ROS 2 for robot development",
+    "tags": [
+      "ROS 2",
+      "Robotics",
+      "Architecture",
+      "Middleware"
+    ]
+  }
+}

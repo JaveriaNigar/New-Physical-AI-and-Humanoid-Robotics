@@ -1,0 +1,27 @@
+{
+  "label": "URDF",
+  "permalink": "/physical-ai-book/docs/tags/urdf",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "week-3-5/humanoid-urdf",
+      "title": "Humanoid URDF - Links, Joints, Sensors",
+      "description": "Understanding Unified Robot Description Format for humanoid robots",
+      "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf"
+    },
+    {
+      "id": "week-3-5/humanoid-urdf-links-joints-sensors",
+      "title": "Humanoid URDF - Links, Joints, Sensors",
+      "description": "Understanding URDF representation for humanoid robots with links, joints, and sensor configurations",
+      "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors"
+    },
+    {
+      "id": "week-6-7/week-6-7",
+      "title": "Weeks 6-7: Robot Simulation with Gazebo",
+      "description": "Module covering Gazebo simulation environment setup, URDF/SDF formats, physics simulation, sensor simulation, and introduction to Unity for robot visualization",
+      "permalink": "/physical-ai-book/docs/week-6-7/"
+    }
+  ],
+  "unlisted": false
+}

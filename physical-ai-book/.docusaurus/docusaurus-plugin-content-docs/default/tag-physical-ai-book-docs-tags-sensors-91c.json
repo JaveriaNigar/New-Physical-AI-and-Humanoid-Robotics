@@ -1,0 +1,15 @@
+{
+  "label": "Sensors",
+  "permalink": "/physical-ai-book/docs/tags/sensors",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "week-1-2/sensors-overview",
+      "title": "Sensors in Physical AI Systems",
+      "description": "Overview of sensors used in Physical AI and humanoid robotics",
+      "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview"
+    }
+  ],
+  "unlisted": false
+}

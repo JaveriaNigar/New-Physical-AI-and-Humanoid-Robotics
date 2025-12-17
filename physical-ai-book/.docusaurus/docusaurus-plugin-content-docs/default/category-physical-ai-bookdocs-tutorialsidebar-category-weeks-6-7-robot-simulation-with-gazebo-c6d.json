@@ -1,0 +1,16 @@
+{
+  "title": "Weeks 6-7: Robot Simulation with Gazebo",
+  "description": "Gazebo physics simulation, collision detection, and environment design. Sensor simulation including LiDAR, depth cameras, and IMUs.",
+  "slug": "/category/weeks-6-7-robot-simulation-with-gazebo",
+  "permalink": "/physical-ai-book/docs/category/weeks-6-7-robot-simulation-with-gazebo",
+  "navigation": {
+    "previous": {
+      "title": "ROS 2 with Python - rclpy Usage",
+      "permalink": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy"
+    },
+    "next": {
+      "title": "Gazebo Physics, Collisions, Environment Design",
+      "permalink": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design"
+    }
+  }
+}

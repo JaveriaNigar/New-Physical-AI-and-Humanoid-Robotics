@@ -1,0 +1,15 @@
+{
+  "label": "Planning",
+  "permalink": "/physical-ai-book/docs/tags/planning",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "week-8-10/cognitive-planning-actions",
+      "title": "Cognitive Planning & Actions",
+      "description": "Understanding cognitive planning in robotics and how intelligent agents select and execute actions",
+      "permalink": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions"
+    }
+  ],
+  "unlisted": false
+}

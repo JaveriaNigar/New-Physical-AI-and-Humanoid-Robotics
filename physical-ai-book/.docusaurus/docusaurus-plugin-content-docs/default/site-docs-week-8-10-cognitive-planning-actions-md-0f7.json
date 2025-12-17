@@ -1,0 +1,55 @@
+{
+  "id": "week-8-10/cognitive-planning-actions",
+  "title": "Cognitive Planning & Actions",
+  "description": "Understanding cognitive planning in robotics and how intelligent agents select and execute actions",
+  "source": "@site/docs/week-8-10/cognitive-planning-actions.md",
+  "sourceDirName": "week-8-10",
+  "slug": "/week-8-10/cognitive-planning-actions",
+  "permalink": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/cognitive-planning-actions.md",
+  "tags": [
+    {
+      "label": "Cognitive Robotics",
+      "permalink": "/physical-ai-book/docs/tags/cognitive-robotics"
+    },
+    {
+      "label": "Planning",
+      "permalink": "/physical-ai-book/docs/tags/planning"
+    },
+    {
+      "label": "AI Actions",
+      "permalink": "/physical-ai-book/docs/tags/ai-actions"
+    },
+    {
+      "label": "Robot Decision Making",
+      "permalink": "/physical-ai-book/docs/tags/robot-decision-making"
+    },
+    {
+      "label": "Task Planning",
+      "permalink": "/physical-ai-book/docs/tags/task-planning"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Cognitive Planning & Actions",
+    "description": "Understanding cognitive planning in robotics and how intelligent agents select and execute actions",
+    "tags": [
+      "Cognitive Robotics",
+      "Planning",
+      "AI Actions",
+      "Robot Decision Making",
+      "Task Planning"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NVIDIA Isaac Architecture",
+    "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture"
+  },
+  "next": {
+    "title": "Humanoid Development Overview",
+    "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview"
+  }
+}

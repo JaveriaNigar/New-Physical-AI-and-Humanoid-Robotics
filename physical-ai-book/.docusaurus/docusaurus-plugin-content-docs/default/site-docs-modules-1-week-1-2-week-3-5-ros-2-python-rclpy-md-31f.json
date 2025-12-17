@@ -1,0 +1,55 @@
+{
+  "id": "Modules1/week-1-2/week-3-5/ros2-python-rclpy",
+  "title": "ROS 2 with Python - rclpy Usage",
+  "description": "Introduction to using ROS 2 with Python through the rclpy client library",
+  "source": "@site/docs/Modules1/week-1-2/week-3-5/ros2-python-rclpy.md",
+  "sourceDirName": "Modules1/week-1-2/week-3-5",
+  "slug": "/Modules1/week-1-2/week-3-5/ros2-python-rclpy",
+  "permalink": "/physical-ai-book/docs/Modules1/week-1-2/week-3-5/ros2-python-rclpy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/Modules1/week-1-2/week-3-5/ros2-python-rclpy.md",
+  "tags": [
+    {
+      "label": "ROS 2",
+      "permalink": "/physical-ai-book/docs/tags/ros-2"
+    },
+    {
+      "label": "Python",
+      "permalink": "/physical-ai-book/docs/tags/python"
+    },
+    {
+      "label": "rclpy",
+      "permalink": "/physical-ai-book/docs/tags/rclpy"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "Programming",
+      "permalink": "/physical-ai-book/docs/tags/programming"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "ROS 2 with Python - rclpy Usage",
+    "description": "Introduction to using ROS 2 with Python through the rclpy client library",
+    "tags": [
+      "ROS 2",
+      "Python",
+      "rclpy",
+      "Robotics",
+      "Programming"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+    "permalink": "/physical-ai-book/docs/Modules1/week-1-2/week-3-5/ros2-architecture"
+  },
+  "next": {
+    "title": "Humanoid Robotics Overview",
+    "permalink": "/physical-ai-book/docs/Modules1/week-1-2/humanoid-robots"
+  }
+}

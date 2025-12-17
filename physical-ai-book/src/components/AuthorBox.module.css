@@ -1,0 +1,88 @@
+/**
+ * CSS module for AuthorBox component
+ * Simple pink, white, black theme
+ */
+
+.authorBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--ifm-background-color); /* White background */
+  box-shadow: var(--ifm-global-shadow);
+  border: 1px solid var(--ifm-border-color); /* Pink border */
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.authorInfo {
+  text-align: center;
+  width: 100%;
+}
+
+.authorName {
+  color: var(--ifm-color-primary); /* Pink color for headings */
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.authorRole {
+  color: var(--ifm-font-color-base); /* Black for role */
+  font-style: italic;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.authorBio {
+  color: var(--ifm-font-color-base);
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.socialLinks h4 {
+  color: var(--ifm-color-primary); /* Pink for headings */
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkList li {
+  display: inline-block;
+  margin: 0 0.25rem 0.5rem 0.25rem;
+}
+
+.link {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--ifm-background-color); /* White background */
+  color: var(--ifm-color-primary); /* Pink text */
+  text-decoration: none;
+  border: 1px solid var(--ifm-color-primary); /* Pink border */
+  border-radius: 6px;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.link:hover {
+  background-color: var(--ifm-color-primary); /* Pink background on hover */
+  color: var(--ifm-font-color-base-inverse); /* White text on hover */
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+  .authorBox {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .authorName {
+    font-size: 1.2rem;
+  }
+}

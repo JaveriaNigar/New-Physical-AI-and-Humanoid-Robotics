@@ -1,0 +1,15 @@
+{
+  "label": "Depth Cameras",
+  "permalink": "/physical-ai-book/docs/tags/depth-cameras",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "week-6-7/sensor-simulation-lidar-depth-imu",
+      "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+      "description": "Understanding sensor simulation in Gazebo for LiDAR, depth cameras, and IMU sensors",
+      "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu"
+    }
+  ],
+  "unlisted": false
+}

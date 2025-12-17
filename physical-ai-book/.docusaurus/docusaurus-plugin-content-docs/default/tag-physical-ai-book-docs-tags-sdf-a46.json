@@ -1,0 +1,15 @@
+{
+  "label": "SDF",
+  "permalink": "/physical-ai-book/docs/tags/sdf",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "week-6-7/week-6-7",
+      "title": "Weeks 6-7: Robot Simulation with Gazebo",
+      "description": "Module covering Gazebo simulation environment setup, URDF/SDF formats, physics simulation, sensor simulation, and introduction to Unity for robot visualization",
+      "permalink": "/physical-ai-book/docs/week-6-7/"
+    }
+  ],
+  "unlisted": false
+}

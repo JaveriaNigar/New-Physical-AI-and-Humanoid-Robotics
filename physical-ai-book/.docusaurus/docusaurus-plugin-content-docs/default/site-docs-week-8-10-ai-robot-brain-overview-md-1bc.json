@@ -1,0 +1,55 @@
+{
+  "id": "week-8-10/ai-robot-brain-overview",
+  "title": "AI-Robot Brain Overview",
+  "description": "Understanding the integration of artificial intelligence with robotic systems in the NVIDIA Isaac ecosystem",
+  "source": "@site/docs/week-8-10/ai-robot-brain-overview.md",
+  "sourceDirName": "week-8-10",
+  "slug": "/week-8-10/ai-robot-brain-overview",
+  "permalink": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/ai-robot-brain-overview.md",
+  "tags": [
+    {
+      "label": "AI",
+      "permalink": "/physical-ai-book/docs/tags/ai"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "NVIDIA Isaac",
+      "permalink": "/physical-ai-book/docs/tags/nvidia-isaac"
+    },
+    {
+      "label": "Robot Brains",
+      "permalink": "/physical-ai-book/docs/tags/robot-brains"
+    },
+    {
+      "label": "Cognitive Robotics",
+      "permalink": "/physical-ai-book/docs/tags/cognitive-robotics"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "AI-Robot Brain Overview",
+    "description": "Understanding the integration of artificial intelligence with robotic systems in the NVIDIA Isaac ecosystem",
+    "tags": [
+      "AI",
+      "Robotics",
+      "NVIDIA Isaac",
+      "Robot Brains",
+      "Cognitive Robotics"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+    "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu"
+  },
+  "next": {
+    "title": "NVIDIA Isaac Architecture",
+    "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture"
+  }
+}

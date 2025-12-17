@@ -1,0 +1,12 @@
+{
+  "title": "Weeks 1-2: Introduction to Physical AI",
+  "description": "Foundations of Physical AI and embodied intelligence. From digital AI to robots that understand physical laws. Overview of humanoid robotics landscape. Sensor systems: LiDAR, cameras, IMUs, force/torque sensors.",
+  "slug": "/category/weeks-1-2-introduction-to-physical-ai",
+  "permalink": "/physical-ai-book/docs/category/weeks-1-2-introduction-to-physical-ai",
+  "navigation": {
+    "next": {
+      "title": "Humanoid Robotics Overview",
+      "permalink": "/physical-ai-book/docs/week-1-2/humanoid-robots"
+    }
+  }
+}

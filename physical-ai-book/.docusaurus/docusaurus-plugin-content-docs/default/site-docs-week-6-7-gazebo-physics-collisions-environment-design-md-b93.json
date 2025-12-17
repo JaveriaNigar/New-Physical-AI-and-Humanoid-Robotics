@@ -1,0 +1,55 @@
+{
+  "id": "week-6-7/gazebo-physics-collisions-environment-design",
+  "title": "Gazebo Physics, Collisions, Environment Design",
+  "description": "Understanding Gazebo physics simulation, collision detection, and environment design for robotics",
+  "source": "@site/docs/week-6-7/gazebo-physics-collisions-environment-design.md",
+  "sourceDirName": "week-6-7",
+  "slug": "/week-6-7/gazebo-physics-collisions-environment-design",
+  "permalink": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/gazebo-physics-collisions-environment-design.md",
+  "tags": [
+    {
+      "label": "Gazebo",
+      "permalink": "/physical-ai-book/docs/tags/gazebo"
+    },
+    {
+      "label": "Physics Simulation",
+      "permalink": "/physical-ai-book/docs/tags/physics-simulation"
+    },
+    {
+      "label": "Collision Detection",
+      "permalink": "/physical-ai-book/docs/tags/collision-detection"
+    },
+    {
+      "label": "Environment Design",
+      "permalink": "/physical-ai-book/docs/tags/environment-design"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gazebo Physics, Collisions, Environment Design",
+    "description": "Understanding Gazebo physics simulation, collision detection, and environment design for robotics",
+    "tags": [
+      "Gazebo",
+      "Physics Simulation",
+      "Collision Detection",
+      "Environment Design",
+      "Robotics"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 with Python - rclpy Usage",
+    "permalink": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy"
+  },
+  "next": {
+    "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+    "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu"
+  }
+}

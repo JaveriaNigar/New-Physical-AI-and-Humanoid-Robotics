@@ -1,0 +1,55 @@
+{
+  "id": "week-8-10/nvidia-isaac-architecture",
+  "title": "NVIDIA Isaac Architecture",
+  "description": "Comprehensive overview of the NVIDIA Isaac platform architecture for AI-powered robotics",
+  "source": "@site/docs/week-8-10/nvidia-isaac-architecture.md",
+  "sourceDirName": "week-8-10",
+  "slug": "/week-8-10/nvidia-isaac-architecture",
+  "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/nvidia-isaac-architecture.md",
+  "tags": [
+    {
+      "label": "NVIDIA Isaac",
+      "permalink": "/physical-ai-book/docs/tags/nvidia-isaac"
+    },
+    {
+      "label": "Robotics Platform",
+      "permalink": "/physical-ai-book/docs/tags/robotics-platform"
+    },
+    {
+      "label": "AI Architecture",
+      "permalink": "/physical-ai-book/docs/tags/ai-architecture"
+    },
+    {
+      "label": "Isaac Sim",
+      "permalink": "/physical-ai-book/docs/tags/isaac-sim"
+    },
+    {
+      "label": "Isaac ROS",
+      "permalink": "/physical-ai-book/docs/tags/isaac-ros"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "NVIDIA Isaac Architecture",
+    "description": "Comprehensive overview of the NVIDIA Isaac platform architecture for AI-powered robotics",
+    "tags": [
+      "NVIDIA Isaac",
+      "Robotics Platform",
+      "AI Architecture",
+      "Isaac Sim",
+      "Isaac ROS"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI-Robot Brain Overview",
+    "permalink": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview"
+  },
+  "next": {
+    "title": "Cognitive Planning & Actions",
+    "permalink": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions"
+  }
+}

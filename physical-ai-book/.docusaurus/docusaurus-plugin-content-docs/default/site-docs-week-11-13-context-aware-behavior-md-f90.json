@@ -1,0 +1,51 @@
+{
+  "id": "week-11-13/context-aware-behavior",
+  "title": "Context-Aware Behavior",
+  "description": "Understanding context-aware behavior in robotics and how robots adapt to environmental and social contexts",
+  "source": "@site/docs/week-11-13/context-aware-behavior.md",
+  "sourceDirName": "week-11-13",
+  "slug": "/week-11-13/context-aware-behavior",
+  "permalink": "/physical-ai-book/docs/week-11-13/context-aware-behavior",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/context-aware-behavior.md",
+  "tags": [
+    {
+      "label": "Context-Awareness",
+      "permalink": "/physical-ai-book/docs/tags/context-awareness"
+    },
+    {
+      "label": "Robot Behavior",
+      "permalink": "/physical-ai-book/docs/tags/robot-behavior"
+    },
+    {
+      "label": "Human-Robot Interaction",
+      "permalink": "/physical-ai-book/docs/tags/human-robot-interaction"
+    },
+    {
+      "label": "Adaptive Robotics",
+      "permalink": "/physical-ai-book/docs/tags/adaptive-robotics"
+    },
+    {
+      "label": "Social Robotics",
+      "permalink": "/physical-ai-book/docs/tags/social-robotics"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Context-Aware Behavior",
+    "description": "Understanding context-aware behavior in robotics and how robots adapt to environmental and social contexts",
+    "tags": [
+      "Context-Awareness",
+      "Robot Behavior",
+      "Human-Robot Interaction",
+      "Adaptive Robotics",
+      "Social Robotics"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Vision-Language-Action Systems",
+    "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems"
+  }
+}

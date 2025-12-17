@@ -1,0 +1,61 @@
+{
+  "id": "week-11-13/week-11-13",
+  "title": "Module 4: Vision-Language-Action (VLA) Systems",
+  "description": "Week 11-13 content covering Vision-Language-Action systems, multimodal robotics, LLM planning, and autonomous humanoid implementation",
+  "source": "@site/docs/week-11-13/week-11-13.md",
+  "sourceDirName": "week-11-13",
+  "slug": "/week-11-13/",
+  "permalink": "/physical-ai-book/docs/week-11-13/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/week-11-13.md",
+  "tags": [
+    {
+      "label": "VLA",
+      "permalink": "/physical-ai-book/docs/tags/vla"
+    },
+    {
+      "label": "Vision-Language-Action",
+      "permalink": "/physical-ai-book/docs/tags/vision-language-action"
+    },
+    {
+      "label": "Multimodal",
+      "permalink": "/physical-ai-book/docs/tags/multimodal"
+    },
+    {
+      "label": "LLM",
+      "permalink": "/physical-ai-book/docs/tags/llm"
+    },
+    {
+      "label": "Humanoid Robotics",
+      "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+    },
+    {
+      "label": "ROS 2",
+      "permalink": "/physical-ai-book/docs/tags/ros-2"
+    },
+    {
+      "label": "Whisper",
+      "permalink": "/physical-ai-book/docs/tags/whisper"
+    },
+    {
+      "label": "GPT",
+      "permalink": "/physical-ai-book/docs/tags/gpt"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Module 4: Vision-Language-Action (VLA) Systems",
+    "description": "Week 11-13 content covering Vision-Language-Action systems, multimodal robotics, LLM planning, and autonomous humanoid implementation",
+    "tags": [
+      "VLA",
+      "Vision-Language-Action",
+      "Multimodal",
+      "LLM",
+      "Humanoid Robotics",
+      "ROS 2",
+      "Whisper",
+      "GPT"
+    ]
+  }
+}

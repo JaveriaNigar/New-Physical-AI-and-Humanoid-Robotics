@@ -1,0 +1,50 @@
+{
+  "id": "week-11-13/humanoid-development-overview",
+  "title": "Humanoid Development Overview",
+  "description": "Understanding the fundamentals of humanoid robot development from design to control",
+  "source": "@site/docs/week-11-13/humanoid-development-overview.md",
+  "sourceDirName": "week-11-13",
+  "slug": "/week-11-13/humanoid-development-overview",
+  "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/humanoid-development-overview.md",
+  "tags": [
+    {
+      "label": "Humanoid Robotics",
+      "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+    },
+    {
+      "label": "Robot Development",
+      "permalink": "/physical-ai-book/docs/tags/robot-development"
+    },
+    {
+      "label": "Bipedal Locomotion",
+      "permalink": "/physical-ai-book/docs/tags/bipedal-locomotion"
+    },
+    {
+      "label": "Humanoid Control",
+      "permalink": "/physical-ai-book/docs/tags/humanoid-control"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Humanoid Development Overview",
+    "description": "Understanding the fundamentals of humanoid robot development from design to control",
+    "tags": [
+      "Humanoid Robotics",
+      "Robot Development",
+      "Bipedal Locomotion",
+      "Humanoid Control"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cognitive Planning & Actions",
+    "permalink": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions"
+  },
+  "next": {
+    "title": "Vision-Language-Action Systems",
+    "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems"
+  }
+}

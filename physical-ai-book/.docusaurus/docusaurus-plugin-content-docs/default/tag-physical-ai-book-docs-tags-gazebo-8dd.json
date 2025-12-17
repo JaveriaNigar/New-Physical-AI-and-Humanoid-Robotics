@@ -1,0 +1,39 @@
+{
+  "label": "Gazebo",
+  "permalink": "/physical-ai-book/docs/tags/gazebo",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 5,
+  "items": [
+    {
+      "id": "week-6-7/gazebo-physics-collisions-environment-design",
+      "title": "Gazebo Physics, Collisions, Environment Design",
+      "description": "Understanding Gazebo physics simulation, collision detection, and environment design for robotics",
+      "permalink": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design"
+    },
+    {
+      "id": "week-6-7/gazebo-simulation",
+      "title": "Gazebo Physics, Collisions, Environment Design",
+      "description": "Advanced Gazebo simulation focusing on physics, collisions, and environment design for humanoid robotics",
+      "permalink": "/physical-ai-book/docs/week-6-7/gazebo-simulation"
+    },
+    {
+      "id": "week-6-7/sensor-simulation",
+      "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+      "description": "Simulating various sensors in Gazebo for humanoid robotics applications",
+      "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation"
+    },
+    {
+      "id": "week-6-7/sensor-simulation-lidar-depth-imu",
+      "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+      "description": "Understanding sensor simulation in Gazebo for LiDAR, depth cameras, and IMU sensors",
+      "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu"
+    },
+    {
+      "id": "week-6-7/week-6-7",
+      "title": "Weeks 6-7: Robot Simulation with Gazebo",
+      "description": "Module covering Gazebo simulation environment setup, URDF/SDF formats, physics simulation, sensor simulation, and introduction to Unity for robot visualization",
+      "permalink": "/physical-ai-book/docs/week-6-7/"
+    }
+  ],
+  "unlisted": false
+}

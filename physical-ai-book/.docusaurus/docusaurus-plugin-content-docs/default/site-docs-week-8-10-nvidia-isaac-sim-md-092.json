@@ -1,0 +1,51 @@
+{
+  "id": "week-8-10/nvidia-isaac-sim",
+  "title": "NVIDIA Isaac Sim Environments",
+  "description": "Using NVIDIA Isaac Sim for advanced robotics simulation and environment design",
+  "source": "@site/docs/week-8-10/nvidia-isaac-sim.md",
+  "sourceDirName": "week-8-10",
+  "slug": "/week-8-10/nvidia-isaac-sim",
+  "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-sim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/nvidia-isaac-sim.md",
+  "tags": [
+    {
+      "label": "NVIDIA Isaac",
+      "permalink": "/physical-ai-book/docs/tags/nvidia-isaac"
+    },
+    {
+      "label": "Simulation",
+      "permalink": "/physical-ai-book/docs/tags/simulation"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "Environments",
+      "permalink": "/physical-ai-book/docs/tags/environments"
+    },
+    {
+      "label": "AI",
+      "permalink": "/physical-ai-book/docs/tags/ai"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "NVIDIA Isaac Sim Environments",
+    "description": "Using NVIDIA Isaac Sim for advanced robotics simulation and environment design",
+    "tags": [
+      "NVIDIA Isaac",
+      "Simulation",
+      "Robotics",
+      "Environments",
+      "AI"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Weeks 8-10: The AI-Robot Brain (NVIDIA Isaac)",
+    "permalink": "/physical-ai-book/docs/category/weeks-8-10-the-ai-robot-brain-nvidia-isaac"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "label": "Humanoid Robotics",
+  "permalink": "/physical-ai-book/docs/tags/humanoid-robotics",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 5,
+  "items": [
+    {
+      "id": "week-11-13/humanoid-development-overview",
+      "title": "Humanoid Development Overview",
+      "description": "Understanding the fundamentals of humanoid robot development from design to control",
+      "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview"
+    },
+    {
+      "id": "week-1-2/humanoid-robots",
+      "title": "Humanoid Robotics Overview",
+      "description": "Introduction to humanoid robotics and their applications",
+      "permalink": "/physical-ai-book/docs/week-1-2/humanoid-robots"
+    },
+    {
+      "id": "week-3-5/humanoid-urdf-links-joints-sensors",
+      "title": "Humanoid URDF - Links, Joints, Sensors",
+      "description": "Understanding URDF representation for humanoid robots with links, joints, and sensor configurations",
+      "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors"
+    },
+    {
+      "id": "week-8-10/week-8-10",
+      "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+      "description": "Weeks 8-10 - NVIDIA Isaac Sim, Isaac ROS, and Nav2 for perception and path planning in humanoid robotics",
+      "permalink": "/physical-ai-book/docs/week-8-10/"
+    },
+    {
+      "id": "week-11-13/week-11-13",
+      "title": "Module 4: Vision-Language-Action (VLA) Systems",
+      "description": "Week 11-13 content covering Vision-Language-Action systems, multimodal robotics, LLM planning, and autonomous humanoid implementation",
+      "permalink": "/physical-ai-book/docs/week-11-13/"
+    }
+  ],
+  "unlisted": false
+}

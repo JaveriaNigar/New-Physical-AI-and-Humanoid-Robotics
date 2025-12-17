@@ -1,0 +1,33 @@
+{
+  "label": "AI",
+  "permalink": "/physical-ai-book/docs/tags/ai",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 4,
+  "items": [
+    {
+      "id": "week-8-10/ai-robot-brain-overview",
+      "title": "AI-Robot Brain Overview",
+      "description": "Understanding the integration of artificial intelligence with robotic systems in the NVIDIA Isaac ecosystem",
+      "permalink": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview"
+    },
+    {
+      "id": "week-1-2/humanoid-robots",
+      "title": "Humanoid Robotics Overview",
+      "description": "Introduction to humanoid robotics and their applications",
+      "permalink": "/physical-ai-book/docs/week-1-2/humanoid-robots"
+    },
+    {
+      "id": "week-1-2/physical-ai-intro",
+      "title": "Physical AI and Embodied Intelligence",
+      "description": "Introduction to Physical AI and embodied intelligence concepts in robotics",
+      "permalink": "/physical-ai-book/docs/week-1-2/physical-ai-intro"
+    },
+    {
+      "id": "week-11-13/vision-language-action-systems",
+      "title": "Vision-Language-Action Systems",
+      "description": "Understanding Vision-Language-Action (VLA) systems that integrate perception, language understanding, and robotic action",
+      "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems"
+    }
+  ],
+  "unlisted": false
+}

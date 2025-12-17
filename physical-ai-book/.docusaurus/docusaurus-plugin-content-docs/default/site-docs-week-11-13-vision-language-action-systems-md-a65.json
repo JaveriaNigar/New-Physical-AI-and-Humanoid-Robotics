@@ -1,0 +1,55 @@
+{
+  "id": "week-11-13/vision-language-action-systems",
+  "title": "Vision-Language-Action Systems",
+  "description": "Understanding Vision-Language-Action (VLA) systems that integrate perception, language understanding, and robotic action",
+  "source": "@site/docs/week-11-13/vision-language-action-systems.md",
+  "sourceDirName": "week-11-13",
+  "slug": "/week-11-13/vision-language-action-systems",
+  "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/vision-language-action-systems.md",
+  "tags": [
+    {
+      "label": "Vision-Language-Action",
+      "permalink": "/physical-ai-book/docs/tags/vision-language-action"
+    },
+    {
+      "label": "VLA Systems",
+      "permalink": "/physical-ai-book/docs/tags/vla-systems"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "AI",
+      "permalink": "/physical-ai-book/docs/tags/ai"
+    },
+    {
+      "label": "Multimodal AI",
+      "permalink": "/physical-ai-book/docs/tags/multimodal-ai"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Vision-Language-Action Systems",
+    "description": "Understanding Vision-Language-Action (VLA) systems that integrate perception, language understanding, and robotic action",
+    "tags": [
+      "Vision-Language-Action",
+      "VLA Systems",
+      "Robotics",
+      "AI",
+      "Multimodal AI"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Humanoid Development Overview",
+    "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview"
+  },
+  "next": {
+    "title": "Context-Aware Behavior",
+    "permalink": "/physical-ai-book/docs/week-11-13/context-aware-behavior"
+  }
+}

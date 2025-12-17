@@ -1,0 +1,15 @@
+{
+  "label": "Environments",
+  "permalink": "/physical-ai-book/docs/tags/environments",
+  "allTagsPath": "/physical-ai-book/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "week-8-10/nvidia-isaac-sim",
+      "title": "NVIDIA Isaac Sim Environments",
+      "description": "Using NVIDIA Isaac Sim for advanced robotics simulation and environment design",
+      "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-sim"
+    }
+  ],
+  "unlisted": false
+}

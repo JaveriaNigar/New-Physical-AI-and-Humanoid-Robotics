@@ -1,0 +1,337 @@
+[
+  {
+    "label": "Humanoid Robotics",
+    "permalink": "/physical-ai-book/docs/tags/humanoid-robotics",
+    "count": 5
+  },
+  {
+    "label": "Bipedal Locomotion",
+    "permalink": "/physical-ai-book/docs/tags/bipedal-locomotion",
+    "count": 2
+  },
+  {
+    "label": "Anthropomorphic Design",
+    "permalink": "/physical-ai-book/docs/tags/anthropomorphic-design",
+    "count": 1
+  },
+  {
+    "label": "AI",
+    "permalink": "/physical-ai-book/docs/tags/ai",
+    "count": 4
+  },
+  {
+    "label": "Physical AI",
+    "permalink": "/physical-ai-book/docs/tags/physical-ai",
+    "count": 2
+  },
+  {
+    "label": "Embodied Intelligence",
+    "permalink": "/physical-ai-book/docs/tags/embodied-intelligence",
+    "count": 1
+  },
+  {
+    "label": "Robotics",
+    "permalink": "/physical-ai-book/docs/tags/robotics",
+    "count": 13
+  },
+  {
+    "label": "Sensors",
+    "permalink": "/physical-ai-book/docs/tags/sensors",
+    "count": 1
+  },
+  {
+    "label": "Perception",
+    "permalink": "/physical-ai-book/docs/tags/perception",
+    "count": 2
+  },
+  {
+    "label": "Context-Awareness",
+    "permalink": "/physical-ai-book/docs/tags/context-awareness",
+    "count": 1
+  },
+  {
+    "label": "Robot Behavior",
+    "permalink": "/physical-ai-book/docs/tags/robot-behavior",
+    "count": 1
+  },
+  {
+    "label": "Human-Robot Interaction",
+    "permalink": "/physical-ai-book/docs/tags/human-robot-interaction",
+    "count": 1
+  },
+  {
+    "label": "Adaptive Robotics",
+    "permalink": "/physical-ai-book/docs/tags/adaptive-robotics",
+    "count": 1
+  },
+  {
+    "label": "Social Robotics",
+    "permalink": "/physical-ai-book/docs/tags/social-robotics",
+    "count": 1
+  },
+  {
+    "label": "Robot Development",
+    "permalink": "/physical-ai-book/docs/tags/robot-development",
+    "count": 1
+  },
+  {
+    "label": "Humanoid Control",
+    "permalink": "/physical-ai-book/docs/tags/humanoid-control",
+    "count": 1
+  },
+  {
+    "label": "Vision-Language-Action",
+    "permalink": "/physical-ai-book/docs/tags/vision-language-action",
+    "count": 2
+  },
+  {
+    "label": "VLA Systems",
+    "permalink": "/physical-ai-book/docs/tags/vla-systems",
+    "count": 1
+  },
+  {
+    "label": "Multimodal AI",
+    "permalink": "/physical-ai-book/docs/tags/multimodal-ai",
+    "count": 1
+  },
+  {
+    "label": "VLA",
+    "permalink": "/physical-ai-book/docs/tags/vla",
+    "count": 1
+  },
+  {
+    "label": "Multimodal",
+    "permalink": "/physical-ai-book/docs/tags/multimodal",
+    "count": 1
+  },
+  {
+    "label": "LLM",
+    "permalink": "/physical-ai-book/docs/tags/llm",
+    "count": 1
+  },
+  {
+    "label": "ROS 2",
+    "permalink": "/physical-ai-book/docs/tags/ros-2",
+    "count": 8
+  },
+  {
+    "label": "Whisper",
+    "permalink": "/physical-ai-book/docs/tags/whisper",
+    "count": 1
+  },
+  {
+    "label": "GPT",
+    "permalink": "/physical-ai-book/docs/tags/gpt",
+    "count": 1
+  },
+  {
+    "label": "URDF",
+    "permalink": "/physical-ai-book/docs/tags/urdf",
+    "count": 3
+  },
+  {
+    "label": "Humanoid",
+    "permalink": "/physical-ai-book/docs/tags/humanoid",
+    "count": 4
+  },
+  {
+    "label": "Simulation",
+    "permalink": "/physical-ai-book/docs/tags/simulation",
+    "count": 3
+  },
+  {
+    "label": "Robot Modeling",
+    "permalink": "/physical-ai-book/docs/tags/robot-modeling",
+    "count": 1
+  },
+  {
+    "label": "Data Flow",
+    "permalink": "/physical-ai-book/docs/tags/data-flow",
+    "count": 1
+  },
+  {
+    "label": "Middleware",
+    "permalink": "/physical-ai-book/docs/tags/middleware",
+    "count": 3
+  },
+  {
+    "label": "Control Systems",
+    "permalink": "/physical-ai-book/docs/tags/control-systems",
+    "count": 1
+  },
+  {
+    "label": "Architecture",
+    "permalink": "/physical-ai-book/docs/tags/architecture",
+    "count": 2
+  },
+  {
+    "label": "Nodes",
+    "permalink": "/physical-ai-book/docs/tags/nodes",
+    "count": 1
+  },
+  {
+    "label": "Topics",
+    "permalink": "/physical-ai-book/docs/tags/topics",
+    "count": 1
+  },
+  {
+    "label": "Services",
+    "permalink": "/physical-ai-book/docs/tags/services",
+    "count": 1
+  },
+  {
+    "label": "Actions",
+    "permalink": "/physical-ai-book/docs/tags/actions",
+    "count": 1
+  },
+  {
+    "label": "Python",
+    "permalink": "/physical-ai-book/docs/tags/python",
+    "count": 2
+  },
+  {
+    "label": "rclpy",
+    "permalink": "/physical-ai-book/docs/tags/rclpy",
+    "count": 2
+  },
+  {
+    "label": "Programming",
+    "permalink": "/physical-ai-book/docs/tags/programming",
+    "count": 2
+  },
+  {
+    "label": "Gazebo",
+    "permalink": "/physical-ai-book/docs/tags/gazebo",
+    "count": 5
+  },
+  {
+    "label": "Physics Simulation",
+    "permalink": "/physical-ai-book/docs/tags/physics-simulation",
+    "count": 1
+  },
+  {
+    "label": "Collision Detection",
+    "permalink": "/physical-ai-book/docs/tags/collision-detection",
+    "count": 1
+  },
+  {
+    "label": "Environment Design",
+    "permalink": "/physical-ai-book/docs/tags/environment-design",
+    "count": 1
+  },
+  {
+    "label": "Physics",
+    "permalink": "/physical-ai-book/docs/tags/physics",
+    "count": 2
+  },
+  {
+    "label": "Collisions",
+    "permalink": "/physical-ai-book/docs/tags/collisions",
+    "count": 1
+  },
+  {
+    "label": "Environment",
+    "permalink": "/physical-ai-book/docs/tags/environment",
+    "count": 1
+  },
+  {
+    "label": "LiDAR",
+    "permalink": "/physical-ai-book/docs/tags/li-dar",
+    "count": 2
+  },
+  {
+    "label": "Depth Sensors",
+    "permalink": "/physical-ai-book/docs/tags/depth-sensors",
+    "count": 1
+  },
+  {
+    "label": "IMU",
+    "permalink": "/physical-ai-book/docs/tags/imu",
+    "count": 2
+  },
+  {
+    "label": "Sensor Simulation",
+    "permalink": "/physical-ai-book/docs/tags/sensor-simulation",
+    "count": 2
+  },
+  {
+    "label": "Depth Cameras",
+    "permalink": "/physical-ai-book/docs/tags/depth-cameras",
+    "count": 1
+  },
+  {
+    "label": "Unity",
+    "permalink": "/physical-ai-book/docs/tags/unity",
+    "count": 1
+  },
+  {
+    "label": "SDF",
+    "permalink": "/physical-ai-book/docs/tags/sdf",
+    "count": 1
+  },
+  {
+    "label": "NVIDIA Isaac",
+    "permalink": "/physical-ai-book/docs/tags/nvidia-isaac",
+    "count": 3
+  },
+  {
+    "label": "Robot Brains",
+    "permalink": "/physical-ai-book/docs/tags/robot-brains",
+    "count": 1
+  },
+  {
+    "label": "Cognitive Robotics",
+    "permalink": "/physical-ai-book/docs/tags/cognitive-robotics",
+    "count": 2
+  },
+  {
+    "label": "Planning",
+    "permalink": "/physical-ai-book/docs/tags/planning",
+    "count": 1
+  },
+  {
+    "label": "AI Actions",
+    "permalink": "/physical-ai-book/docs/tags/ai-actions",
+    "count": 1
+  },
+  {
+    "label": "Robot Decision Making",
+    "permalink": "/physical-ai-book/docs/tags/robot-decision-making",
+    "count": 1
+  },
+  {
+    "label": "Task Planning",
+    "permalink": "/physical-ai-book/docs/tags/task-planning",
+    "count": 1
+  },
+  {
+    "label": "Robotics Platform",
+    "permalink": "/physical-ai-book/docs/tags/robotics-platform",
+    "count": 1
+  },
+  {
+    "label": "AI Architecture",
+    "permalink": "/physical-ai-book/docs/tags/ai-architecture",
+    "count": 1
+  },
+  {
+    "label": "Isaac Sim",
+    "permalink": "/physical-ai-book/docs/tags/isaac-sim",
+    "count": 2
+  },
+  {
+    "label": "Isaac ROS",
+    "permalink": "/physical-ai-book/docs/tags/isaac-ros",
+    "count": 2
+  },
+  {
+    "label": "Nav2",
+    "permalink": "/physical-ai-book/docs/tags/nav-2",
+    "count": 1
+  },
+  {
+    "label": "Path Planning",
+    "permalink": "/physical-ai-book/docs/tags/path-planning",
+    "count": 1
+  }
+]

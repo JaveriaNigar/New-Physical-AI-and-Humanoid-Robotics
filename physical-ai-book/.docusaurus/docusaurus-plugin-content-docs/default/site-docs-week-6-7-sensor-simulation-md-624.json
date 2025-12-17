@@ -1,0 +1,56 @@
+{
+  "id": "week-6-7/sensor-simulation",
+  "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+  "description": "Simulating various sensors in Gazebo for humanoid robotics applications",
+  "source": "@site/docs/week-6-7/sensor-simulation.md",
+  "sourceDirName": "week-6-7",
+  "slug": "/week-6-7/sensor-simulation",
+  "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/sensor-simulation.md",
+  "tags": [
+    {
+      "label": "Gazebo",
+      "permalink": "/physical-ai-book/docs/tags/gazebo"
+    },
+    {
+      "label": "LiDAR",
+      "permalink": "/physical-ai-book/docs/tags/li-dar"
+    },
+    {
+      "label": "Depth Sensors",
+      "permalink": "/physical-ai-book/docs/tags/depth-sensors"
+    },
+    {
+      "label": "IMU",
+      "permalink": "/physical-ai-book/docs/tags/imu"
+    },
+    {
+      "label": "Sensor Simulation",
+      "permalink": "/physical-ai-book/docs/tags/sensor-simulation"
+    },
+    {
+      "label": "Robotics",
+      "permalink": "/physical-ai-book/docs/tags/robotics"
+    },
+    {
+      "label": "Humanoid",
+      "permalink": "/physical-ai-book/docs/tags/humanoid"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+    "description": "Simulating various sensors in Gazebo for humanoid robotics applications",
+    "tags": [
+      "Gazebo",
+      "LiDAR",
+      "Depth Sensors",
+      "IMU",
+      "Sensor Simulation",
+      "Robotics",
+      "Humanoid"
+    ]
+  }
+}
