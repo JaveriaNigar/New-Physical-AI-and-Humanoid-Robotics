@@ -1,0 +1,21 @@
+{
+  "label": "Isaac Sim",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-sim",
+  "allTagsPath": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "week-8-10/week-8-10",
+      "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+      "description": "Weeks 8-10 - NVIDIA Isaac Sim, Isaac ROS, and Nav2 for perception and path planning in humanoid robotics",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/"
+    },
+    {
+      "id": "week-8-10/nvidia-isaac-architecture",
+      "title": "NVIDIA Isaac Architecture",
+      "description": "Comprehensive overview of the NVIDIA Isaac platform architecture for AI-powered robotics",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture"
+    }
+  ],
+  "unlisted": false
+}

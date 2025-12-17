@@ -5,26 +5,26 @@
   "source": "@site/docs/week-1-2/sensors-overview.md",
   "sourceDirName": "week-1-2",
   "slug": "/week-1-2/sensors-overview",
-  "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-1-2/sensors-overview.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview.md",
   "tags": [
     {
       "label": "Sensors",
-      "permalink": "/physical-ai-book/docs/tags/sensors"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensors"
     },
     {
       "label": "Physical AI",
-      "permalink": "/physical-ai-book/docs/tags/physical-ai"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physical-ai"
     },
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     },
     {
       "label": "Perception",
-      "permalink": "/physical-ai-book/docs/tags/perception"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/perception"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Physical AI and Embodied Intelligence",
-    "permalink": "/physical-ai-book/docs/week-1-2/physical-ai-intro"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro"
   },
   "next": {
     "title": "Humanoid URDF - Links, Joints, Sensors",
-    "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors"
   }
 }

@@ -5,26 +5,26 @@
   "source": "@site/docs/week-1-2/physical-ai-intro.md",
   "sourceDirName": "week-1-2",
   "slug": "/week-1-2/physical-ai-intro",
-  "permalink": "/physical-ai-book/docs/week-1-2/physical-ai-intro",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-1-2/physical-ai-intro.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro.md",
   "tags": [
     {
       "label": "Physical AI",
-      "permalink": "/physical-ai-book/docs/tags/physical-ai"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physical-ai"
     },
     {
       "label": "Embodied Intelligence",
-      "permalink": "/physical-ai-book/docs/tags/embodied-intelligence"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/embodied-intelligence"
     },
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     },
     {
       "label": "AI",
-      "permalink": "/physical-ai-book/docs/tags/ai"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Humanoid Robotics Overview",
-    "permalink": "/physical-ai-book/docs/week-1-2/humanoid-robots"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots"
   },
   "next": {
     "title": "Sensors in Physical AI Systems",
-    "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview"
   }
 }

@@ -5,26 +5,26 @@
   "source": "@site/docs/week-11-13/humanoid-development-overview.md",
   "sourceDirName": "week-11-13",
   "slug": "/week-11-13/humanoid-development-overview",
-  "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/humanoid-development-overview.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview.md",
   "tags": [
     {
       "label": "Humanoid Robotics",
-      "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
     },
     {
       "label": "Robot Development",
-      "permalink": "/physical-ai-book/docs/tags/robot-development"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-development"
     },
     {
       "label": "Bipedal Locomotion",
-      "permalink": "/physical-ai-book/docs/tags/bipedal-locomotion"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/bipedal-locomotion"
     },
     {
       "label": "Humanoid Control",
-      "permalink": "/physical-ai-book/docs/tags/humanoid-control"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-control"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Cognitive Planning & Actions",
-    "permalink": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions"
   },
   "next": {
     "title": "Vision-Language-Action Systems",
-    "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems"
   }
 }

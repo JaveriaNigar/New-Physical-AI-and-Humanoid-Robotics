@@ -5,30 +5,30 @@
   "source": "@site/docs/week-11-13/context-aware-behavior.md",
   "sourceDirName": "week-11-13",
   "slug": "/week-11-13/context-aware-behavior",
-  "permalink": "/physical-ai-book/docs/week-11-13/context-aware-behavior",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/context-aware-behavior.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior.md",
   "tags": [
     {
       "label": "Context-Awareness",
-      "permalink": "/physical-ai-book/docs/tags/context-awareness"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/context-awareness"
     },
     {
       "label": "Robot Behavior",
-      "permalink": "/physical-ai-book/docs/tags/robot-behavior"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-behavior"
     },
     {
       "label": "Human-Robot Interaction",
-      "permalink": "/physical-ai-book/docs/tags/human-robot-interaction"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/human-robot-interaction"
     },
     {
       "label": "Adaptive Robotics",
-      "permalink": "/physical-ai-book/docs/tags/adaptive-robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/adaptive-robotics"
     },
     {
       "label": "Social Robotics",
-      "permalink": "/physical-ai-book/docs/tags/social-robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/social-robotics"
     }
   ],
   "version": "current",
@@ -46,6 +46,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Vision-Language-Action Systems",
-    "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems"
   }
 }

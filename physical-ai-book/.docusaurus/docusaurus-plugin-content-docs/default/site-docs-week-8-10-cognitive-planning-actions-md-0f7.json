@@ -5,30 +5,30 @@
   "source": "@site/docs/week-8-10/cognitive-planning-actions.md",
   "sourceDirName": "week-8-10",
   "slug": "/week-8-10/cognitive-planning-actions",
-  "permalink": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/cognitive-planning-actions.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions.md",
   "tags": [
     {
       "label": "Cognitive Robotics",
-      "permalink": "/physical-ai-book/docs/tags/cognitive-robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/cognitive-robotics"
     },
     {
       "label": "Planning",
-      "permalink": "/physical-ai-book/docs/tags/planning"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/planning"
     },
     {
       "label": "AI Actions",
-      "permalink": "/physical-ai-book/docs/tags/ai-actions"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai-actions"
     },
     {
       "label": "Robot Decision Making",
-      "permalink": "/physical-ai-book/docs/tags/robot-decision-making"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-decision-making"
     },
     {
       "label": "Task Planning",
-      "permalink": "/physical-ai-book/docs/tags/task-planning"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/task-planning"
     }
   ],
   "version": "current",
@@ -46,10 +46,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "NVIDIA Isaac Architecture",
-    "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture"
   },
   "next": {
     "title": "Humanoid Development Overview",
-    "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview"
   }
 }

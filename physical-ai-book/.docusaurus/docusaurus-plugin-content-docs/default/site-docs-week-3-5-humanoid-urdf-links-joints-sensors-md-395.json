@@ -5,26 +5,26 @@
   "source": "@site/docs/week-3-5/humanoid-urdf-links-joints-sensors.md",
   "sourceDirName": "week-3-5",
   "slug": "/week-3-5/humanoid-urdf-links-joints-sensors",
-  "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/humanoid-urdf-links-joints-sensors.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors.md",
   "tags": [
     {
       "label": "URDF",
-      "permalink": "/physical-ai-book/docs/tags/urdf"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/urdf"
     },
     {
       "label": "Humanoid Robotics",
-      "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
     },
     {
       "label": "Robot Modeling",
-      "permalink": "/physical-ai-book/docs/tags/robot-modeling"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-modeling"
     },
     {
       "label": "ROS 2",
-      "permalink": "/physical-ai-book/docs/tags/ros-2"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Sensors in Physical AI Systems",
-    "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview"
   },
   "next": {
     "title": "Robot Data Flow - Sensor→Processing→Actuation",
-    "permalink": "/physical-ai-book/docs/week-3-5/robot-data-flow"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow"
   }
 }

@@ -1,0 +1,87 @@
+{
+  "label": "Robotics",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics",
+  "allTagsPath": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags",
+  "count": 13,
+  "items": [
+    {
+      "id": "week-8-10/ai-robot-brain-overview",
+      "title": "AI-Robot Brain Overview",
+      "description": "Understanding the integration of artificial intelligence with robotic systems in the NVIDIA Isaac ecosystem",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview"
+    },
+    {
+      "id": "week-6-7/gazebo-physics-collisions-environment-design",
+      "title": "Gazebo Physics, Collisions, Environment Design",
+      "description": "Understanding Gazebo physics simulation, collision detection, and environment design for robotics",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design"
+    },
+    {
+      "id": "week-3-5/humanoid-urdf",
+      "title": "Humanoid URDF - Links, Joints, Sensors",
+      "description": "Understanding Unified Robot Description Format for humanoid robots",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf"
+    },
+    {
+      "id": "week-1-2/physical-ai-intro",
+      "title": "Physical AI and Embodied Intelligence",
+      "description": "Introduction to Physical AI and embodied intelligence concepts in robotics",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro"
+    },
+    {
+      "id": "week-3-5/robot-data-flow",
+      "title": "Robot Data Flow - Sensor→Processing→Actuation",
+      "description": "Understanding data flow in robotic systems from sensor input through processing to actuator output",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow"
+    },
+    {
+      "id": "week-3-5/ros2-architecture",
+      "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
+      "description": "Understanding the fundamental architecture of ROS 2 for robot development",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture"
+    },
+    {
+      "id": "week-3-5/ros2-python-rclpy",
+      "title": "ROS 2 with Python - rclpy Usage",
+      "description": "Introduction to using ROS 2 with Python through the rclpy client library",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-python-rclpy"
+    },
+    {
+      "id": "week-3-5/ros2-with-python-rclpy",
+      "title": "ROS 2 with Python - rclpy Usage",
+      "description": "Comprehensive guide to using ROS 2 with Python through the rclpy client library",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy"
+    },
+    {
+      "id": "week-6-7/sensor-simulation",
+      "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+      "description": "Simulating various sensors in Gazebo for humanoid robotics applications",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation"
+    },
+    {
+      "id": "week-6-7/sensor-simulation-lidar-depth-imu",
+      "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+      "description": "Understanding sensor simulation in Gazebo for LiDAR, depth cameras, and IMU sensors",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu"
+    },
+    {
+      "id": "week-1-2/sensors-overview",
+      "title": "Sensors in Physical AI Systems",
+      "description": "Overview of sensors used in Physical AI and humanoid robotics",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview"
+    },
+    {
+      "id": "week-11-13/vision-language-action-systems",
+      "title": "Vision-Language-Action Systems",
+      "description": "Understanding Vision-Language-Action (VLA) systems that integrate perception, language understanding, and robotic action",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems"
+    },
+    {
+      "id": "week-6-7/week-6-7",
+      "title": "Weeks 6-7: Robot Simulation with Gazebo",
+      "description": "Module covering Gazebo simulation environment setup, URDF/SDF formats, physics simulation, sensor simulation, and introduction to Unity for robot visualization",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/"
+    }
+  ],
+  "unlisted": false
+}

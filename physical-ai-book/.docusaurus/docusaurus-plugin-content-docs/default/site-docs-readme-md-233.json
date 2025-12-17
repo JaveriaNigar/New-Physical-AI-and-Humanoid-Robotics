@@ -5,10 +5,10 @@
   "source": "@site/docs/README.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/physical-ai-book/docs/",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/README.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/README.md",
   "tags": [],
   "version": "current",
   "frontMatter": {}

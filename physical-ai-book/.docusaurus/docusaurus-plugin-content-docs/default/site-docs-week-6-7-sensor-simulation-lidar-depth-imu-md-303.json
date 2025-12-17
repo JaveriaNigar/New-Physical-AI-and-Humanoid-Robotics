@@ -5,34 +5,34 @@
   "source": "@site/docs/week-6-7/sensor-simulation-lidar-depth-imu.md",
   "sourceDirName": "week-6-7",
   "slug": "/week-6-7/sensor-simulation-lidar-depth-imu",
-  "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/sensor-simulation-lidar-depth-imu.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu.md",
   "tags": [
     {
       "label": "Gazebo",
-      "permalink": "/physical-ai-book/docs/tags/gazebo"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo"
     },
     {
       "label": "Sensor Simulation",
-      "permalink": "/physical-ai-book/docs/tags/sensor-simulation"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensor-simulation"
     },
     {
       "label": "LiDAR",
-      "permalink": "/physical-ai-book/docs/tags/li-dar"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/li-dar"
     },
     {
       "label": "Depth Cameras",
-      "permalink": "/physical-ai-book/docs/tags/depth-cameras"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-cameras"
     },
     {
       "label": "IMU",
-      "permalink": "/physical-ai-book/docs/tags/imu"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/imu"
     },
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     }
   ],
   "version": "current",
@@ -51,10 +51,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Gazebo Physics, Collisions, Environment Design",
-    "permalink": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design"
   },
   "next": {
     "title": "AI-Robot Brain Overview",
-    "permalink": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview"
   }
 }

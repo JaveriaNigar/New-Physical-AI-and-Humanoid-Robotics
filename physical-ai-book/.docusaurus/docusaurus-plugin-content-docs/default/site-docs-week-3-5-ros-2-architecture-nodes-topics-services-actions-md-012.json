@@ -5,38 +5,38 @@
   "source": "@site/docs/week-3-5/ros2-architecture-nodes-topics-services-actions.md",
   "sourceDirName": "week-3-5",
   "slug": "/week-3-5/ros2-architecture-nodes-topics-services-actions",
-  "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/ros2-architecture-nodes-topics-services-actions.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions.md",
   "tags": [
     {
       "label": "ROS 2",
-      "permalink": "/physical-ai-book/docs/tags/ros-2"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
     },
     {
       "label": "Architecture",
-      "permalink": "/physical-ai-book/docs/tags/architecture"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/architecture"
     },
     {
       "label": "Nodes",
-      "permalink": "/physical-ai-book/docs/tags/nodes"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nodes"
     },
     {
       "label": "Topics",
-      "permalink": "/physical-ai-book/docs/tags/topics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/topics"
     },
     {
       "label": "Services",
-      "permalink": "/physical-ai-book/docs/tags/services"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/services"
     },
     {
       "label": "Actions",
-      "permalink": "/physical-ai-book/docs/tags/actions"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/actions"
     },
     {
       "label": "Middleware",
-      "permalink": "/physical-ai-book/docs/tags/middleware"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware"
     }
   ],
   "version": "current",
@@ -56,10 +56,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Robot Data Flow - Sensor→Processing→Actuation",
-    "permalink": "/physical-ai-book/docs/week-3-5/robot-data-flow"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow"
   },
   "next": {
     "title": "ROS 2 with Python - rclpy Usage",
-    "permalink": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy"
   }
 }

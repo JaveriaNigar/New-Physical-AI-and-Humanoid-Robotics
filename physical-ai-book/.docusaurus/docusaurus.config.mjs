@@ -8,7 +8,7 @@ export default {
   "tagline": "A comprehensive textbook covering Physical AI and Humanoid Robotics from theory to full system implementation",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/physical-ai-book/",
+  "baseUrl": "/New-Physical-AI-and-Humanoid-Robotics/",
   "organizationName": "Javeria Nigar",
   "projectName": "hackathon",
   "onBrokenLinks": "throw",
@@ -26,11 +26,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\Javeria Nigar\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\sidebars.js",
-          "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\sidebars.js",
+          "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics"
         },
         "theme": {
-          "customCss": "C:\\Users\\Javeria Nigar\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\src\\css\\custom.css"
         }
       }
     ]

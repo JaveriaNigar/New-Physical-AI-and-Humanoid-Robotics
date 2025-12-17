@@ -5,38 +5,38 @@
   "source": "@site/docs/week-8-10/week-8-10.md",
   "sourceDirName": "week-8-10",
   "slug": "/week-8-10/",
-  "permalink": "/physical-ai-book/docs/week-8-10/",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/week-8-10.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/week-8-10.md",
   "tags": [
     {
       "label": "NVIDIA Isaac",
-      "permalink": "/physical-ai-book/docs/tags/nvidia-isaac"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nvidia-isaac"
     },
     {
       "label": "Isaac Sim",
-      "permalink": "/physical-ai-book/docs/tags/isaac-sim"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-sim"
     },
     {
       "label": "Isaac ROS",
-      "permalink": "/physical-ai-book/docs/tags/isaac-ros"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-ros"
     },
     {
       "label": "Nav2",
-      "permalink": "/physical-ai-book/docs/tags/nav-2"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nav-2"
     },
     {
       "label": "Path Planning",
-      "permalink": "/physical-ai-book/docs/tags/path-planning"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/path-planning"
     },
     {
       "label": "Humanoid Robotics",
-      "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
     },
     {
       "label": "Perception",
-      "permalink": "/physical-ai-book/docs/tags/perception"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/perception"
     }
   ],
   "version": "current",

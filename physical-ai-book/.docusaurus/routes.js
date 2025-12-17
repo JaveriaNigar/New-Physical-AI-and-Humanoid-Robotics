@@ -3,534 +3,499 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/physical-ai-book/__docusaurus/debug',
-    component: ComponentCreator('/physical-ai-book/__docusaurus/debug', 'f6a'),
+    path: '/New-Physical-AI-and-Humanoid-Robotics/about',
+    component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/about', 'a67'),
     exact: true
   },
   {
-    path: '/physical-ai-book/__docusaurus/debug/config',
-    component: ComponentCreator('/physical-ai-book/__docusaurus/debug/config', '34e'),
-    exact: true
-  },
-  {
-    path: '/physical-ai-book/__docusaurus/debug/content',
-    component: ComponentCreator('/physical-ai-book/__docusaurus/debug/content', '8c3'),
-    exact: true
-  },
-  {
-    path: '/physical-ai-book/__docusaurus/debug/globalData',
-    component: ComponentCreator('/physical-ai-book/__docusaurus/debug/globalData', 'c83'),
-    exact: true
-  },
-  {
-    path: '/physical-ai-book/__docusaurus/debug/metadata',
-    component: ComponentCreator('/physical-ai-book/__docusaurus/debug/metadata', '676'),
-    exact: true
-  },
-  {
-    path: '/physical-ai-book/__docusaurus/debug/registry',
-    component: ComponentCreator('/physical-ai-book/__docusaurus/debug/registry', 'b16'),
-    exact: true
-  },
-  {
-    path: '/physical-ai-book/__docusaurus/debug/routes',
-    component: ComponentCreator('/physical-ai-book/__docusaurus/debug/routes', 'dba'),
-    exact: true
-  },
-  {
-    path: '/physical-ai-book/about',
-    component: ComponentCreator('/physical-ai-book/about', 'b0d'),
-    exact: true
-  },
-  {
-    path: '/physical-ai-book/docs',
-    component: ComponentCreator('/physical-ai-book/docs', '200'),
+    path: '/New-Physical-AI-and-Humanoid-Robotics/docs',
+    component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs', 'caa'),
     routes: [
       {
-        path: '/physical-ai-book/docs',
-        component: ComponentCreator('/physical-ai-book/docs', 'f26'),
+        path: '/New-Physical-AI-and-Humanoid-Robotics/docs',
+        component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs', 'ce5'),
         routes: [
           {
-            path: '/physical-ai-book/docs/tags',
-            component: ComponentCreator('/physical-ai-book/docs/tags', 'aa7'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags', 'a99'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/actions',
-            component: ComponentCreator('/physical-ai-book/docs/tags/actions', 'a90'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/actions',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/actions', 'e7c'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/adaptive-robotics',
-            component: ComponentCreator('/physical-ai-book/docs/tags/adaptive-robotics', '1b4'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/adaptive-robotics',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/adaptive-robotics', '62f'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/ai',
-            component: ComponentCreator('/physical-ai-book/docs/tags/ai', '845'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai', 'b6a'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/ai-actions',
-            component: ComponentCreator('/physical-ai-book/docs/tags/ai-actions', '58d'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai-actions',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai-actions', '5aa'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/ai-architecture',
-            component: ComponentCreator('/physical-ai-book/docs/tags/ai-architecture', 'cf7'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai-architecture',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai-architecture', '96f'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/anthropomorphic-design',
-            component: ComponentCreator('/physical-ai-book/docs/tags/anthropomorphic-design', '7bb'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/anthropomorphic-design',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/anthropomorphic-design', '773'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/architecture',
-            component: ComponentCreator('/physical-ai-book/docs/tags/architecture', 'b62'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/architecture',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/architecture', '4b4'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/bipedal-locomotion',
-            component: ComponentCreator('/physical-ai-book/docs/tags/bipedal-locomotion', 'c87'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/bipedal-locomotion',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/bipedal-locomotion', '473'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/cognitive-robotics',
-            component: ComponentCreator('/physical-ai-book/docs/tags/cognitive-robotics', '65c'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/cognitive-robotics',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/cognitive-robotics', '5f9'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/collision-detection',
-            component: ComponentCreator('/physical-ai-book/docs/tags/collision-detection', '0ea'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/collision-detection',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/collision-detection', '3e4'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/collisions',
-            component: ComponentCreator('/physical-ai-book/docs/tags/collisions', '284'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/collisions',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/collisions', '663'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/context-awareness',
-            component: ComponentCreator('/physical-ai-book/docs/tags/context-awareness', '39d'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/context-awareness',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/context-awareness', '9be'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/control-systems',
-            component: ComponentCreator('/physical-ai-book/docs/tags/control-systems', 'a99'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/control-systems',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/control-systems', 'd11'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/data-flow',
-            component: ComponentCreator('/physical-ai-book/docs/tags/data-flow', '415'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/data-flow',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/data-flow', 'de6'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/depth-cameras',
-            component: ComponentCreator('/physical-ai-book/docs/tags/depth-cameras', '219'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-cameras',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-cameras', 'f22'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/depth-sensors',
-            component: ComponentCreator('/physical-ai-book/docs/tags/depth-sensors', '6b2'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-sensors',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-sensors', '225'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/embodied-intelligence',
-            component: ComponentCreator('/physical-ai-book/docs/tags/embodied-intelligence', '56f'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/embodied-intelligence',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/embodied-intelligence', '240'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/environment',
-            component: ComponentCreator('/physical-ai-book/docs/tags/environment', '9c4'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/environment',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/environment', 'b80'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/environment-design',
-            component: ComponentCreator('/physical-ai-book/docs/tags/environment-design', '475'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/environment-design',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/environment-design', 'c2e'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/gazebo',
-            component: ComponentCreator('/physical-ai-book/docs/tags/gazebo', '9e1'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo', '37e'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/gpt',
-            component: ComponentCreator('/physical-ai-book/docs/tags/gpt', 'c57'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gpt',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gpt', '15c'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/human-robot-interaction',
-            component: ComponentCreator('/physical-ai-book/docs/tags/human-robot-interaction', 'f04'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/human-robot-interaction',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/human-robot-interaction', '5e6'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/humanoid',
-            component: ComponentCreator('/physical-ai-book/docs/tags/humanoid', '65e'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid', '7d8'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/humanoid-control',
-            component: ComponentCreator('/physical-ai-book/docs/tags/humanoid-control', '767'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-control',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-control', '3bb'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/humanoid-robotics',
-            component: ComponentCreator('/physical-ai-book/docs/tags/humanoid-robotics', 'fe1'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics', '9e6'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/imu',
-            component: ComponentCreator('/physical-ai-book/docs/tags/imu', '041'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/imu',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/imu', '47d'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/isaac-ros',
-            component: ComponentCreator('/physical-ai-book/docs/tags/isaac-ros', '00e'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-ros',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-ros', '3bd'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/isaac-sim',
-            component: ComponentCreator('/physical-ai-book/docs/tags/isaac-sim', '72f'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-sim',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-sim', '106'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/li-dar',
-            component: ComponentCreator('/physical-ai-book/docs/tags/li-dar', 'bc0'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/li-dar',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/li-dar', 'fa9'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/llm',
-            component: ComponentCreator('/physical-ai-book/docs/tags/llm', '23e'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/llm',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/llm', 'b61'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/middleware',
-            component: ComponentCreator('/physical-ai-book/docs/tags/middleware', '1ff'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware', 'cce'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/multimodal',
-            component: ComponentCreator('/physical-ai-book/docs/tags/multimodal', '60f'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal', 'a67'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/multimodal-ai',
-            component: ComponentCreator('/physical-ai-book/docs/tags/multimodal-ai', '012'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal-ai',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal-ai', '9e2'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/nav-2',
-            component: ComponentCreator('/physical-ai-book/docs/tags/nav-2', '803'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nav-2',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nav-2', '8c2'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/nodes',
-            component: ComponentCreator('/physical-ai-book/docs/tags/nodes', 'c72'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nodes',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nodes', '273'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/nvidia-isaac',
-            component: ComponentCreator('/physical-ai-book/docs/tags/nvidia-isaac', '555'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nvidia-isaac',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nvidia-isaac', 'c60'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/path-planning',
-            component: ComponentCreator('/physical-ai-book/docs/tags/path-planning', 'dd9'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/path-planning',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/path-planning', 'c05'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/perception',
-            component: ComponentCreator('/physical-ai-book/docs/tags/perception', '725'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/perception',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/perception', 'e2f'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/physical-ai',
-            component: ComponentCreator('/physical-ai-book/docs/tags/physical-ai', '9da'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physical-ai',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physical-ai', '87c'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/physics',
-            component: ComponentCreator('/physical-ai-book/docs/tags/physics', 'acb'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics', 'd22'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/physics-simulation',
-            component: ComponentCreator('/physical-ai-book/docs/tags/physics-simulation', '219'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics-simulation',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics-simulation', 'c21'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/planning',
-            component: ComponentCreator('/physical-ai-book/docs/tags/planning', '45d'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/planning',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/planning', 'c28'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/programming',
-            component: ComponentCreator('/physical-ai-book/docs/tags/programming', 'b2e'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/programming',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/programming', 'cc8'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/python',
-            component: ComponentCreator('/physical-ai-book/docs/tags/python', '028'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/python',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/python', '30f'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/rclpy',
-            component: ComponentCreator('/physical-ai-book/docs/tags/rclpy', 'bc9'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/rclpy',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/rclpy', '117'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/robot-behavior',
-            component: ComponentCreator('/physical-ai-book/docs/tags/robot-behavior', 'eb7'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-behavior',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-behavior', 'd93'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/robot-brains',
-            component: ComponentCreator('/physical-ai-book/docs/tags/robot-brains', '428'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-brains',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-brains', 'ea5'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/robot-decision-making',
-            component: ComponentCreator('/physical-ai-book/docs/tags/robot-decision-making', 'd8b'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-decision-making',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-decision-making', '815'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/robot-development',
-            component: ComponentCreator('/physical-ai-book/docs/tags/robot-development', '176'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-development',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-development', 'e74'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/robot-modeling',
-            component: ComponentCreator('/physical-ai-book/docs/tags/robot-modeling', 'a42'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-modeling',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-modeling', '278'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/robotics',
-            component: ComponentCreator('/physical-ai-book/docs/tags/robotics', 'd35'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics', 'f15'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/robotics-platform',
-            component: ComponentCreator('/physical-ai-book/docs/tags/robotics-platform', '39c'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics-platform',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics-platform', 'fc5'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/ros-2',
-            component: ComponentCreator('/physical-ai-book/docs/tags/ros-2', '5f0'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2', '207'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/sdf',
-            component: ComponentCreator('/physical-ai-book/docs/tags/sdf', 'eed'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sdf',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sdf', '3e8'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/sensor-simulation',
-            component: ComponentCreator('/physical-ai-book/docs/tags/sensor-simulation', 'a48'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensor-simulation',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensor-simulation', '886'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/sensors',
-            component: ComponentCreator('/physical-ai-book/docs/tags/sensors', '882'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensors',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensors', '643'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/services',
-            component: ComponentCreator('/physical-ai-book/docs/tags/services', '0ba'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/services',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/services', '215'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/simulation',
-            component: ComponentCreator('/physical-ai-book/docs/tags/simulation', '123'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/simulation',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/simulation', 'ab9'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/social-robotics',
-            component: ComponentCreator('/physical-ai-book/docs/tags/social-robotics', 'f15'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/social-robotics',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/social-robotics', 'f44'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/task-planning',
-            component: ComponentCreator('/physical-ai-book/docs/tags/task-planning', 'fff'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/task-planning',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/task-planning', 'be8'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/topics',
-            component: ComponentCreator('/physical-ai-book/docs/tags/topics', 'a9e'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/topics',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/topics', '021'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/unity',
-            component: ComponentCreator('/physical-ai-book/docs/tags/unity', 'eac'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/unity',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/unity', '36a'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/urdf',
-            component: ComponentCreator('/physical-ai-book/docs/tags/urdf', '531'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/urdf',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/urdf', '43d'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/vision-language-action',
-            component: ComponentCreator('/physical-ai-book/docs/tags/vision-language-action', 'c7f'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vision-language-action',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vision-language-action', 'e92'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/vla',
-            component: ComponentCreator('/physical-ai-book/docs/tags/vla', 'cd5'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla', 'aa4'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/vla-systems',
-            component: ComponentCreator('/physical-ai-book/docs/tags/vla-systems', 'be8'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla-systems',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla-systems', '793'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs/tags/whisper',
-            component: ComponentCreator('/physical-ai-book/docs/tags/whisper', '141'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tags/whisper',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tags/whisper', '30b'),
             exact: true
           },
           {
-            path: '/physical-ai-book/docs',
-            component: ComponentCreator('/physical-ai-book/docs', 'c72'),
+            path: '/New-Physical-AI-and-Humanoid-Robotics/docs',
+            component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs', 'fed'),
             routes: [
               {
-                path: '/physical-ai-book/docs/',
-                component: ComponentCreator('/physical-ai-book/docs/', '560'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/', 'c01'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/tasks-sidebar-implementation',
-                component: ComponentCreator('/physical-ai-book/docs/tasks-sidebar-implementation', '34c'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/tasks-sidebar-implementation',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/tasks-sidebar-implementation', 'a60'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/week-1-2/humanoid-robots',
-                component: ComponentCreator('/physical-ai-book/docs/week-1-2/humanoid-robots', '76a'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots', '888'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-1-2/physical-ai-intro',
-                component: ComponentCreator('/physical-ai-book/docs/week-1-2/physical-ai-intro', '55b'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro', '9ce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-1-2/sensors-overview',
-                component: ComponentCreator('/physical-ai-book/docs/week-1-2/sensors-overview', '3be'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview', 'e1f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-11-13/',
-                component: ComponentCreator('/physical-ai-book/docs/week-11-13/', '22a'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/', 'fb1'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/week-11-13/context-aware-behavior',
-                component: ComponentCreator('/physical-ai-book/docs/week-11-13/context-aware-behavior', 'ae6'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior', 'a8e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-11-13/humanoid-development-overview',
-                component: ComponentCreator('/physical-ai-book/docs/week-11-13/humanoid-development-overview', '07f'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview', '117'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-11-13/vision-language-action-systems',
-                component: ComponentCreator('/physical-ai-book/docs/week-11-13/vision-language-action-systems', '9cc'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems', 'a49'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-3-5/humanoid-urdf',
-                component: ComponentCreator('/physical-ai-book/docs/week-3-5/humanoid-urdf', '6cd'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf', '3b2'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors',
-                component: ComponentCreator('/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors', '66c'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors', 'eb0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-3-5/robot-data-flow',
-                component: ComponentCreator('/physical-ai-book/docs/week-3-5/robot-data-flow', '86d'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow', '075'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-3-5/ros2-architecture',
-                component: ComponentCreator('/physical-ai-book/docs/week-3-5/ros2-architecture', '0d5'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture', '7e7'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions',
-                component: ComponentCreator('/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions', '17d'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions', '2fa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-3-5/ros2-python-rclpy',
-                component: ComponentCreator('/physical-ai-book/docs/week-3-5/ros2-python-rclpy', '4e2'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-python-rclpy',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-python-rclpy', 'b8b'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy',
-                component: ComponentCreator('/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy', '2e9'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy', 'd93'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-6-7/',
-                component: ComponentCreator('/physical-ai-book/docs/week-6-7/', 'f76'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/', '7ae'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design',
-                component: ComponentCreator('/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design', '82c'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design', '85d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-6-7/gazebo-simulation',
-                component: ComponentCreator('/physical-ai-book/docs/week-6-7/gazebo-simulation', 'ac2'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-simulation',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-simulation', '30b'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/week-6-7/sensor-simulation',
-                component: ComponentCreator('/physical-ai-book/docs/week-6-7/sensor-simulation', 'a47'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation', 'ae8'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu',
-                component: ComponentCreator('/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu', '9f4'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu', 'd6e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-8-10/',
-                component: ComponentCreator('/physical-ai-book/docs/week-8-10/', '49d'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/', '7bf'),
                 exact: true
               },
               {
-                path: '/physical-ai-book/docs/week-8-10/ai-robot-brain-overview',
-                component: ComponentCreator('/physical-ai-book/docs/week-8-10/ai-robot-brain-overview', '043'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview', '28b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-8-10/cognitive-planning-actions',
-                component: ComponentCreator('/physical-ai-book/docs/week-8-10/cognitive-planning-actions', '000'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions', '01a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture',
-                component: ComponentCreator('/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture', 'ee4'),
+                path: '/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture',
+                component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture', '277'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -541,8 +506,8 @@ export default [
     ]
   },
   {
-    path: '/physical-ai-book/',
-    component: ComponentCreator('/physical-ai-book/', '94a'),
+    path: '/New-Physical-AI-and-Humanoid-Robotics/',
+    component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/', 'b66'),
     exact: true
   },
   {

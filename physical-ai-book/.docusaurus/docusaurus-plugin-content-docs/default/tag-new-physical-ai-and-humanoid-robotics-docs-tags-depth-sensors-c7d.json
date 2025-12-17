@@ -1,0 +1,15 @@
+{
+  "label": "Depth Sensors",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-sensors",
+  "allTagsPath": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "week-6-7/sensor-simulation",
+      "title": "Sensor Simulation (LiDAR, Depth, IMU)",
+      "description": "Simulating various sensors in Gazebo for humanoid robotics applications",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation"
+    }
+  ],
+  "unlisted": false
+}

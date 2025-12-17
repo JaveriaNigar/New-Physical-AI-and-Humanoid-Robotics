@@ -20,21 +20,21 @@
               {
                 "type": "link",
                 "label": "Humanoid Robotics Overview",
-                "href": "/physical-ai-book/docs/week-1-2/humanoid-robots",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots",
                 "docId": "week-1-2/humanoid-robots",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Physical AI and Embodied Intelligence",
-                "href": "/physical-ai-book/docs/week-1-2/physical-ai-intro",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro",
                 "docId": "week-1-2/physical-ai-intro",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Sensors in Physical AI Systems",
-                "href": "/physical-ai-book/docs/week-1-2/sensors-overview",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview",
                 "docId": "week-1-2/sensors-overview",
                 "unlisted": false
               }
@@ -49,42 +49,42 @@
               {
                 "type": "link",
                 "label": "Humanoid URDF - Links, Joints, Sensors",
-                "href": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors",
                 "docId": "week-3-5/humanoid-urdf-links-joints-sensors",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Robot Data Flow - Sensor→Processing→Actuation",
-                "href": "/physical-ai-book/docs/week-3-5/robot-data-flow",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow",
                 "docId": "week-3-5/robot-data-flow",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
-                "href": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions",
                 "docId": "week-3-5/ros2-architecture-nodes-topics-services-actions",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "ROS 2 with Python - rclpy Usage",
-                "href": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy",
                 "docId": "week-3-5/ros2-with-python-rclpy",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Gazebo Physics, Collisions, Environment Design",
-                "href": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design",
                 "docId": "week-6-7/gazebo-physics-collisions-environment-design",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Sensor Simulation (LiDAR, Depth, IMU)",
-                "href": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu",
                 "docId": "week-6-7/sensor-simulation-lidar-depth-imu",
                 "unlisted": false
               }
@@ -99,21 +99,21 @@
               {
                 "type": "link",
                 "label": "AI-Robot Brain Overview",
-                "href": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview",
                 "docId": "week-8-10/ai-robot-brain-overview",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "NVIDIA Isaac Architecture",
-                "href": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture",
                 "docId": "week-8-10/nvidia-isaac-architecture",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Cognitive Planning & Actions",
-                "href": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions",
                 "docId": "week-8-10/cognitive-planning-actions",
                 "unlisted": false
               }
@@ -128,21 +128,21 @@
               {
                 "type": "link",
                 "label": "Humanoid Development Overview",
-                "href": "/physical-ai-book/docs/week-11-13/humanoid-development-overview",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview",
                 "docId": "week-11-13/humanoid-development-overview",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Vision-Language-Action Systems",
-                "href": "/physical-ai-book/docs/week-11-13/vision-language-action-systems",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems",
                 "docId": "week-11-13/vision-language-action-systems",
                 "unlisted": false
               },
               {
                 "type": "link",
                 "label": "Context-Aware Behavior",
-                "href": "/physical-ai-book/docs/week-11-13/context-aware-behavior",
+                "href": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior",
                 "docId": "week-11-13/context-aware-behavior",
                 "unlisted": false
               }

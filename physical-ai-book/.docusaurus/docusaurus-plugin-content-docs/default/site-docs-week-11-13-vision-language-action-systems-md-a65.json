@@ -5,30 +5,30 @@
   "source": "@site/docs/week-11-13/vision-language-action-systems.md",
   "sourceDirName": "week-11-13",
   "slug": "/week-11-13/vision-language-action-systems",
-  "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/vision-language-action-systems.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems.md",
   "tags": [
     {
       "label": "Vision-Language-Action",
-      "permalink": "/physical-ai-book/docs/tags/vision-language-action"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vision-language-action"
     },
     {
       "label": "VLA Systems",
-      "permalink": "/physical-ai-book/docs/tags/vla-systems"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla-systems"
     },
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     },
     {
       "label": "AI",
-      "permalink": "/physical-ai-book/docs/tags/ai"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai"
     },
     {
       "label": "Multimodal AI",
-      "permalink": "/physical-ai-book/docs/tags/multimodal-ai"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal-ai"
     }
   ],
   "version": "current",
@@ -46,10 +46,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Humanoid Development Overview",
-    "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview"
   },
   "next": {
     "title": "Context-Aware Behavior",
-    "permalink": "/physical-ai-book/docs/week-11-13/context-aware-behavior"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior"
   }
 }

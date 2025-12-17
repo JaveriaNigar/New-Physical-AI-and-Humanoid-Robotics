@@ -5,42 +5,42 @@
   "source": "@site/docs/week-11-13/week-11-13.md",
   "sourceDirName": "week-11-13",
   "slug": "/week-11-13/",
-  "permalink": "/physical-ai-book/docs/week-11-13/",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/week-11-13.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/week-11-13.md",
   "tags": [
     {
       "label": "VLA",
-      "permalink": "/physical-ai-book/docs/tags/vla"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla"
     },
     {
       "label": "Vision-Language-Action",
-      "permalink": "/physical-ai-book/docs/tags/vision-language-action"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vision-language-action"
     },
     {
       "label": "Multimodal",
-      "permalink": "/physical-ai-book/docs/tags/multimodal"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal"
     },
     {
       "label": "LLM",
-      "permalink": "/physical-ai-book/docs/tags/llm"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/llm"
     },
     {
       "label": "Humanoid Robotics",
-      "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
     },
     {
       "label": "ROS 2",
-      "permalink": "/physical-ai-book/docs/tags/ros-2"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
     },
     {
       "label": "Whisper",
-      "permalink": "/physical-ai-book/docs/tags/whisper"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/whisper"
     },
     {
       "label": "GPT",
-      "permalink": "/physical-ai-book/docs/tags/gpt"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gpt"
     }
   ],
   "version": "current",

@@ -5,30 +5,30 @@
   "source": "@site/docs/week-8-10/ai-robot-brain-overview.md",
   "sourceDirName": "week-8-10",
   "slug": "/week-8-10/ai-robot-brain-overview",
-  "permalink": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/ai-robot-brain-overview.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview.md",
   "tags": [
     {
       "label": "AI",
-      "permalink": "/physical-ai-book/docs/tags/ai"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai"
     },
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     },
     {
       "label": "NVIDIA Isaac",
-      "permalink": "/physical-ai-book/docs/tags/nvidia-isaac"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nvidia-isaac"
     },
     {
       "label": "Robot Brains",
-      "permalink": "/physical-ai-book/docs/tags/robot-brains"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-brains"
     },
     {
       "label": "Cognitive Robotics",
-      "permalink": "/physical-ai-book/docs/tags/cognitive-robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/cognitive-robotics"
     }
   ],
   "version": "current",
@@ -46,10 +46,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Sensor Simulation (LiDAR, Depth, IMU)",
-    "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu"
   },
   "next": {
     "title": "NVIDIA Isaac Architecture",
-    "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture"
   }
 }

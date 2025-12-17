@@ -1,136 +1,136 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/physical-ai-book/docs",
+      "path": "/New-Physical-AI-and-Humanoid-Robotics/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/physical-ai-book/docs",
+          "path": "/New-Physical-AI-and-Humanoid-Robotics/docs",
           "mainDocId": "README",
           "docs": [
             {
               "id": "README",
-              "path": "/physical-ai-book/docs/"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/"
             },
             {
               "id": "tasks-sidebar-implementation",
-              "path": "/physical-ai-book/docs/tasks-sidebar-implementation"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/tasks-sidebar-implementation"
             },
             {
               "id": "week-1-2/humanoid-robots",
-              "path": "/physical-ai-book/docs/week-1-2/humanoid-robots",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-1-2/physical-ai-intro",
-              "path": "/physical-ai-book/docs/week-1-2/physical-ai-intro",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-1-2/sensors-overview",
-              "path": "/physical-ai-book/docs/week-1-2/sensors-overview",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-11-13/context-aware-behavior",
-              "path": "/physical-ai-book/docs/week-11-13/context-aware-behavior",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-11-13/humanoid-development-overview",
-              "path": "/physical-ai-book/docs/week-11-13/humanoid-development-overview",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-11-13/vision-language-action-systems",
-              "path": "/physical-ai-book/docs/week-11-13/vision-language-action-systems",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-11-13/week-11-13",
-              "path": "/physical-ai-book/docs/week-11-13/"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/"
             },
             {
               "id": "week-3-5/humanoid-urdf",
-              "path": "/physical-ai-book/docs/week-3-5/humanoid-urdf"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf"
             },
             {
               "id": "week-3-5/humanoid-urdf-links-joints-sensors",
-              "path": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-3-5/robot-data-flow",
-              "path": "/physical-ai-book/docs/week-3-5/robot-data-flow",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-3-5/ros2-architecture",
-              "path": "/physical-ai-book/docs/week-3-5/ros2-architecture"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture"
             },
             {
               "id": "week-3-5/ros2-architecture-nodes-topics-services-actions",
-              "path": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-3-5/ros2-python-rclpy",
-              "path": "/physical-ai-book/docs/week-3-5/ros2-python-rclpy"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-python-rclpy"
             },
             {
               "id": "week-3-5/ros2-with-python-rclpy",
-              "path": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-6-7/gazebo-physics-collisions-environment-design",
-              "path": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-6-7/gazebo-simulation",
-              "path": "/physical-ai-book/docs/week-6-7/gazebo-simulation"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-simulation"
             },
             {
               "id": "week-6-7/sensor-simulation",
-              "path": "/physical-ai-book/docs/week-6-7/sensor-simulation"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation"
             },
             {
               "id": "week-6-7/sensor-simulation-lidar-depth-imu",
-              "path": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-6-7/week-6-7",
-              "path": "/physical-ai-book/docs/week-6-7/"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/"
             },
             {
               "id": "week-8-10/ai-robot-brain-overview",
-              "path": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-8-10/cognitive-planning-actions",
-              "path": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-8-10/nvidia-isaac-architecture",
-              "path": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture",
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "week-8-10/week-8-10",
-              "path": "/physical-ai-book/docs/week-8-10/"
+              "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/"
             }
           ],
           "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/physical-ai-book/docs/week-1-2/humanoid-robots",
+                "path": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots",
                 "label": "week-1-2/humanoid-robots"
               }
             }

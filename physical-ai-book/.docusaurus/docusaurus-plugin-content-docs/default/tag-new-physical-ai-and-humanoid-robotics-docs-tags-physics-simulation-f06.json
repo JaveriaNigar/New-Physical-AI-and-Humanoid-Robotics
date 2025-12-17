@@ -1,0 +1,15 @@
+{
+  "label": "Physics Simulation",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics-simulation",
+  "allTagsPath": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "week-6-7/gazebo-physics-collisions-environment-design",
+      "title": "Gazebo Physics, Collisions, Environment Design",
+      "description": "Understanding Gazebo physics simulation, collision detection, and environment design for robotics",
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design"
+    }
+  ],
+  "unlisted": false
+}

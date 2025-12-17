@@ -5,30 +5,30 @@
   "source": "@site/docs/week-3-5/ros2-python-rclpy.md",
   "sourceDirName": "week-3-5",
   "slug": "/week-3-5/ros2-python-rclpy",
-  "permalink": "/physical-ai-book/docs/week-3-5/ros2-python-rclpy",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-python-rclpy",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/ros2-python-rclpy.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-python-rclpy.md",
   "tags": [
     {
       "label": "ROS 2",
-      "permalink": "/physical-ai-book/docs/tags/ros-2"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
     },
     {
       "label": "Python",
-      "permalink": "/physical-ai-book/docs/tags/python"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/python"
     },
     {
       "label": "rclpy",
-      "permalink": "/physical-ai-book/docs/tags/rclpy"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/rclpy"
     },
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     },
     {
       "label": "Programming",
-      "permalink": "/physical-ai-book/docs/tags/programming"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/programming"
     }
   ],
   "version": "current",

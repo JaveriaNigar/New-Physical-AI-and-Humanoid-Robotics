@@ -5,26 +5,26 @@
   "source": "@site/docs/week-3-5/ros2-architecture.md",
   "sourceDirName": "week-3-5",
   "slug": "/week-3-5/ros2-architecture",
-  "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/ros2-architecture.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture.md",
   "tags": [
     {
       "label": "ROS 2",
-      "permalink": "/physical-ai-book/docs/tags/ros-2"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
     },
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     },
     {
       "label": "Architecture",
-      "permalink": "/physical-ai-book/docs/tags/architecture"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/architecture"
     },
     {
       "label": "Middleware",
-      "permalink": "/physical-ai-book/docs/tags/middleware"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware"
     }
   ],
   "version": "current",

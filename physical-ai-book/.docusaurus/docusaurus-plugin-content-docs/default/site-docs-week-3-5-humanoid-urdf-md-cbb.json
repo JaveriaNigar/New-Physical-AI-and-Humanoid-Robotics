@@ -5,30 +5,30 @@
   "source": "@site/docs/week-3-5/humanoid-urdf.md",
   "sourceDirName": "week-3-5",
   "slug": "/week-3-5/humanoid-urdf",
-  "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/humanoid-urdf.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf.md",
   "tags": [
     {
       "label": "URDF",
-      "permalink": "/physical-ai-book/docs/tags/urdf"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/urdf"
     },
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     },
     {
       "label": "Humanoid",
-      "permalink": "/physical-ai-book/docs/tags/humanoid"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid"
     },
     {
       "label": "Simulation",
-      "permalink": "/physical-ai-book/docs/tags/simulation"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/simulation"
     },
     {
       "label": "ROS 2",
-      "permalink": "/physical-ai-book/docs/tags/ros-2"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
     }
   ],
   "version": "current",

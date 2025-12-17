@@ -5,30 +5,30 @@
   "source": "@site/docs/week-3-5/robot-data-flow.md",
   "sourceDirName": "week-3-5",
   "slug": "/week-3-5/robot-data-flow",
-  "permalink": "/physical-ai-book/docs/week-3-5/robot-data-flow",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/robot-data-flow.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow.md",
   "tags": [
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     },
     {
       "label": "Data Flow",
-      "permalink": "/physical-ai-book/docs/tags/data-flow"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/data-flow"
     },
     {
       "label": "ROS 2",
-      "permalink": "/physical-ai-book/docs/tags/ros-2"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
     },
     {
       "label": "Middleware",
-      "permalink": "/physical-ai-book/docs/tags/middleware"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware"
     },
     {
       "label": "Control Systems",
-      "permalink": "/physical-ai-book/docs/tags/control-systems"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/control-systems"
     }
   ],
   "version": "current",
@@ -46,10 +46,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Humanoid URDF - Links, Joints, Sensors",
-    "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors"
   },
   "next": {
     "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
-    "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions"
   }
 }

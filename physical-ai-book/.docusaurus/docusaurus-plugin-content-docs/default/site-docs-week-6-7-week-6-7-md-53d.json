@@ -5,42 +5,42 @@
   "source": "@site/docs/week-6-7/week-6-7.md",
   "sourceDirName": "week-6-7",
   "slug": "/week-6-7/",
-  "permalink": "/physical-ai-book/docs/week-6-7/",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/week-6-7.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/week-6-7.md",
   "tags": [
     {
       "label": "Gazebo",
-      "permalink": "/physical-ai-book/docs/tags/gazebo"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo"
     },
     {
       "label": "Unity",
-      "permalink": "/physical-ai-book/docs/tags/unity"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/unity"
     },
     {
       "label": "Simulation",
-      "permalink": "/physical-ai-book/docs/tags/simulation"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/simulation"
     },
     {
       "label": "Robotics",
-      "permalink": "/physical-ai-book/docs/tags/robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
     },
     {
       "label": "Humanoid",
-      "permalink": "/physical-ai-book/docs/tags/humanoid"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid"
     },
     {
       "label": "URDF",
-      "permalink": "/physical-ai-book/docs/tags/urdf"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/urdf"
     },
     {
       "label": "SDF",
-      "permalink": "/physical-ai-book/docs/tags/sdf"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sdf"
     },
     {
       "label": "Physics",
-      "permalink": "/physical-ai-book/docs/tags/physics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics"
     }
   ],
   "version": "current",

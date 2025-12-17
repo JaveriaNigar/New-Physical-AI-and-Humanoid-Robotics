@@ -5,26 +5,26 @@
   "source": "@site/docs/week-1-2/humanoid-robots.md",
   "sourceDirName": "week-1-2",
   "slug": "/week-1-2/humanoid-robots",
-  "permalink": "/physical-ai-book/docs/week-1-2/humanoid-robots",
+  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-1-2/humanoid-robots.md",
+  "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots.md",
   "tags": [
     {
       "label": "Humanoid Robotics",
-      "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
     },
     {
       "label": "Bipedal Locomotion",
-      "permalink": "/physical-ai-book/docs/tags/bipedal-locomotion"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/bipedal-locomotion"
     },
     {
       "label": "Anthropomorphic Design",
-      "permalink": "/physical-ai-book/docs/tags/anthropomorphic-design"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/anthropomorphic-design"
     },
     {
       "label": "AI",
-      "permalink": "/physical-ai-book/docs/tags/ai"
+      "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai"
     }
   ],
   "version": "current",
@@ -41,6 +41,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Physical AI and Embodied Intelligence",
-    "permalink": "/physical-ai-book/docs/week-1-2/physical-ai-intro"
+    "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro"
   }
 }
