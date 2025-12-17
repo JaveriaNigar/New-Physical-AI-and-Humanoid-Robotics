@@ -9,7 +9,7 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/physical-ai-book/",
-  "organizationName": "M.R Computers",
+  "organizationName": "Javeria Nigar",
   "projectName": "hackathon",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
@@ -26,11 +26,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\sidebars.js",
+          "sidebarPath": "C:\\Users\\Javeria Nigar\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\sidebars.js",
           "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\Javeria Nigar\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\src\\css\\custom.css"
         }
       }
     ]

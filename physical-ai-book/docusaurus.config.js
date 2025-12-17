@@ -13,11 +13,11 @@ const config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-book/',
+  baseUrl: '/New-Physical-AI-and-Humanoid-Robotics/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'M.R Computers', // Usually your GitHub org/user name.
+  organizationName: 'Javeria Nigar', // Usually your GitHub org/user name.
   projectName: 'hackathon', // Usually your repo name. Changed to match the actual GitHub repo
 
   onBrokenLinks: 'throw',
@@ -41,7 +41,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
