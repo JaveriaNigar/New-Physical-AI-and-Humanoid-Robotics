@@ -8,6 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: #FFC0CB; /* Pink background for header */
+  color: #000000; /* Pure black text */
 }
 
 @media screen and (max-width: 996px) {
@@ -36,14 +38,16 @@
 .bookOverview, .authorIntroduction {
   padding: 1.5rem;
   border-radius: 8px;
+  background-color: white; /* White background for both sections */
+  border: 1px solid #FFC0CB; /* Pink border */
 }
 
 .bookOverview {
-  background-color: #f8f9fa;
+  background-color: white; /* White background */
 }
 
 .authorIntroduction {
-  background-color: #e9ecef;
+  background-color: white; /* White background */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,31 +76,35 @@
 }
 
 h2 {
-  color: #212529;
+  color: #000000; /* Pure black for headings */
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #0d6efd;
+  border-bottom: 2px solid #FFC0CB; /* Pink bottom border */
 }
 
 h3 {
-  color: #495057;
+  color: #000000; /* Pure black */
   margin-bottom: 1rem;
 }
 
 h4 {
-  color: #495057;
+  color: #000000; /* Pure black */
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
 p {
-  color: #6c757d;
+  color: #000000; /* Pure black */
   line-height: 1.6;
 }
 
 ul {
   padding-left: 1.5rem;
-  color: #6c757d;
+  color: #000000; /* Pure black */
+}
+
+li {
+  color: #000000; /* Pure black */
 }
 
 @media screen and (max-width: 768px) {
@@ -105,7 +113,7 @@ ul {
     gap: 1.5rem;
     padding: 1rem;
   }
-  
+
   .bookOverview, .authorIntroduction {
     padding: 1rem;
   }

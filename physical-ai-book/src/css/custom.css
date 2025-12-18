@@ -32,6 +32,20 @@
   /* Code block colors */
   --ifm-code-background: #FFFFFF; /* white for code */
   --ifm-code-color: #000000; /* black for code text */
+
+  /* Chatbot specific colors */
+  --chatbot-primary: #FFC0CB; /* pink for chatbot header */
+  --chatbot-secondary: #FFFFFF; /* white for chatbot background */
+  --chatbot-accent: #000000; /* black for text */
+  --chatbot-user-msg-bg: #FFD6DB; /* light pink for user messages */
+  --chatbot-bot-msg-bg: #FFFFFF; /* white for bot messages */
+  --chatbot-border: #FFC0CB; /* pink border for chat components */
+  --chatbot-shadow: 0 4px 12px rgba(255, 192, 203, 0.3); /* soft pink shadow */
+
+  /* Chatbot dimensions */
+  --chatbot-width: 350px;
+  --chatbot-max-height: 500px;
+  --chatbot-button-size: 60px;
 }
 
 /* Remove dark mode completely - only use light mode */

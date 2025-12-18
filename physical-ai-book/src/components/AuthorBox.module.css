@@ -7,13 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.5rem;
-  border-radius: 8px;
-  background-color: var(--ifm-background-color); /* White background */
-  box-shadow: var(--ifm-global-shadow);
-  border: 1px solid var(--ifm-border-color); /* Pink border */
-  max-width: 400px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .authorInfo {
@@ -22,27 +16,31 @@
 }
 
 .authorName {
-  color: var(--ifm-color-primary); /* Pink color for headings */
+  color: #000000; /* Pure black for name */
   margin-bottom: 0.5rem;
   font-size: 1.4rem;
 }
 
 .authorRole {
-  color: var(--ifm-font-color-base); /* Black for role */
+  color: #000000; /* Pure black for role */
   font-style: italic;
   margin-bottom: 0.75rem;
   font-size: 0.9rem;
 }
 
 .authorBio {
-  color: var(--ifm-font-color-base);
+  color: #000000; /* Pure black */
   margin-bottom: 1.25rem;
   line-height: 1.5;
   font-size: 0.9rem;
 }
 
+.socialLinks {
+  margin-top: 4rem; /* Add even more space above the social links section */
+}
+
 .socialLinks h4 {
-  color: var(--ifm-color-primary); /* Pink for headings */
+  color: #000000; /* Pure black for headings */
   margin-bottom: 0.75rem;
   font-size: 1rem;
 }
@@ -61,25 +59,24 @@
 .link {
   display: inline-block;
   padding: 0.4rem 0.8rem;
-  background-color: var(--ifm-background-color); /* White background */
-  color: var(--ifm-color-primary); /* Pink text */
+  background-color: white; /* White background */
+  color: #FFC0CB; /* Pink text */
   text-decoration: none;
-  border: 1px solid var(--ifm-color-primary); /* Pink border */
+  border: 1px solid #FFC0CB; /* Pink border */
   border-radius: 6px;
   font-size: 0.8rem;
   transition: all 0.2s ease;
 }
 
 .link:hover {
-  background-color: var(--ifm-color-primary); /* Pink background on hover */
-  color: var(--ifm-font-color-base-inverse); /* White text on hover */
+  background-color: #FFC0CB; /* Pink background on hover */
+  color: white; /* White text on hover */
 }
 
 /* Responsive design */
 @media (max-width: 576px) {
   .authorBox {
-    padding: 1rem;
-    max-width: 100%;
+    width: 100%;
   }
 
   .authorName {

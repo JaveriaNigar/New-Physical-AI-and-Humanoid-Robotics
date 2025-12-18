@@ -4,12 +4,12 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/New-Physical-AI-and-Humanoid-Robotics/about',
-    component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/about', 'a67'),
+    component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/about', '931'),
     exact: true
   },
   {
     path: '/New-Physical-AI-and-Humanoid-Robotics/docs',
-    component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs', 'caa'),
+    component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/docs', '496'),
     routes: [
       {
         path: '/New-Physical-AI-and-Humanoid-Robotics/docs',
@@ -507,7 +507,7 @@ export default [
   },
   {
     path: '/New-Physical-AI-and-Humanoid-Robotics/',
-    component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/', 'b66'),
+    component: ComponentCreator('/New-Physical-AI-and-Humanoid-Robotics/', '5c0'),
     exact: true
   },
   {

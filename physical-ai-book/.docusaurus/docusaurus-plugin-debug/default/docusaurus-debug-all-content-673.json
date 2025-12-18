@@ -9,15 +9,15 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/physical-ai-book/docs",
-          "tagsPath": "/physical-ai-book/docs/tags",
-          "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "path": "/New-Physical-AI-and-Humanoid-Robotics/docs",
+          "tagsPath": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags",
+          "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs",
+          "editUrlLocalized": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Users\\Javeria Nigar\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\sidebars.js",
-          "contentPath": "C:\\Users\\Javeria Nigar\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\docs",
-          "contentPathLocalized": "C:\\Users\\Javeria Nigar\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon2\\physical-ai-book\\sidebars.js",
+          "contentPath": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon2\\physical-ai-book\\docs",
+          "contentPathLocalized": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon2\\physical-ai-book\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "id": "README",
@@ -26,10 +26,10 @@
               "source": "@site/docs/README.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/physical-ai-book/docs/",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/README.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/README.md",
               "tags": [],
               "version": "current",
               "frontMatter": {}
@@ -41,10 +41,10 @@
               "source": "@site/docs/tasks-sidebar-implementation.md",
               "sourceDirName": ".",
               "slug": "/tasks-sidebar-implementation",
-              "permalink": "/physical-ai-book/docs/tasks-sidebar-implementation",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tasks-sidebar-implementation",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/tasks-sidebar-implementation.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/tasks-sidebar-implementation.md",
               "tags": [],
               "version": "current",
               "frontMatter": {}
@@ -56,26 +56,26 @@
               "source": "@site/docs/week-1-2/humanoid-robots.md",
               "sourceDirName": "week-1-2",
               "slug": "/week-1-2/humanoid-robots",
-              "permalink": "/physical-ai-book/docs/week-1-2/humanoid-robots",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-1-2/humanoid-robots.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots.md",
               "tags": [
                 {
                   "label": "Humanoid Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
                 },
                 {
                   "label": "Bipedal Locomotion",
-                  "permalink": "/physical-ai-book/docs/tags/bipedal-locomotion"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/bipedal-locomotion"
                 },
                 {
                   "label": "Anthropomorphic Design",
-                  "permalink": "/physical-ai-book/docs/tags/anthropomorphic-design"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/anthropomorphic-design"
                 },
                 {
                   "label": "AI",
-                  "permalink": "/physical-ai-book/docs/tags/ai"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai"
                 }
               ],
               "version": "current",
@@ -92,7 +92,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Physical AI and Embodied Intelligence",
-                "permalink": "/physical-ai-book/docs/week-1-2/physical-ai-intro"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro"
               }
             },
             {
@@ -102,26 +102,26 @@
               "source": "@site/docs/week-1-2/physical-ai-intro.md",
               "sourceDirName": "week-1-2",
               "slug": "/week-1-2/physical-ai-intro",
-              "permalink": "/physical-ai-book/docs/week-1-2/physical-ai-intro",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-1-2/physical-ai-intro.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro.md",
               "tags": [
                 {
                   "label": "Physical AI",
-                  "permalink": "/physical-ai-book/docs/tags/physical-ai"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physical-ai"
                 },
                 {
                   "label": "Embodied Intelligence",
-                  "permalink": "/physical-ai-book/docs/tags/embodied-intelligence"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/embodied-intelligence"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "AI",
-                  "permalink": "/physical-ai-book/docs/tags/ai"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai"
                 }
               ],
               "version": "current",
@@ -138,11 +138,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Humanoid Robotics Overview",
-                "permalink": "/physical-ai-book/docs/week-1-2/humanoid-robots"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots"
               },
               "next": {
                 "title": "Sensors in Physical AI Systems",
-                "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview"
               }
             },
             {
@@ -152,26 +152,26 @@
               "source": "@site/docs/week-1-2/sensors-overview.md",
               "sourceDirName": "week-1-2",
               "slug": "/week-1-2/sensors-overview",
-              "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-1-2/sensors-overview.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview.md",
               "tags": [
                 {
                   "label": "Sensors",
-                  "permalink": "/physical-ai-book/docs/tags/sensors"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensors"
                 },
                 {
                   "label": "Physical AI",
-                  "permalink": "/physical-ai-book/docs/tags/physical-ai"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physical-ai"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "Perception",
-                  "permalink": "/physical-ai-book/docs/tags/perception"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/perception"
                 }
               ],
               "version": "current",
@@ -188,11 +188,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Physical AI and Embodied Intelligence",
-                "permalink": "/physical-ai-book/docs/week-1-2/physical-ai-intro"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro"
               },
               "next": {
                 "title": "Humanoid URDF - Links, Joints, Sensors",
-                "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors"
               }
             },
             {
@@ -202,30 +202,30 @@
               "source": "@site/docs/week-11-13/context-aware-behavior.md",
               "sourceDirName": "week-11-13",
               "slug": "/week-11-13/context-aware-behavior",
-              "permalink": "/physical-ai-book/docs/week-11-13/context-aware-behavior",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/context-aware-behavior.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior.md",
               "tags": [
                 {
                   "label": "Context-Awareness",
-                  "permalink": "/physical-ai-book/docs/tags/context-awareness"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/context-awareness"
                 },
                 {
                   "label": "Robot Behavior",
-                  "permalink": "/physical-ai-book/docs/tags/robot-behavior"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-behavior"
                 },
                 {
                   "label": "Human-Robot Interaction",
-                  "permalink": "/physical-ai-book/docs/tags/human-robot-interaction"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/human-robot-interaction"
                 },
                 {
                   "label": "Adaptive Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/adaptive-robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/adaptive-robotics"
                 },
                 {
                   "label": "Social Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/social-robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/social-robotics"
                 }
               ],
               "version": "current",
@@ -243,7 +243,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Vision-Language-Action Systems",
-                "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems"
               }
             },
             {
@@ -253,26 +253,26 @@
               "source": "@site/docs/week-11-13/humanoid-development-overview.md",
               "sourceDirName": "week-11-13",
               "slug": "/week-11-13/humanoid-development-overview",
-              "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/humanoid-development-overview.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview.md",
               "tags": [
                 {
                   "label": "Humanoid Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
                 },
                 {
                   "label": "Robot Development",
-                  "permalink": "/physical-ai-book/docs/tags/robot-development"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-development"
                 },
                 {
                   "label": "Bipedal Locomotion",
-                  "permalink": "/physical-ai-book/docs/tags/bipedal-locomotion"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/bipedal-locomotion"
                 },
                 {
                   "label": "Humanoid Control",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid-control"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-control"
                 }
               ],
               "version": "current",
@@ -289,11 +289,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Cognitive Planning & Actions",
-                "permalink": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions"
               },
               "next": {
                 "title": "Vision-Language-Action Systems",
-                "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems"
               }
             },
             {
@@ -303,30 +303,30 @@
               "source": "@site/docs/week-11-13/vision-language-action-systems.md",
               "sourceDirName": "week-11-13",
               "slug": "/week-11-13/vision-language-action-systems",
-              "permalink": "/physical-ai-book/docs/week-11-13/vision-language-action-systems",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/vision-language-action-systems.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems.md",
               "tags": [
                 {
                   "label": "Vision-Language-Action",
-                  "permalink": "/physical-ai-book/docs/tags/vision-language-action"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vision-language-action"
                 },
                 {
                   "label": "VLA Systems",
-                  "permalink": "/physical-ai-book/docs/tags/vla-systems"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla-systems"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "AI",
-                  "permalink": "/physical-ai-book/docs/tags/ai"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai"
                 },
                 {
                   "label": "Multimodal AI",
-                  "permalink": "/physical-ai-book/docs/tags/multimodal-ai"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal-ai"
                 }
               ],
               "version": "current",
@@ -344,11 +344,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Humanoid Development Overview",
-                "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview"
               },
               "next": {
                 "title": "Context-Aware Behavior",
-                "permalink": "/physical-ai-book/docs/week-11-13/context-aware-behavior"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior"
               }
             },
             {
@@ -358,42 +358,42 @@
               "source": "@site/docs/week-11-13/week-11-13.md",
               "sourceDirName": "week-11-13",
               "slug": "/week-11-13/",
-              "permalink": "/physical-ai-book/docs/week-11-13/",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-11-13/week-11-13.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/week-11-13.md",
               "tags": [
                 {
                   "label": "VLA",
-                  "permalink": "/physical-ai-book/docs/tags/vla"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla"
                 },
                 {
                   "label": "Vision-Language-Action",
-                  "permalink": "/physical-ai-book/docs/tags/vision-language-action"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vision-language-action"
                 },
                 {
                   "label": "Multimodal",
-                  "permalink": "/physical-ai-book/docs/tags/multimodal"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal"
                 },
                 {
                   "label": "LLM",
-                  "permalink": "/physical-ai-book/docs/tags/llm"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/llm"
                 },
                 {
                   "label": "Humanoid Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
                 },
                 {
                   "label": "ROS 2",
-                  "permalink": "/physical-ai-book/docs/tags/ros-2"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
                 },
                 {
                   "label": "Whisper",
-                  "permalink": "/physical-ai-book/docs/tags/whisper"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/whisper"
                 },
                 {
                   "label": "GPT",
-                  "permalink": "/physical-ai-book/docs/tags/gpt"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gpt"
                 }
               ],
               "version": "current",
@@ -419,30 +419,30 @@
               "source": "@site/docs/week-3-5/humanoid-urdf.md",
               "sourceDirName": "week-3-5",
               "slug": "/week-3-5/humanoid-urdf",
-              "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/humanoid-urdf.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf.md",
               "tags": [
                 {
                   "label": "URDF",
-                  "permalink": "/physical-ai-book/docs/tags/urdf"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/urdf"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "Humanoid",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid"
                 },
                 {
                   "label": "Simulation",
-                  "permalink": "/physical-ai-book/docs/tags/simulation"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/simulation"
                 },
                 {
                   "label": "ROS 2",
-                  "permalink": "/physical-ai-book/docs/tags/ros-2"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
                 }
               ],
               "version": "current",
@@ -465,26 +465,26 @@
               "source": "@site/docs/week-3-5/humanoid-urdf-links-joints-sensors.md",
               "sourceDirName": "week-3-5",
               "slug": "/week-3-5/humanoid-urdf-links-joints-sensors",
-              "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/humanoid-urdf-links-joints-sensors.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors.md",
               "tags": [
                 {
                   "label": "URDF",
-                  "permalink": "/physical-ai-book/docs/tags/urdf"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/urdf"
                 },
                 {
                   "label": "Humanoid Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
                 },
                 {
                   "label": "Robot Modeling",
-                  "permalink": "/physical-ai-book/docs/tags/robot-modeling"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-modeling"
                 },
                 {
                   "label": "ROS 2",
-                  "permalink": "/physical-ai-book/docs/tags/ros-2"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
                 }
               ],
               "version": "current",
@@ -501,11 +501,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Sensors in Physical AI Systems",
-                "permalink": "/physical-ai-book/docs/week-1-2/sensors-overview"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview"
               },
               "next": {
                 "title": "Robot Data Flow - Sensor→Processing→Actuation",
-                "permalink": "/physical-ai-book/docs/week-3-5/robot-data-flow"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow"
               }
             },
             {
@@ -515,30 +515,30 @@
               "source": "@site/docs/week-3-5/robot-data-flow.md",
               "sourceDirName": "week-3-5",
               "slug": "/week-3-5/robot-data-flow",
-              "permalink": "/physical-ai-book/docs/week-3-5/robot-data-flow",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/robot-data-flow.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow.md",
               "tags": [
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "Data Flow",
-                  "permalink": "/physical-ai-book/docs/tags/data-flow"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/data-flow"
                 },
                 {
                   "label": "ROS 2",
-                  "permalink": "/physical-ai-book/docs/tags/ros-2"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
                 },
                 {
                   "label": "Middleware",
-                  "permalink": "/physical-ai-book/docs/tags/middleware"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware"
                 },
                 {
                   "label": "Control Systems",
-                  "permalink": "/physical-ai-book/docs/tags/control-systems"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/control-systems"
                 }
               ],
               "version": "current",
@@ -556,11 +556,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Humanoid URDF - Links, Joints, Sensors",
-                "permalink": "/physical-ai-book/docs/week-3-5/humanoid-urdf-links-joints-sensors"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors"
               },
               "next": {
                 "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
-                "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions"
               }
             },
             {
@@ -570,26 +570,26 @@
               "source": "@site/docs/week-3-5/ros2-architecture.md",
               "sourceDirName": "week-3-5",
               "slug": "/week-3-5/ros2-architecture",
-              "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/ros2-architecture.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture.md",
               "tags": [
                 {
                   "label": "ROS 2",
-                  "permalink": "/physical-ai-book/docs/tags/ros-2"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "Architecture",
-                  "permalink": "/physical-ai-book/docs/tags/architecture"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/architecture"
                 },
                 {
                   "label": "Middleware",
-                  "permalink": "/physical-ai-book/docs/tags/middleware"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware"
                 }
               ],
               "version": "current",
@@ -611,38 +611,38 @@
               "source": "@site/docs/week-3-5/ros2-architecture-nodes-topics-services-actions.md",
               "sourceDirName": "week-3-5",
               "slug": "/week-3-5/ros2-architecture-nodes-topics-services-actions",
-              "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/ros2-architecture-nodes-topics-services-actions.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions.md",
               "tags": [
                 {
                   "label": "ROS 2",
-                  "permalink": "/physical-ai-book/docs/tags/ros-2"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
                 },
                 {
                   "label": "Architecture",
-                  "permalink": "/physical-ai-book/docs/tags/architecture"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/architecture"
                 },
                 {
                   "label": "Nodes",
-                  "permalink": "/physical-ai-book/docs/tags/nodes"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nodes"
                 },
                 {
                   "label": "Topics",
-                  "permalink": "/physical-ai-book/docs/tags/topics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/topics"
                 },
                 {
                   "label": "Services",
-                  "permalink": "/physical-ai-book/docs/tags/services"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/services"
                 },
                 {
                   "label": "Actions",
-                  "permalink": "/physical-ai-book/docs/tags/actions"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/actions"
                 },
                 {
                   "label": "Middleware",
-                  "permalink": "/physical-ai-book/docs/tags/middleware"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware"
                 }
               ],
               "version": "current",
@@ -662,11 +662,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Robot Data Flow - Sensor→Processing→Actuation",
-                "permalink": "/physical-ai-book/docs/week-3-5/robot-data-flow"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow"
               },
               "next": {
                 "title": "ROS 2 with Python - rclpy Usage",
-                "permalink": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy"
               }
             },
             {
@@ -676,30 +676,30 @@
               "source": "@site/docs/week-3-5/ros2-python-rclpy.md",
               "sourceDirName": "week-3-5",
               "slug": "/week-3-5/ros2-python-rclpy",
-              "permalink": "/physical-ai-book/docs/week-3-5/ros2-python-rclpy",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-python-rclpy",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/ros2-python-rclpy.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-python-rclpy.md",
               "tags": [
                 {
                   "label": "ROS 2",
-                  "permalink": "/physical-ai-book/docs/tags/ros-2"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
                 },
                 {
                   "label": "Python",
-                  "permalink": "/physical-ai-book/docs/tags/python"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/python"
                 },
                 {
                   "label": "rclpy",
-                  "permalink": "/physical-ai-book/docs/tags/rclpy"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/rclpy"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "Programming",
-                  "permalink": "/physical-ai-book/docs/tags/programming"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/programming"
                 }
               ],
               "version": "current",
@@ -722,30 +722,30 @@
               "source": "@site/docs/week-3-5/ros2-with-python-rclpy.md",
               "sourceDirName": "week-3-5",
               "slug": "/week-3-5/ros2-with-python-rclpy",
-              "permalink": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-3-5/ros2-with-python-rclpy.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy.md",
               "tags": [
                 {
                   "label": "ROS 2",
-                  "permalink": "/physical-ai-book/docs/tags/ros-2"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2"
                 },
                 {
                   "label": "Python",
-                  "permalink": "/physical-ai-book/docs/tags/python"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/python"
                 },
                 {
                   "label": "rclpy",
-                  "permalink": "/physical-ai-book/docs/tags/rclpy"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/rclpy"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "Programming",
-                  "permalink": "/physical-ai-book/docs/tags/programming"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/programming"
                 }
               ],
               "version": "current",
@@ -763,11 +763,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ROS 2 Architecture - Nodes, Topics, Services, Actions",
-                "permalink": "/physical-ai-book/docs/week-3-5/ros2-architecture-nodes-topics-services-actions"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions"
               },
               "next": {
                 "title": "Gazebo Physics, Collisions, Environment Design",
-                "permalink": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design"
               }
             },
             {
@@ -777,30 +777,30 @@
               "source": "@site/docs/week-6-7/gazebo-physics-collisions-environment-design.md",
               "sourceDirName": "week-6-7",
               "slug": "/week-6-7/gazebo-physics-collisions-environment-design",
-              "permalink": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/gazebo-physics-collisions-environment-design.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design.md",
               "tags": [
                 {
                   "label": "Gazebo",
-                  "permalink": "/physical-ai-book/docs/tags/gazebo"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo"
                 },
                 {
                   "label": "Physics Simulation",
-                  "permalink": "/physical-ai-book/docs/tags/physics-simulation"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics-simulation"
                 },
                 {
                   "label": "Collision Detection",
-                  "permalink": "/physical-ai-book/docs/tags/collision-detection"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/collision-detection"
                 },
                 {
                   "label": "Environment Design",
-                  "permalink": "/physical-ai-book/docs/tags/environment-design"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/environment-design"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 }
               ],
               "version": "current",
@@ -818,11 +818,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ROS 2 with Python - rclpy Usage",
-                "permalink": "/physical-ai-book/docs/week-3-5/ros2-with-python-rclpy"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy"
               },
               "next": {
                 "title": "Sensor Simulation (LiDAR, Depth, IMU)",
-                "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu"
               }
             },
             {
@@ -832,34 +832,34 @@
               "source": "@site/docs/week-6-7/gazebo-simulation.md",
               "sourceDirName": "week-6-7",
               "slug": "/week-6-7/gazebo-simulation",
-              "permalink": "/physical-ai-book/docs/week-6-7/gazebo-simulation",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-simulation",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/gazebo-simulation.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-simulation.md",
               "tags": [
                 {
                   "label": "Gazebo",
-                  "permalink": "/physical-ai-book/docs/tags/gazebo"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo"
                 },
                 {
                   "label": "Physics",
-                  "permalink": "/physical-ai-book/docs/tags/physics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics"
                 },
                 {
                   "label": "Collisions",
-                  "permalink": "/physical-ai-book/docs/tags/collisions"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/collisions"
                 },
                 {
                   "label": "Environment",
-                  "permalink": "/physical-ai-book/docs/tags/environment"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/environment"
                 },
                 {
                   "label": "Simulation",
-                  "permalink": "/physical-ai-book/docs/tags/simulation"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/simulation"
                 },
                 {
                   "label": "Humanoid",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid"
                 }
               ],
               "version": "current",
@@ -883,38 +883,38 @@
               "source": "@site/docs/week-6-7/sensor-simulation.md",
               "sourceDirName": "week-6-7",
               "slug": "/week-6-7/sensor-simulation",
-              "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/sensor-simulation.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation.md",
               "tags": [
                 {
                   "label": "Gazebo",
-                  "permalink": "/physical-ai-book/docs/tags/gazebo"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo"
                 },
                 {
                   "label": "LiDAR",
-                  "permalink": "/physical-ai-book/docs/tags/li-dar"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/li-dar"
                 },
                 {
                   "label": "Depth Sensors",
-                  "permalink": "/physical-ai-book/docs/tags/depth-sensors"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-sensors"
                 },
                 {
                   "label": "IMU",
-                  "permalink": "/physical-ai-book/docs/tags/imu"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/imu"
                 },
                 {
                   "label": "Sensor Simulation",
-                  "permalink": "/physical-ai-book/docs/tags/sensor-simulation"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensor-simulation"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "Humanoid",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid"
                 }
               ],
               "version": "current",
@@ -939,34 +939,34 @@
               "source": "@site/docs/week-6-7/sensor-simulation-lidar-depth-imu.md",
               "sourceDirName": "week-6-7",
               "slug": "/week-6-7/sensor-simulation-lidar-depth-imu",
-              "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/sensor-simulation-lidar-depth-imu.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu.md",
               "tags": [
                 {
                   "label": "Gazebo",
-                  "permalink": "/physical-ai-book/docs/tags/gazebo"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo"
                 },
                 {
                   "label": "Sensor Simulation",
-                  "permalink": "/physical-ai-book/docs/tags/sensor-simulation"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensor-simulation"
                 },
                 {
                   "label": "LiDAR",
-                  "permalink": "/physical-ai-book/docs/tags/li-dar"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/li-dar"
                 },
                 {
                   "label": "Depth Cameras",
-                  "permalink": "/physical-ai-book/docs/tags/depth-cameras"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-cameras"
                 },
                 {
                   "label": "IMU",
-                  "permalink": "/physical-ai-book/docs/tags/imu"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/imu"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 }
               ],
               "version": "current",
@@ -985,11 +985,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Gazebo Physics, Collisions, Environment Design",
-                "permalink": "/physical-ai-book/docs/week-6-7/gazebo-physics-collisions-environment-design"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design"
               },
               "next": {
                 "title": "AI-Robot Brain Overview",
-                "permalink": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview"
               }
             },
             {
@@ -999,42 +999,42 @@
               "source": "@site/docs/week-6-7/week-6-7.md",
               "sourceDirName": "week-6-7",
               "slug": "/week-6-7/",
-              "permalink": "/physical-ai-book/docs/week-6-7/",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-6-7/week-6-7.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/week-6-7.md",
               "tags": [
                 {
                   "label": "Gazebo",
-                  "permalink": "/physical-ai-book/docs/tags/gazebo"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo"
                 },
                 {
                   "label": "Unity",
-                  "permalink": "/physical-ai-book/docs/tags/unity"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/unity"
                 },
                 {
                   "label": "Simulation",
-                  "permalink": "/physical-ai-book/docs/tags/simulation"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/simulation"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "Humanoid",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid"
                 },
                 {
                   "label": "URDF",
-                  "permalink": "/physical-ai-book/docs/tags/urdf"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/urdf"
                 },
                 {
                   "label": "SDF",
-                  "permalink": "/physical-ai-book/docs/tags/sdf"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sdf"
                 },
                 {
                   "label": "Physics",
-                  "permalink": "/physical-ai-book/docs/tags/physics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics"
                 }
               ],
               "version": "current",
@@ -1060,30 +1060,30 @@
               "source": "@site/docs/week-8-10/ai-robot-brain-overview.md",
               "sourceDirName": "week-8-10",
               "slug": "/week-8-10/ai-robot-brain-overview",
-              "permalink": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/ai-robot-brain-overview.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview.md",
               "tags": [
                 {
                   "label": "AI",
-                  "permalink": "/physical-ai-book/docs/tags/ai"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai"
                 },
                 {
                   "label": "Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics"
                 },
                 {
                   "label": "NVIDIA Isaac",
-                  "permalink": "/physical-ai-book/docs/tags/nvidia-isaac"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nvidia-isaac"
                 },
                 {
                   "label": "Robot Brains",
-                  "permalink": "/physical-ai-book/docs/tags/robot-brains"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-brains"
                 },
                 {
                   "label": "Cognitive Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/cognitive-robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/cognitive-robotics"
                 }
               ],
               "version": "current",
@@ -1101,11 +1101,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Sensor Simulation (LiDAR, Depth, IMU)",
-                "permalink": "/physical-ai-book/docs/week-6-7/sensor-simulation-lidar-depth-imu"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu"
               },
               "next": {
                 "title": "NVIDIA Isaac Architecture",
-                "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture"
               }
             },
             {
@@ -1115,30 +1115,30 @@
               "source": "@site/docs/week-8-10/cognitive-planning-actions.md",
               "sourceDirName": "week-8-10",
               "slug": "/week-8-10/cognitive-planning-actions",
-              "permalink": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/cognitive-planning-actions.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions.md",
               "tags": [
                 {
                   "label": "Cognitive Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/cognitive-robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/cognitive-robotics"
                 },
                 {
                   "label": "Planning",
-                  "permalink": "/physical-ai-book/docs/tags/planning"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/planning"
                 },
                 {
                   "label": "AI Actions",
-                  "permalink": "/physical-ai-book/docs/tags/ai-actions"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai-actions"
                 },
                 {
                   "label": "Robot Decision Making",
-                  "permalink": "/physical-ai-book/docs/tags/robot-decision-making"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-decision-making"
                 },
                 {
                   "label": "Task Planning",
-                  "permalink": "/physical-ai-book/docs/tags/task-planning"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/task-planning"
                 }
               ],
               "version": "current",
@@ -1156,11 +1156,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "NVIDIA Isaac Architecture",
-                "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture"
               },
               "next": {
                 "title": "Humanoid Development Overview",
-                "permalink": "/physical-ai-book/docs/week-11-13/humanoid-development-overview"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview"
               }
             },
             {
@@ -1170,30 +1170,30 @@
               "source": "@site/docs/week-8-10/nvidia-isaac-architecture.md",
               "sourceDirName": "week-8-10",
               "slug": "/week-8-10/nvidia-isaac-architecture",
-              "permalink": "/physical-ai-book/docs/week-8-10/nvidia-isaac-architecture",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/nvidia-isaac-architecture.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture.md",
               "tags": [
                 {
                   "label": "NVIDIA Isaac",
-                  "permalink": "/physical-ai-book/docs/tags/nvidia-isaac"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nvidia-isaac"
                 },
                 {
                   "label": "Robotics Platform",
-                  "permalink": "/physical-ai-book/docs/tags/robotics-platform"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics-platform"
                 },
                 {
                   "label": "AI Architecture",
-                  "permalink": "/physical-ai-book/docs/tags/ai-architecture"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai-architecture"
                 },
                 {
                   "label": "Isaac Sim",
-                  "permalink": "/physical-ai-book/docs/tags/isaac-sim"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-sim"
                 },
                 {
                   "label": "Isaac ROS",
-                  "permalink": "/physical-ai-book/docs/tags/isaac-ros"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-ros"
                 }
               ],
               "version": "current",
@@ -1211,11 +1211,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "AI-Robot Brain Overview",
-                "permalink": "/physical-ai-book/docs/week-8-10/ai-robot-brain-overview"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview"
               },
               "next": {
                 "title": "Cognitive Planning & Actions",
-                "permalink": "/physical-ai-book/docs/week-8-10/cognitive-planning-actions"
+                "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions"
               }
             },
             {
@@ -1225,38 +1225,38 @@
               "source": "@site/docs/week-8-10/week-8-10.md",
               "sourceDirName": "week-8-10",
               "slug": "/week-8-10/",
-              "permalink": "/physical-ai-book/docs/week-8-10/",
+              "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/MR-Computers/physical-ai-book/tree/main/packages/create-docusaurus/templates/shared/docs/week-8-10/week-8-10.md",
+              "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/week-8-10.md",
               "tags": [
                 {
                   "label": "NVIDIA Isaac",
-                  "permalink": "/physical-ai-book/docs/tags/nvidia-isaac"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nvidia-isaac"
                 },
                 {
                   "label": "Isaac Sim",
-                  "permalink": "/physical-ai-book/docs/tags/isaac-sim"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-sim"
                 },
                 {
                   "label": "Isaac ROS",
-                  "permalink": "/physical-ai-book/docs/tags/isaac-ros"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-ros"
                 },
                 {
                   "label": "Nav2",
-                  "permalink": "/physical-ai-book/docs/tags/nav-2"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nav-2"
                 },
                 {
                   "label": "Path Planning",
-                  "permalink": "/physical-ai-book/docs/tags/path-planning"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/path-planning"
                 },
                 {
                   "label": "Humanoid Robotics",
-                  "permalink": "/physical-ai-book/docs/tags/humanoid-robotics"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics"
                 },
                 {
                   "label": "Perception",
-                  "permalink": "/physical-ai-book/docs/tags/perception"
+                  "permalink": "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/perception"
                 }
               ],
               "version": "current",
@@ -1390,7 +1390,7 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": "/physical-ai-book/blog/tags",
+      "blogTagsListPath": "/New-Physical-AI-and-Humanoid-Robotics/blog/tags",
       "blogTagsPaginated": []
     }
   },
@@ -1398,12 +1398,12 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/physical-ai-book/about",
+        "permalink": "/New-Physical-AI-and-Humanoid-Robotics/about",
         "source": "@site/src/pages/about.js"
       },
       {
         "type": "jsx",
-        "permalink": "/physical-ai-book/",
+        "permalink": "/New-Physical-AI-and-Humanoid-Robotics/",
         "source": "@site/src/pages/index.js"
       }
     ]

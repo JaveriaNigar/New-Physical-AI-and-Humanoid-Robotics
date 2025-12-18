@@ -7,11 +7,11 @@ export default {
   "title": "Physical AI & Humanoid Robotics Textbook",
   "tagline": "A comprehensive textbook covering Physical AI and Humanoid Robotics from theory to full system implementation",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
+  "url": "https://JaveriaNigar.github.io",
   "baseUrl": "/New-Physical-AI-and-Humanoid-Robotics/",
-  "organizationName": "Javeria Nigar",
-  "projectName": "hackathon",
-  "onBrokenLinks": "throw",
+  "organizationName": "JaveriaNigar",
+  "projectName": "New-Physical-AI-and-Humanoid-Robotics",
+  "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -26,11 +26,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\sidebars.js",
+          "sidebarPath": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon2\\physical-ai-book\\sidebars.js",
           "editUrl": "https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics"
         },
         "theme": {
-          "customCss": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon\\physical-ai-book\\src\\css\\custom.css"
+          "customCss": "C:\\Users\\M.R Computers\\OneDrive\\Desktop\\hackathon2\\physical-ai-book\\src\\css\\custom.css"
         }
       }
     ]
@@ -88,7 +88,7 @@ export default {
             },
             {
               "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/javeria-nigar-252b312b5/ "
+              "href": "https://www.linkedin.com/in/javeria-nigar-252b312b5/"
             },
             {
               "label": "Twitter",
