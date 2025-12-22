@@ -1,41 +1,38 @@
 <!--
 Sync Impact Report:
-- Version change: N/A (initial version) → 1.0.0
-- Modified principles: None (new constitution)
-- Added sections: All principles and sections are newly added
-- Removed sections: None
-- Templates requiring updates: None affected (this is an initial constitution)
+- Version change: 1.0.0 → 2.0.0 (major change: project focus changed from Physical AI textbook to RAG chatbot textbook)
+- Modified principles: All principles completely revised (old principles removed and new ones added)
+- Added sections: Groundedness, Zero Hallucination, Context Fidelity, Explainability, Educational Clarity principles
+- Removed sections: All previous Physical AI textbook principles
+- Templates requiring updates: ✅ plan-template.md, ✅ spec-template.md, ✅ tasks-template.md (need to reflect new RAG chatbot project focus)
 - Follow-up TODOs: None
 -->
-# Physical AI & Humanoid Robotics Textbook Constitution
+# Integrated RAG Chatbot for AI-Powered Textbook Constitution
 
 ## Core Principles
 
-### Documentation-First
-All content must be well-documented with clear examples; Every concept explained should have practical applications and code samples where relevant
+### Groundedness
+All answers must be derived only from retrieved book content; No external knowledge or assumptions allowed during response generation
 
-### Academic Rigor
-All technical claims must be supported by citations, with at least 40% from peer-reviewed or academic sources
+### Zero Hallucination
+Never fabricate information, make assumptions, or use model prior knowledge; Strictly adhere to provided textbook content only
 
-### Modular Organization
-Content organized in clear modules and sections; Each module builds on previous knowledge systematically
+### Context Fidelity
+When user selects text, answers must rely exclusively on that selection; Ignore entire vector database when user provides selected text as context
 
-### Accessibility & Clarity
-Content written for CS/AI students with basic programming knowledge; Concepts explained in clear, accessible language
+### Explainability
+Every answer should be traceable to retrieved chunks; Provide clear references to source material when possible
 
-### Technology-Neutral Presentation
-Technical concepts explained independent of specific tools when possible; When specific tools are discussed, alternatives should be noted
-
-### Responsive Design
-Documentation site must be responsive and accessible across devices; Follows best practices for web accessibility standards
+### Educational Clarity
+Responses must be clear, concise, and student-friendly; Maintain professional, educational tone appropriate for learning context
 
 ## Development Standards
-Technology stack: Docusaurus, React, JavaScript/TypeScript; Prerequisites: Ubuntu OS, ROS 2 Humble or newer, Node.js 18+; All content must be citable and well-researched
+Technology stack: FastAPI backend, Qdrant Cloud vector store, Neon Serverless Postgres, Gemini LLM API; All content must be grounded in textbook material with verifiable citations
 
 ## Review and Quality Process
-All content reviewed for technical accuracy; Modules tested for student comprehension; Documentation updates synchronized with code changes
+All responses validated for content accuracy against textbook material; Hallucination testing performed regularly; Documentation updates synchronized with model improvements
 
 ## Governance
-Constitution governs all project practices; Amendments require team consensus and documented approval; Regular reviews scheduled to ensure content remains current and accurate
+Constitution governs all chatbot behavior and response practices; Amendments require explicit team approval and documentation; Regular reviews scheduled to ensure compliance with content-only constraints
 
-**Version**: 1.0.0 | **Ratified**: 2025-12-17 | **Last Amended**: 2025-12-17
+**Version**: 2.0.0 | **Ratified**: 2025-12-17 | **Last Amended**: 2025-12-18
