@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-week-3-5/ros2-architecture" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">ROS 2 Architecture - Nodes, Topics, Services, Actions | Physical AI &amp; Humanoid Robotics Textbook</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://JaveriaNigar.github.io/New-Physical-AI-and-Humanoid-Robotics/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://JaveriaNigar.github.io/New-Physical-AI-and-Humanoid-Robotics/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://JaveriaNigar.github.io/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="ROS 2 Architecture - Nodes, Topics, Services, Actions | Physical AI &amp; Humanoid Robotics Textbook"><meta data-rh="true" name="description" content="Understanding the fundamental architecture of ROS 2 for robot development"><meta data-rh="true" property="og:description" content="Understanding the fundamental architecture of ROS 2 for robot development"><link data-rh="true" rel="icon" href="/New-Physical-AI-and-Humanoid-Robotics/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://JaveriaNigar.github.io/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture"><link data-rh="true" rel="alternate" href="https://JaveriaNigar.github.io/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture" hreflang="en"><link data-rh="true" rel="alternate" href="https://JaveriaNigar.github.io/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture" hreflang="x-default"><link rel="stylesheet" href="/New-Physical-AI-and-Humanoid-Robotics/assets/css/styles.f3638f0d.css">
+<script src="/New-Physical-AI-and-Humanoid-Robotics/assets/js/runtime~main.2c2c0448.js" defer="defer"></script>
+<script src="/New-Physical-AI-and-Humanoid-Robotics/assets/js/main.ade289c7.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top navbar--primary"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/New-Physical-AI-and-Humanoid-Robotics/"><b class="navbar__title text--truncate">Physical AI &amp; Humanoid Robotics</b></a><a class="navbar__item navbar__link" href="/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots">Textbook</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/JaveriaNigar" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>ROS 2 Architecture - Nodes, Topics, Services, Actions</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="learning-objectives">Learning Objectives<a href="#learning-objectives" class="hash-link" aria-label="Direct link to Learning Objectives" title="Direct link to Learning Objectives">​</a></h2>
+<p>By the end of this chapter, students will be able to:</p>
+<ul>
+<li>Explain the fundamental concepts of ROS 2 architecture</li>
+<li>Identify and describe the roles of nodes, topics, services, and actions</li>
+<li>Understand how these components interact in a robot system</li>
+<li>Differentiate between topics, services, and actions based on communication patterns</li>
+<li>Design simple distributed systems using ROS 2 concepts</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction-to-ros-2-architecture">Introduction to ROS 2 Architecture<a href="#introduction-to-ros-2-architecture" class="hash-link" aria-label="Direct link to Introduction to ROS 2 Architecture" title="Direct link to Introduction to ROS 2 Architecture">​</a></h2>
+<p>Robot Operating System 2 (ROS 2) is a flexible framework for writing robot software that provides libraries and tools to help create robot applications. Unlike traditional robot programming approaches that require monolithic systems, ROS 2 promotes a distributed architecture where different software components run as separate processes and communicate using standardized interfaces.</p>
+<p>ROS 2 is middleware that provides a publish-subscribe communication model, service calls, and action interfaces to enable communication between processes. It also handles message serialization, discovery, and transport of messages between nodes.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-principles-of-ros-2">Key Principles of ROS 2<a href="#key-principles-of-ros-2" class="hash-link" aria-label="Direct link to Key Principles of ROS 2" title="Direct link to Key Principles of ROS 2">​</a></h3>
+<ul>
+<li><strong>Distributed Computing</strong>: Components run as separate processes that can be distributed across multiple machines</li>
+<li><strong>Message-Based Communication</strong>: All communication happens through messages with standardized interfaces</li>
+<li><strong>Language Independence</strong>: Nodes can be written in multiple languages (C++, Python, etc.) and communicate seamlessly</li>
+<li><strong>Modularity</strong>: Components can be developed, tested, and deployed independently</li>
+<li><strong>Reusability</strong>: Components can be reused across different robot platforms</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nodes">Nodes<a href="#nodes" class="hash-link" aria-label="Direct link to Nodes" title="Direct link to Nodes">​</a></h2>
+<p>Nodes are the fundamental execution units in ROS 2. A node is essentially a process that performs computation, and each node in a ROS system performs a specific function in the robot ecosystem.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="characteristics-of-nodes">Characteristics of Nodes<a href="#characteristics-of-nodes" class="hash-link" aria-label="Direct link to Characteristics of Nodes" title="Direct link to Characteristics of Nodes">​</a></h3>
+<ul>
+<li><strong>Process-based</strong>: Each node runs as a separate process, allowing for isolation and fault tolerance</li>
+<li><strong>Single Responsibility</strong>: Each node should have a well-defined, specific function</li>
+<li><strong>Communication Interface</strong>: Nodes communicate with other nodes through topics, services, and actions</li>
+<li><strong>Node Names</strong>: Each node has a unique name within the ROS graph for identification</li>
+<li><strong>Namespace</strong>: Nodes can be organized into namespaces for better organization</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="node-implementation">Node Implementation<a href="#node-implementation" class="hash-link" aria-label="Direct link to Node Implementation" title="Direct link to Node Implementation">​</a></h3>
+<p>When creating a node, you need to:</p>
+<ul>
+<li>Initialize the ROS client library</li>
+<li>Create publishers and subscribers</li>
+<li>Create service clients and servers</li>
+<li>Create action clients and servers</li>
+<li>Spin the node to process callbacks</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="diagrams">Diagrams<a href="#diagrams" class="hash-link" aria-label="Direct link to Diagrams" title="Direct link to Diagrams">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ros-2-node-architecture">ROS 2 Node Architecture<a href="#ros-2-node-architecture" class="hash-link" aria-label="Direct link to ROS 2 Node Architecture" title="Direct link to ROS 2 Node Architecture">​</a></h3>
+<div class="language-mermaid codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-mermaid codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">graph TD</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    A[ROS 2 Node] --&gt; B[Initialize ROS Client Library]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    A --&gt; C[Create Publishers/Topics]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    A --&gt; D[Create Subscribers/Topics]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    A --&gt; E[Create Service Clients/Servers]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    A --&gt; F[Create Action Clients/Servers]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    A --&gt; G[Spin Node for Callbacks]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    B --&gt; H[rclpy/rclcpp]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    H --&gt; I[DDS Middleware]</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The above diagram shows the structure of a ROS 2 node and its communication interfaces.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="communication-patterns-overview">Communication Patterns Overview<a href="#communication-patterns-overview" class="hash-link" aria-label="Direct link to Communication Patterns Overview" title="Direct link to Communication Patterns Overview">​</a></h3>
+<div class="language-mermaid codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-mermaid codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">graph LR</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    A[Node A] --&gt;|Publish| B(Topic)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    C[Node B] --&gt;|Subscribe| B</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    D[Node C] --&gt;|Subscribe| B</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    E[Service Client] --&gt;|Request| F[Service Server]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    F --&gt;|Response| E</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    G[Action Client] --&gt;|Goal| H[Action Server]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    H --&gt;|Feedback| G</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    H --&gt;|Result| G</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>This diagram illustrates the different communication patterns in ROS 2: topics (publish/subscribe), services (request/response), and actions (goal/feedback/result).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="topics-and-publish-subscribe-communication">Topics and Publish-Subscribe Communication<a href="#topics-and-publish-subscribe-communication" class="hash-link" aria-label="Direct link to Topics and Publish-Subscribe Communication" title="Direct link to Topics and Publish-Subscribe Communication">​</a></h2>
+<p>Topics implement a publish-subscribe communication pattern where nodes can publish messages to a topic and other nodes can subscribe to that topic to receive messages.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="characteristics-of-topics">Characteristics of Topics<a href="#characteristics-of-topics" class="hash-link" aria-label="Direct link to Characteristics of Topics" title="Direct link to Characteristics of Topics">​</a></h3>
+<ul>
+<li><strong>Asynchronous</strong>: Publishers and subscribers don&#x27;t need to run simultaneously</li>
+<li><strong>Many-to-Many</strong>: Multiple publishers can publish to a topic, and multiple subscribers can listen to the same topic</li>
+<li><strong>Unidirectional</strong>: Communication flows from publishers to subscribers</li>
+<li><strong>Typed</strong>: Each topic has a specific message type that defines the structure of messages</li>
+<li><strong>Decoupled</strong>: Publishers and subscribers are decoupled in time and space</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="quality-of-service-qos">Quality of Service (QoS)<a href="#quality-of-service-qos" class="hash-link" aria-label="Direct link to Quality of Service (QoS)" title="Direct link to Quality of Service (QoS)">​</a></h3>
+<p>ROS 2 provides Quality of Service profiles that allow customization of communication behavior:</p>
+<ul>
+<li><strong>Reliability</strong>: Reliable vs. best-effort delivery</li>
+<li><strong>Durability</strong>: Whether messages persist for late-joining subscribers</li>
+<li><strong>History</strong>: How many messages to keep in the queue</li>
+<li><strong>Deadline</strong>: Maximum time between consecutive messages</li>
+<li><strong>Liveliness</strong>: How to detect if a publisher is still active</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="services">Services<a href="#services" class="hash-link" aria-label="Direct link to Services" title="Direct link to Services">​</a></h2>
+<p>Services implement a request-response communication pattern. A client sends a request and waits for a response from a server. This is synchronous communication.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="characteristics-of-services">Characteristics of Services<a href="#characteristics-of-services" class="hash-link" aria-label="Direct link to Characteristics of Services" title="Direct link to Characteristics of Services">​</a></h3>
+<ul>
+<li><strong>Synchronous</strong>: Client waits for response before continuing</li>
+<li><strong>One-to-One</strong>: One client communicates with one server at a time</li>
+<li><strong>Bidirectional</strong>: Request goes from client to server, response goes from server to client</li>
+<li><strong>Typed</strong>: Both request and response have specific message types</li>
+<li><strong>Stateless</strong>: Each service call is independent</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="when-to-use-services">When to Use Services<a href="#when-to-use-services" class="hash-link" aria-label="Direct link to When to Use Services" title="Direct link to When to Use Services">​</a></h3>
+<ul>
+<li>When you need a specific response to a request</li>
+<li>For operations that have a definite start and end</li>
+<li>When you need to guarantee that the operation was completed</li>
+<li>For configuration parameters or one-time commands</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="actions">Actions<a href="#actions" class="hash-link" aria-label="Direct link to Actions" title="Direct link to Actions">​</a></h2>
+<p>Actions are used for long-running tasks that may take a significant amount of time to complete. They combine the features of topics and services.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="characteristics-of-actions">Characteristics of Actions<a href="#characteristics-of-actions" class="hash-link" aria-label="Direct link to Characteristics of Actions" title="Direct link to Characteristics of Actions">​</a></h3>
+<ul>
+<li><strong>Goal/Result/Feedback</strong>: Actions have a goal (request), result (response), and feedback (ongoing updates)</li>
+<li><strong>Interruption</strong>: Actions can be canceled or preempted while running</li>
+<li><strong>Asynchronous</strong>: Client doesn&#x27;t block while action is executing</li>
+<li><strong>State Tracking</strong>: Provides information about the current state of the action</li>
+<li><strong>Multiple Phases</strong>: Goal → Running → Success/Aborted/Canceled/Exception</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="action-states">Action States<a href="#action-states" class="hash-link" aria-label="Direct link to Action States" title="Direct link to Action States">​</a></h3>
+<ul>
+<li><strong>Pending</strong>: Goal accepted but not started</li>
+<li><strong>Active</strong>: Goal is being processed</li>
+<li><strong>Succeeded</strong>: Goal completed successfully</li>
+<li><strong>Aborted</strong>: Goal execution failed</li>
+<li><strong>Canceled</strong>: Goal was canceled during execution</li>
+<li><strong>Rejected</strong>: Goal was rejected by the server</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="when-to-use-actions">When to Use Actions<a href="#when-to-use-actions" class="hash-link" aria-label="Direct link to When to Use Actions" title="Direct link to When to Use Actions">​</a></h3>
+<ul>
+<li>For long-running operations (navigation, manipulation, etc.)</li>
+<li>When you need feedback during execution</li>
+<li>When operations may be interrupted or canceled</li>
+<li>When you need to track the progress of a task</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="communication-patterns-comparison">Communication Patterns Comparison<a href="#communication-patterns-comparison" class="hash-link" aria-label="Direct link to Communication Patterns Comparison" title="Direct link to Communication Patterns Comparison">​</a></h2>
+<table><thead><tr><th>Pattern</th><th>Type</th><th>Synchronous</th><th>Use Case</th></tr></thead><tbody><tr><td>Topics</td><td>Publish-Subscribe</td><td>No</td><td>Continuous data streams (sensors, state)</td></tr><tr><td>Services</td><td>Request-Response</td><td>Yes</td><td>One-time operations with immediate response</td></tr><tr><td>Actions</td><td>Goal-Based</td><td>No</td><td>Long-running operations with progress tracking</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ros-2-middleware-infrastructure">ROS 2 Middleware Infrastructure<a href="#ros-2-middleware-infrastructure" class="hash-link" aria-label="Direct link to ROS 2 Middleware Infrastructure" title="Direct link to ROS 2 Middleware Infrastructure">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dds-data-distribution-service">DDS (Data Distribution Service)<a href="#dds-data-distribution-service" class="hash-link" aria-label="Direct link to DDS (Data Distribution Service)" title="Direct link to DDS (Data Distribution Service)">​</a></h3>
+<p>ROS 2 uses DDS as its underlying middleware. DDS is a vendor-neutral standard for real-time distributed systems that handles:</p>
+<ul>
+<li>Discovery: How nodes find each other</li>
+<li>Data modeling: How information is structured</li>
+<li>Quality of Service: How communication is configured</li>
+<li>Security: How communication is protected</li>
+<li>Interaction patterns: How nodes communicate</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ros-2-client-libraries-rcl">ROS 2 Client Libraries (RCL)<a href="#ros-2-client-libraries-rcl" class="hash-link" aria-label="Direct link to ROS 2 Client Libraries (RCL)" title="Direct link to ROS 2 Client Libraries (RCL)">​</a></h3>
+<p>ROS 2 provides client libraries that wrap DDS to provide a user-friendly API:</p>
+<ul>
+<li><strong>rclcpp</strong>: C++ client library</li>
+<li><strong>rclpy</strong>: Python client library</li>
+<li>ROS 2 implementations in other languages</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="design-patterns-in-ros-2">Design Patterns in ROS 2<a href="#design-patterns-in-ros-2" class="hash-link" aria-label="Direct link to Design Patterns in ROS 2" title="Direct link to Design Patterns in ROS 2">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="node-composition">Node Composition<a href="#node-composition" class="hash-link" aria-label="Direct link to Node Composition" title="Direct link to Node Composition">​</a></h3>
+<ul>
+<li><strong>Standalone Nodes</strong>: Each function runs in a separate process for maximum isolation</li>
+<li><strong>Node Composition</strong>: Multiple nodes can be combined into a single process to reduce communication overhead</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="parameter-server">Parameter Server<a href="#parameter-server" class="hash-link" aria-label="Direct link to Parameter Server" title="Direct link to Parameter Server">​</a></h3>
+<ul>
+<li><strong>Dynamic Configuration</strong>: Nodes can have parameters that can be changed at runtime</li>
+<li><strong>Centralized Management</strong>: Parameters can be managed and updated centrally</li>
+<li><strong>Node-specific</strong>: Each node has its own parameter namespace</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="lifecycle-nodes">Lifecycle Nodes<a href="#lifecycle-nodes" class="hash-link" aria-label="Direct link to Lifecycle Nodes" title="Direct link to Lifecycle Nodes">​</a></h3>
+<ul>
+<li><strong>Managed Lifecycle</strong>: Nodes can have defined lifecycle states (unconfigured, inactive, active, finalized)</li>
+<li><strong>State Transitions</strong>: Explicit transitions between states with callbacks</li>
+<li><strong>Managed Execution</strong>: Lifecycle can be managed by a lifecycle manager</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="best-practices">Best Practices<a href="#best-practices" class="hash-link" aria-label="Direct link to Best Practices" title="Direct link to Best Practices">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="naming-conventions">Naming Conventions<a href="#naming-conventions" class="hash-link" aria-label="Direct link to Naming Conventions" title="Direct link to Naming Conventions">​</a></h3>
+<ul>
+<li>Use descriptive names for nodes, topics, services, and actions</li>
+<li>Organize with namespaces (e.g., <code>/arm/joint_states</code>, <code>/base/velocity</code>)</li>
+<li>Use consistent naming patterns across your system</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="message-design">Message Design<a href="#message-design" class="hash-link" aria-label="Direct link to Message Design" title="Direct link to Message Design">​</a></h3>
+<ul>
+<li>Keep messages small and efficient</li>
+<li>Use appropriate data types for the information being conveyed</li>
+<li>Include timestamps when temporal information is important</li>
+<li>Document the meaning of each field in the message</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="error-handling">Error Handling<a href="#error-handling" class="hash-link" aria-label="Direct link to Error Handling" title="Direct link to Error Handling">​</a></h3>
+<ul>
+<li>Implement proper error handling in all communication patterns</li>
+<li>Use appropriate Quality of Service settings for your use case</li>
+<li>Monitor node health and communication status</li>
+<li>Handle disconnections and reconnections gracefully</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exercises">Exercises<a href="#exercises" class="hash-link" aria-label="Direct link to Exercises" title="Direct link to Exercises">​</a></h2>
+<ol>
+<li>Design a simple robot system with at least 4 nodes and identify the communication patterns between them.</li>
+<li>Explain when you would use topics vs. services vs. actions for controlling a robotic arm.</li>
+<li>Identify the QoS settings that would be most appropriate for different types of robot communication (e.g., sensor data, high-priority commands).</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="quiz">Quiz<a href="#quiz" class="hash-link" aria-label="Direct link to Quiz" title="Direct link to Quiz">​</a></h2>
+<ol>
+<li>
+<p>What is a ROS 2 node?</p>
+<ul>
+<li>A) A hardware component in a robot</li>
+<li>B) A process that performs computation and communicates with other processes</li>
+<li>C) A type of message in ROS 2</li>
+<li>D) A network protocol</li>
+</ul>
+</li>
+<li>
+<p>Which communication pattern is synchronous?</p>
+<ul>
+<li>A) Topics</li>
+<li>B) Services</li>
+<li>C) Actions</li>
+<li>D) Publishers</li>
+</ul>
+</li>
+<li>
+<p>What makes actions different from services?</p>
+<ul>
+<li>A) Actions are faster than services</li>
+<li>B) Actions are asynchronous and can provide feedback and be interrupted</li>
+<li>C) Actions can only be used with Python</li>
+<li>D) There is no difference between actions and services</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reflection">Reflection<a href="#reflection" class="hash-link" aria-label="Direct link to Reflection" title="Direct link to Reflection">​</a></h2>
+<p>Consider how the distributed architecture of ROS 2 enables more robust and maintainable robot systems compared to monolithic approaches. How might the communication patterns (topics, services, actions) be used in humanoid robotics specifically? What advantages does this approach provide for developing complex physical AI systems?</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-tags-row row margin-bottom--sm"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2">ROS 2</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics">Robotics</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/New-Physical-AI-and-Humanoid-Robotics/docs/tags/architecture">Architecture</a></li><li class="tag_QGVx"><a class="tag_zVej tagRegular_sFm0" href="/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware">Middleware</a></li></ul></div></div><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/JaveriaNigar/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#learning-objectives" class="table-of-contents__link toc-highlight">Learning Objectives</a></li><li><a href="#introduction-to-ros-2-architecture" class="table-of-contents__link toc-highlight">Introduction to ROS 2 Architecture</a><ul><li><a href="#key-principles-of-ros-2" class="table-of-contents__link toc-highlight">Key Principles of ROS 2</a></li></ul></li><li><a href="#nodes" class="table-of-contents__link toc-highlight">Nodes</a><ul><li><a href="#characteristics-of-nodes" class="table-of-contents__link toc-highlight">Characteristics of Nodes</a></li><li><a href="#node-implementation" class="table-of-contents__link toc-highlight">Node Implementation</a></li></ul></li><li><a href="#diagrams" class="table-of-contents__link toc-highlight">Diagrams</a><ul><li><a href="#ros-2-node-architecture" class="table-of-contents__link toc-highlight">ROS 2 Node Architecture</a></li><li><a href="#communication-patterns-overview" class="table-of-contents__link toc-highlight">Communication Patterns Overview</a></li></ul></li><li><a href="#topics-and-publish-subscribe-communication" class="table-of-contents__link toc-highlight">Topics and Publish-Subscribe Communication</a><ul><li><a href="#characteristics-of-topics" class="table-of-contents__link toc-highlight">Characteristics of Topics</a></li><li><a href="#quality-of-service-qos" class="table-of-contents__link toc-highlight">Quality of Service (QoS)</a></li></ul></li><li><a href="#services" class="table-of-contents__link toc-highlight">Services</a><ul><li><a href="#characteristics-of-services" class="table-of-contents__link toc-highlight">Characteristics of Services</a></li><li><a href="#when-to-use-services" class="table-of-contents__link toc-highlight">When to Use Services</a></li></ul></li><li><a href="#actions" class="table-of-contents__link toc-highlight">Actions</a><ul><li><a href="#characteristics-of-actions" class="table-of-contents__link toc-highlight">Characteristics of Actions</a></li><li><a href="#action-states" class="table-of-contents__link toc-highlight">Action States</a></li><li><a href="#when-to-use-actions" class="table-of-contents__link toc-highlight">When to Use Actions</a></li></ul></li><li><a href="#communication-patterns-comparison" class="table-of-contents__link toc-highlight">Communication Patterns Comparison</a></li><li><a href="#ros-2-middleware-infrastructure" class="table-of-contents__link toc-highlight">ROS 2 Middleware Infrastructure</a><ul><li><a href="#dds-data-distribution-service" class="table-of-contents__link toc-highlight">DDS (Data Distribution Service)</a></li><li><a href="#ros-2-client-libraries-rcl" class="table-of-contents__link toc-highlight">ROS 2 Client Libraries (RCL)</a></li></ul></li><li><a href="#design-patterns-in-ros-2" class="table-of-contents__link toc-highlight">Design Patterns in ROS 2</a><ul><li><a href="#node-composition" class="table-of-contents__link toc-highlight">Node Composition</a></li><li><a href="#parameter-server" class="table-of-contents__link toc-highlight">Parameter Server</a></li><li><a href="#lifecycle-nodes" class="table-of-contents__link toc-highlight">Lifecycle Nodes</a></li></ul></li><li><a href="#best-practices" class="table-of-contents__link toc-highlight">Best Practices</a><ul><li><a href="#naming-conventions" class="table-of-contents__link toc-highlight">Naming Conventions</a></li><li><a href="#message-design" class="table-of-contents__link toc-highlight">Message Design</a></li><li><a href="#error-handling" class="table-of-contents__link toc-highlight">Error Handling</a></li></ul></li><li><a href="#exercises" class="table-of-contents__link toc-highlight">Exercises</a></li><li><a href="#quiz" class="table-of-contents__link toc-highlight">Quiz</a></li><li><a href="#reflection" class="table-of-contents__link toc-highlight">Reflection</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Textbook</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots">Module One</a></li><li class="footer__item"><a class="footer__link-item" href="/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors">Module Two</a></li><li class="footer__item"><a class="footer__link-item" href="/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview">Module Three</a></li><li class="footer__item"><a class="footer__link-item" href="/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-12/humanoid-development-vla-systems">Module Four</a></li></ul></div><div class="col footer__col"><div class="footer__title">Creator</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://portfolio-five-alpha-98.vercel.app/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Portfolio<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/in/javeria-nigar-252b312b5/" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://x.com/Nigarhaide526" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/JaveriaNigar" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="mailto:javerianigar40@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Email<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Physical AI & Humanoid Robotics Textbook.</div></div></div></footer><button class="floatingButton_nwzb" aria-label="Open AI Assistant" title="Ask AI Assistant"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="icon_QNTH" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M32,224H64V416H32A31.96166,31.96166,0,0,1,0,384V256A31.96166,31.96166,0,0,1,32,224Zm512-48V448a64.06328,64.06328,0,0,1-64,64H160a64.06328,64.06328,0,0,1-64-64V176a79.974,79.974,0,0,1,80-80H288V32a32,32,0,0,1,64,0V96H464A79.974,79.974,0,0,1,544,176ZM264,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,264,256Zm-8,128H192v32h64Zm96,0H288v32h64ZM456,256a40,40,0,1,0-40,40A39.997,39.997,0,0,0,456,256Zm-8,128H384v32h64ZM640,256V384a31.96166,31.96166,0,0,1-32,32H576V224h32A31.96166,31.96166,0,0,1,640,256Z"></path></svg></button></div>
+</body>
+</html>
