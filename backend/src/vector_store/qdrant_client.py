@@ -22,11 +22,12 @@ class QdrantManager:
             self.client = QdrantClient(
                 url=settings.QDRANT_URL,
                 api_key=settings.QDRANT_API_KEY,
-                timeout=QDRANT_TIMEOUT_SECONDS
+                timeout=QDRANT_TIMEOUT_SECONDS,
+                check_compatibility=False
             )
         else:
             # Using local Qdrant instance
-            self.client = QdrantClient(host=settings.QDRANT_URL, port=6333)
+            self.client = QdrantClient(host=settings.QDRANT_URL, port=6333, check_compatibility=False)
 
         self.collection_name = settings.QDRANT_COLLECTION_NAME
         self.embedding_dimension = DEFAULT_EMBEDDING_DIMENSION
