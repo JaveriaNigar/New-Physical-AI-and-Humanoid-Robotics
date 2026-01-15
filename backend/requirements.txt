@@ -3,6 +3,7 @@ uvicorn[standard]
 qdrant-client
 pydantic
 psutil
+GPUtil
 google-generativeai
 python-dotenv
 asyncpg
