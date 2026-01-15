@@ -17,12 +17,12 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first to leverage Docker cache
-COPY requirements.txt .
+COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy project
-COPY src ./src
-COPY tests ./tests
+COPY backend/src ./src
+COPY backend/tests ./tests
 
 # Expose port
 EXPOSE 8000
