@@ -17,7 +17,7 @@ const ChatModal: React.FC = () => {
     }
   }, [isChatOpen]);
 
-  const BACKEND_URL = 'http://localhost:8001';
+  const BACKEND_URL = 'https://javeria-nigar-chatbot.hf.space';
 
   const handleSend = async () => {
     if (inputValue.trim() === '') return;
