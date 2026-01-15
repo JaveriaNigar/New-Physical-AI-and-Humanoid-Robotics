@@ -43,7 +43,7 @@ app.add_middleware(SecurityHeadersMiddleware)
 if settings.ENVIRONMENT != "development":
     app.add_middleware(
         TrustedHostMiddleware,
-        allowed_hosts=["yourdomain.com", "www.yourdomain.com"]  # Replace with actual domains
+        allowed_hosts=["javeria-nigar-chatbot.hf.space"]  # Replace with actual domains
     )
 
 # Add CORS middleware

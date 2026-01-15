@@ -31,7 +31,7 @@ class Settings:
     HOST: str = os.getenv("HOST", "0.0.0.0")
     PORT: int = int(os.getenv("PORT", 8000))
     RELOAD: bool = os.getenv("RELOAD", "false").lower() == "true"
-    ALLOWED_ORIGINS: list = os.getenv("ALLOWED_ORIGINS", "").split(",")
+    ALLOWED_ORIGINS: list = os.getenv("ALLOWED_ORIGINS", "https://javerianigar.github.io").split(",")
 
     # Performance and operational settings
     RETRIEVAL_TIMEOUT: float = float(os.getenv("RETRIEVAL_TIMEOUT", "5.0"))
