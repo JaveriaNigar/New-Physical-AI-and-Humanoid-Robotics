@@ -2,6 +2,7 @@ fastapi
 uvicorn[standard]
 qdrant-client
 pydantic
+psutil
 google-generativeai
 python-dotenv
 asyncpg
