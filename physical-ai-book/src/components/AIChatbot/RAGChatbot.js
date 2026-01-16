@@ -4,7 +4,7 @@
  */
 
 class RAGChatbotIntegration {
-    constructor(backendUrl = 'http://localhost:8001') {
+    constructor(backendUrl = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8001') {
         this.backendUrl = backendUrl;
         this.chatContainer = null;
         this.inputField = null;
@@ -12,7 +12,6 @@ class RAGChatbotIntegration {
         this.initializeElements();
         this.attachEventListeners();
     }
-
     initializeElements() {
         // Common selectors for chatbot elements - adjust these based on your actual HTML structure
         this.chatContainer = document.querySelector('.chat-messages') || 
@@ -30,7 +29,6 @@ class RAGChatbotIntegration {
                          document.querySelector('.send-btn') ||
                          document.querySelector('button[type="submit"]');
     }
-
     attachEventListeners() {
         // Handle send button click
         if (this.sendButton) {
@@ -183,16 +181,4 @@ class RAGChatbotIntegration {
     }
 }
 
-// Initialize the integration when the page loads
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize with your backend URL
-    const chatbotIntegration = new RAGChatbotIntegration('http://localhost:8001');
-    
-    // Make it globally accessible if needed for debugging
-    window.ragChatbot = chatbotIntegration;
-});
-
-// Export for use in other modules if needed
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = RAGChatbotIntegration;
-}
+export default RAGChatbotIntegration;
