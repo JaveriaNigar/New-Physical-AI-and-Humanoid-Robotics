@@ -819,7 +819,7 @@
       "js": [
         {
           "file": "assets/js/runtime~main.2c2c0448.js",
-          "hash": "7881907a5e741ebb",
+          "hash": "80e5eac139c7cf54",
           "publicPath": "/New-Physical-AI-and-Humanoid-Robotics/assets/js/runtime~main.2c2c0448.js"
         }
       ]
@@ -1196,9 +1196,9 @@
     "8792": {
       "js": [
         {
-          "file": "assets/js/main.860cd009.js",
-          "hash": "0b4479e61746639e",
-          "publicPath": "/New-Physical-AI-and-Humanoid-Robotics/assets/js/main.860cd009.js"
+          "file": "assets/js/main.6a77b629.js",
+          "hash": "8d257ddce9f872a8",
+          "publicPath": "/New-Physical-AI-and-Humanoid-Robotics/assets/js/main.6a77b629.js"
         }
       ]
     },

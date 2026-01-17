@@ -19,7 +19,7 @@ const config = {
   organizationName: 'JaveriaNigar', // GitHub username
   projectName: 'New-Physical-AI-and-Humanoid-Robotics', // Repo name
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: true,
 

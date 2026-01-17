@@ -76,7 +76,7 @@ export default {
             },
             {
               "label": "Module Four",
-              "to": "/docs/week-11-12/humanoid-development-vla-systems"
+              "to": "/docs/week-11-13/humanoid-development-overview"
             }
           ]
         },
