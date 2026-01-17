@@ -13,6 +13,7 @@ export default {
   "projectName": "New-Physical-AI-and-Humanoid-Robotics",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
+  "trailingSlash": true,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -110,7 +111,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Physical AI & Humanoid Robotics Textbook."
+      "copyright": "Copyright © 2026 Physical AI & Humanoid Robotics Textbook."
     },
     "prism": {
       "theme": {
@@ -347,13 +348,15 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "customFields": {
+    "apiBaseUrl": "https://javeria-nigar-chatbot.hf.space"
+  },
   "baseUrlIssueBanner": true,
   "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
   ],
-  "customFields": {},
   "plugins": [],
   "themes": [],
   "scripts": [],

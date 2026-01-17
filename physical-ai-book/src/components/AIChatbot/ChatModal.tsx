@@ -3,21 +3,18 @@ import { FaTimes, FaPaperPlane } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useChat } from '../../context/ChatContext';
 import styles from './ChatModal.module.css';
+import RAGChatbotIntegration from './RAGChatbot'; // Import the RAGChatbotIntegration class
 
 const ChatModal: React.FC = () => {
   const { isChatOpen, closeChat, messages, addMessage, isLoading, setIsLoading } = useChat();
   const [inputValue, setInputValue] = React.useState('');
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
+  const chatbotIntegrationRef = useRef<RAGChatbotIntegration | null>(null);
 
-  // When the chat modal opens, clear any selected text from localStorage
-  React.useEffect(() => {
-    if (isChatOpen) {
-      // Clear the stored selected text to ensure we're only using book content
-      localStorage.removeItem('selectedText');
-    }
-  }, [isChatOpen]);
-
-  const BACKEND_URL = 'https://javeria-nigar-chatbot.hf.space';
+  useEffect(() => {
+    // Initialize with the correct backend URL for the new backend
+    chatbotIntegrationRef.current = new RAGChatbotIntegration('https://huggingface.co/spaces/javeria-nigar/chatbot?logs=container');
+  }, []);
 
   const handleSend = async () => {
     if (inputValue.trim() === '') return;
@@ -26,29 +23,16 @@ const ChatModal: React.FC = () => {
     setIsLoading(true);
 
     try {
-      // Send only the question to the backend, no selected text
-      const requestBody = { question: inputValue };
-
-      const res = await fetch(`${BACKEND_URL}/chat/ask`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(requestBody),
-      });
-
-      const data = await res.json();
-      // Handle both regular responses and refusal responses
-      let answer = data.answer || "No response.";
-      if (data.detail) {
-        // Handle refusal response
-        answer = data.detail;
-      } else if (typeof data === 'string') {
-        // Handle case where response is just a string
-        answer = data;
+      if (chatbotIntegrationRef.current) {
+        const answer = await chatbotIntegrationRef.current.sendQuestionToBackend(inputValue);
+        addMessage({ text: answer, sender: "bot" });
+      } else {
+        throw new Error("Chatbot integration not initialized.");
       }
-      addMessage({ text: answer, sender: "bot" });
     } catch (err) {
+      console.error('ChatModal send error:', err);
       addMessage({
-        text: "Backend not reachable at http://localhost:8001",
+        text: "Sorry, I encountered an error processing your request. Please try again.",
         sender: "bot",
       });
     }
@@ -71,8 +55,6 @@ const ChatModal: React.FC = () => {
     if (isChatOpen) window.addEventListener('keydown', handleEsc);
     return () => window.removeEventListener('keydown', handleEsc);
   }, [isChatOpen, closeChat]);
-
-  // Remove all selected text related effects and functionality
 
   return (
     <AnimatePresence>
@@ -118,7 +100,7 @@ const ChatModal: React.FC = () => {
                   ))}
                   {isLoading && (
                     <div className={`${styles.message} ${styles.bot}`}>
-                      <div className={styles.typingIndicator}>
+                      <div className={`${styles.messageText} ${styles.typingIndicator}`}>
                         <div className={styles.dot}></div>
                         <div className={styles.dot}></div>
                         <div className={styles.dot}></div>

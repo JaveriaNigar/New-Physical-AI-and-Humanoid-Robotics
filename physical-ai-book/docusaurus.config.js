@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 // @ts-check
 // `@type` JSDoc annotations allow IDEs and type checkers to infer types
 // @ts-ignore - js file
@@ -19,6 +21,7 @@ const config = {
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: true,
 
   i18n: {
     defaultLocale: 'en',
@@ -102,6 +105,9 @@ const config = {
         respectPrefersColorScheme: false,
       },
     }),
+  customFields: {
+    apiBaseUrl: process.env.REACT_APP_API_BASE_URL,
+  },
 };
 
 module.exports = config;

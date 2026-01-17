@@ -4,7 +4,7 @@
  */
 
 class RAGChatbotIntegration {
-    constructor(backendUrl = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8001') {
+    constructor(backendUrl = 'https://huggingface.co/spaces/javeria-nigar/chatbot?logs=container') {  // Updated to use the new backend
         this.backendUrl = backendUrl;
         this.chatContainer = null;
         this.inputField = null;
@@ -14,17 +14,17 @@ class RAGChatbotIntegration {
     }
     initializeElements() {
         // Common selectors for chatbot elements - adjust these based on your actual HTML structure
-        this.chatContainer = document.querySelector('.chat-messages') || 
+        this.chatContainer = document.querySelector('.chat-messages') ||
                             document.querySelector('#chat-messages') ||
                             document.querySelector('.messages-container') ||
                             document.querySelector('.chat-container');
-                            
-        this.inputField = document.querySelector('.chat-input') || 
+
+        this.inputField = document.querySelector('.chat-input') ||
                          document.querySelector('#chat-input') ||
                          document.querySelector('.message-input') ||
                          document.querySelector('input[type="text"]');
-                         
-        this.sendButton = document.querySelector('.send-button') || 
+
+        this.sendButton = document.querySelector('.send-button') ||
                          document.querySelector('#send-button') ||
                          document.querySelector('.send-btn') ||
                          document.querySelector('button[type="submit"]');
@@ -51,7 +51,7 @@ class RAGChatbotIntegration {
 
     async handleSendMessage() {
         const question = this.inputField?.value?.trim();
-        
+
         if (!question) {
             console.warn('No question entered');
             return;
@@ -59,27 +59,27 @@ class RAGChatbotIntegration {
 
         // Add user message to chat
         this.addMessageToChat(question, 'user');
-        
+
         // Clear input field
         this.inputField.value = '';
-        
+
         // Show typing indicator
         const typingIndicator = this.addTypingIndicator();
-        
+
         try {
             // Send question to backend
             const answer = await this.sendQuestionToBackend(question);
-            
+
             // Remove typing indicator
             this.removeTypingIndicator(typingIndicator);
-            
+
             // Add answer to chat
             this.addMessageToChat(answer, 'bot');
-            
+
         } catch (error) {
             // Remove typing indicator
             this.removeTypingIndicator(typingIndicator);
-            
+
             // Show error message
             this.addMessageToChat('Sorry, I encountered an error processing your request. Please try again.', 'bot');
             console.error('Error sending question to backend:', error);
@@ -88,24 +88,22 @@ class RAGChatbotIntegration {
 
     async sendQuestionToBackend(question) {
         try {
-            const response = await fetch(`${this.backendUrl}/ask`, {
+            const response = await fetch(`${this.backendUrl}/chat/ask`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({ question })
+                body: JSON.stringify({ question: question })
             });
 
             if (!response.ok) {
-                if (response.status === 404) {
-                    throw new Error('No relevant answer found in the textbook content.');
-                } else {
-                    throw new Error(`Backend returned error: ${response.status} ${response.statusText}`);
-                }
+                const errorBody = await response.text();
+                throw new Error(`Backend returned error: ${response.status} ${response.statusText}. Details: ${errorBody}`);
             }
 
             const data = await response.json();
-            
+
+            // FastAPI backend returns the answer in the 'answer' field
             if (data && typeof data.answer === 'string') {
                 return data.answer;
             } else {
@@ -125,14 +123,14 @@ class RAGChatbotIntegration {
 
         const messageElement = document.createElement('div');
         messageElement.classList.add('message', `${sender}-message`);
-        
+
         // Add styling if not already present
         messageElement.style.padding = '10px 15px';
         messageElement.style.margin = '5px 0';
         messageElement.style.borderRadius = '8px';
         messageElement.style.maxWidth = '80%';
         messageElement.style.wordWrap = 'break-word';
-        
+
         if (sender === 'user') {
             messageElement.style.backgroundColor = '#007bff';
             messageElement.style.color = 'white';
@@ -147,7 +145,7 @@ class RAGChatbotIntegration {
 
         messageElement.textContent = text;
         this.chatContainer.appendChild(messageElement);
-        
+
         // Scroll to bottom of chat
         this.chatContainer.scrollTop = this.chatContainer.scrollHeight;
     }
@@ -167,10 +165,10 @@ class RAGChatbotIntegration {
         typingElement.style.maxWidth = '80%';
         typingElement.style.wordWrap = 'break-word';
         typingElement.innerHTML = '<em>Thinking...</em>';
-        
+
         this.chatContainer.appendChild(typingElement);
         this.chatContainer.scrollTop = this.chatContainer.scrollHeight;
-        
+
         return typingElement;
     }
 
