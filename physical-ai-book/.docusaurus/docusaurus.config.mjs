@@ -11,7 +11,7 @@ export default {
   "baseUrl": "/New-Physical-AI-and-Humanoid-Robotics/",
   "organizationName": "JaveriaNigar",
   "projectName": "New-Physical-AI-and-Humanoid-Robotics",
-  "onBrokenLinks": "ignore",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "trailingSlash": true,
   "i18n": {

@@ -74,7 +74,7 @@ const config = {
               { label: 'Module One', to: '/docs/week-1-2/humanoid-robots' },
               { label: 'Module Two', to: '/docs/week-3-5/humanoid-urdf-links-joints-sensors' },
               { label: 'Module Three', to: '/docs/week-8-10/ai-robot-brain-overview' },
-              { label: 'Module Four', to: '/docs/week-11-12/humanoid-development-vla-systems' },
+              { label: 'Module Four', to: '/docs/week-11-13/humanoid-development-overview' },
             ],
           },
           {
