@@ -18,6 +18,12 @@ const config = {
   // GitHub deployment config
   organizationName: 'JaveriaNigar', // GitHub username
   projectName: 'New-Physical-AI-and-Humanoid-Robotics', // Repo name
+  deployment: {
+    // we are deploying to github pages
+    // and we are not using SSH
+    gitUser: 'JaveriaNigar',
+    useSSH: false,
+  },
 
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
