@@ -1,444 +1,401 @@
 {
-  "/New-Physical-AI-and-Humanoid-Robotics/__docusaurus/debug/-7f3": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-docusaurus-debug-dcb-6df"
-    }
-  },
-  "/New-Physical-AI-and-Humanoid-Robotics/__docusaurus/debug/config/-6d2": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-docusaurus-debug-dcb-6df"
-    }
-  },
-  "/New-Physical-AI-and-Humanoid-Robotics/__docusaurus/debug/content/-ee4": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-docusaurus-debug-dcb-6df"
-    },
-    "allContent": "allContent---new-physical-ai-and-humanoid-robotics-docusaurus-debug-content-246-103"
-  },
-  "/New-Physical-AI-and-Humanoid-Robotics/__docusaurus/debug/globalData/-a0c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-docusaurus-debug-dcb-6df"
-    }
-  },
-  "/New-Physical-AI-and-Humanoid-Robotics/__docusaurus/debug/metadata/-d07": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-docusaurus-debug-dcb-6df"
-    }
-  },
-  "/New-Physical-AI-and-Humanoid-Robotics/__docusaurus/debug/registry/-bce": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-docusaurus-debug-dcb-6df"
-    }
-  },
-  "/New-Physical-AI-and-Humanoid-Robotics/__docusaurus/debug/routes/-fd1": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-docusaurus-debug-dcb-6df"
-    }
-  },
   "/New-Physical-AI-and-Humanoid-Robotics/about/-62b": {
-    "__comp": "__comp---site-src-pages-about-js-779-319",
+    "__comp": "7792a21f",
     "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-about-6-c-6-1ba"
+      "plugin": "6c6094d7"
     },
-    "config": "config---new-physical-ai-and-humanoid-robotics-about-5-e-9-80f"
+    "config": "5e9f5e1a"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/-aa0": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-docs-0-b-7-f08"
+      "plugin": "0b7b2213"
     }
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/-95d": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "version": "version---new-physical-ai-and-humanoid-robotics-docs-935-848"
+    "__comp": "a7bd4aaa",
+    "version": "935f2afb"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/-208": {
-    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
-    "tags": "tags---new-physical-ai-and-humanoid-robotics-docs-tags-559-8a8"
+    "__comp": "3720c009",
+    "tags": "55960ee5"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/actions/-c2a": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-actions-d-5-f-84f"
+    "__comp": "df203c0f",
+    "tag": "d5fe3fa6"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/adaptive-robotics/-407": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-adaptive-robotics-040-7f1"
+    "__comp": "df203c0f",
+    "tag": "0401b2a1"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai-actions/-614": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-ai-actions-c-3-a-d97"
+    "__comp": "df203c0f",
+    "tag": "c3a31e8e"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai-architecture/-7a4": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-ai-architecture-300-971"
+    "__comp": "df203c0f",
+    "tag": "300874c5"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ai/-b4f": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-ai-0-a-3-681"
+    "__comp": "df203c0f",
+    "tag": "0a355a67"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/anthropomorphic-design/-ec2": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-anthropomorphic-design-a-35-eb1"
+    "__comp": "df203c0f",
+    "tag": "a3591a6f"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/architecture/-404": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-architecture-215-7d4"
+    "__comp": "df203c0f",
+    "tag": "215dbb8b"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/bipedal-locomotion/-76b": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-bipedal-locomotion-f-14-98d"
+    "__comp": "df203c0f",
+    "tag": "f148480a"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/cognitive-robotics/-27f": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-cognitive-robotics-45-c-81d"
+    "__comp": "df203c0f",
+    "tag": "45c3c2f9"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/collision-detection/-526": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-collision-detection-772-a86"
+    "__comp": "df203c0f",
+    "tag": "772b4ccb"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/collisions/-33a": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-collisions-494-fd5"
+    "__comp": "df203c0f",
+    "tag": "494333c0"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/context-awareness/-f7c": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-context-awareness-6-ae-eb9"
+    "__comp": "df203c0f",
+    "tag": "6aea2452"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/control-systems/-f72": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-control-systems-9-a-1-b6c"
+    "__comp": "df203c0f",
+    "tag": "9a143efd"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/data-flow/-ae6": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-data-flow-686-3b7"
+    "__comp": "df203c0f",
+    "tag": "6860bdbc"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-cameras/-1c2": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-depth-cameras-97-c-958"
+    "__comp": "df203c0f",
+    "tag": "97c3a8e7"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/depth-sensors/-fc6": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-depth-sensors-6-f-5-72d"
+    "__comp": "df203c0f",
+    "tag": "6f53c936"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/embodied-intelligence/-875": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-embodied-intelligence-79-e-391"
+    "__comp": "df203c0f",
+    "tag": "79eb2921"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/environment-design/-e1c": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-environment-design-56-a-31d"
+    "__comp": "df203c0f",
+    "tag": "56a8a476"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/environment/-f64": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-environment-d-67-8aa"
+    "__comp": "df203c0f",
+    "tag": "d67de9a2"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gazebo/-294": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-gazebo-050-f38"
+    "__comp": "df203c0f",
+    "tag": "05042a99"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/gpt/-b5a": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-gpt-281-f97"
+    "__comp": "df203c0f",
+    "tag": "281b61ae"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/human-robot-interaction/-0af": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-human-robot-interaction-80-d-600"
+    "__comp": "df203c0f",
+    "tag": "80dbd7a9"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-control/-a57": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-humanoid-control-ccf-b4e"
+    "__comp": "df203c0f",
+    "tag": "ccfdf6d4"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid-robotics/-456": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-humanoid-robotics-115-40f"
+    "__comp": "df203c0f",
+    "tag": "115a8d29"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/humanoid/-7b4": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-humanoid-c-5-a-1a9"
+    "__comp": "df203c0f",
+    "tag": "c5a9eb4e"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/imu/-c34": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-imu-d-29-2a5"
+    "__comp": "df203c0f",
+    "tag": "d29e2283"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-ros/-02a": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-isaac-ros-83-f-554"
+    "__comp": "df203c0f",
+    "tag": "83f99bfb"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/isaac-sim/-358": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-isaac-sim-0-ab-f42"
+    "__comp": "df203c0f",
+    "tag": "0aba7299"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/li-dar/-edc": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-li-dar-24-e-6ae"
+    "__comp": "df203c0f",
+    "tag": "24ed9534"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/llm/-9d8": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-llm-ceb-3a5"
+    "__comp": "df203c0f",
+    "tag": "ceb8e0ff"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/middleware/-dd4": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-middleware-b-7-f-d8b"
+    "__comp": "df203c0f",
+    "tag": "b7f72742"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal-ai/-924": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-multimodal-ai-de-6-4af"
+    "__comp": "df203c0f",
+    "tag": "de658873"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/multimodal/-5d9": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-multimodal-2-d-4-2e6"
+    "__comp": "df203c0f",
+    "tag": "2d43df10"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nav-2/-f95": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-nav-2-bd-3-796"
+    "__comp": "df203c0f",
+    "tag": "bd3c3bf2"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nodes/-ccf": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-nodes-50-d-b58"
+    "__comp": "df203c0f",
+    "tag": "50d62087"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/nvidia-isaac/-04d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-nvidia-isaac-cbd-3c9"
+    "__comp": "df203c0f",
+    "tag": "cbd77037"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/path-planning/-712": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-path-planning-da-4-7cb"
+    "__comp": "df203c0f",
+    "tag": "da4d273f"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/perception/-b1d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-perception-011-53f"
+    "__comp": "df203c0f",
+    "tag": "011f3d73"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physical-ai/-47b": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-physical-ai-86-a-cec"
+    "__comp": "df203c0f",
+    "tag": "86af06a4"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics-simulation/-169": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-physics-simulation-ce-6-07b"
+    "__comp": "df203c0f",
+    "tag": "ce6439ae"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/physics/-393": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-physics-a-17-379"
+    "__comp": "df203c0f",
+    "tag": "a170b150"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/planning/-a63": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-planning-b-92-662"
+    "__comp": "df203c0f",
+    "tag": "b9215b95"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/programming/-39b": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-programming-e-82-f4b"
+    "__comp": "df203c0f",
+    "tag": "e8282199"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/python/-390": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-python-9-cd-361"
+    "__comp": "df203c0f",
+    "tag": "9cdfea4e"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/rclpy/-84f": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-rclpy-952-7e9"
+    "__comp": "df203c0f",
+    "tag": "9528b290"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-behavior/-377": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-robot-behavior-530-ca5"
+    "__comp": "df203c0f",
+    "tag": "5302a626"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-brains/-e78": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-robot-brains-840-bb9"
+    "__comp": "df203c0f",
+    "tag": "8409aa70"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-decision-making/-310": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-robot-decision-making-3-d-6-3c5"
+    "__comp": "df203c0f",
+    "tag": "3d6d1a2b"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-development/-9f9": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-robot-development-d-36-d94"
+    "__comp": "df203c0f",
+    "tag": "d369c723"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robot-modeling/-0f1": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-robot-modeling-8-d-5-9ba"
+    "__comp": "df203c0f",
+    "tag": "8d54cf57"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics-platform/-da5": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-robotics-platform-f-13-3d4"
+    "__comp": "df203c0f",
+    "tag": "f130eaa0"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/robotics/-601": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-robotics-4-f-4-fd8"
+    "__comp": "df203c0f",
+    "tag": "4f4fbaf7"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/ros-2/-6c9": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-ros-2-0-c-4-21e"
+    "__comp": "df203c0f",
+    "tag": "0c44da66"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sdf/-25f": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-sdf-183-dc1"
+    "__comp": "df203c0f",
+    "tag": "183c2878"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensor-simulation/-759": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-sensor-simulation-33-f-179"
+    "__comp": "df203c0f",
+    "tag": "33f60d97"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/sensors/-1e5": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-sensors-239-e1d"
+    "__comp": "df203c0f",
+    "tag": "239b6b81"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/services/-7e4": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-services-d-7-a-c64"
+    "__comp": "df203c0f",
+    "tag": "d7a89673"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/simulation/-b8d": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-simulation-9-ff-64b"
+    "__comp": "df203c0f",
+    "tag": "9ff38f4f"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/social-robotics/-ae3": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-social-robotics-159-c94"
+    "__comp": "df203c0f",
+    "tag": "159651e0"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/task-planning/-638": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-task-planning-543-1ef"
+    "__comp": "df203c0f",
+    "tag": "5438f6f5"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/topics/-52b": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-topics-b-55-c2c"
+    "__comp": "df203c0f",
+    "tag": "b55f5dbb"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/unity/-4fd": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-unity-b-74-b59"
+    "__comp": "df203c0f",
+    "tag": "b74babff"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/urdf/-fc4": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-urdf-6-c-7-9f7"
+    "__comp": "df203c0f",
+    "tag": "6c7729fa"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vision-language-action/-55e": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-vision-language-action-9-f-7-4a5"
+    "__comp": "df203c0f",
+    "tag": "9f77ab62"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla-systems/-aed": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-vla-systems-936-e53"
+    "__comp": "df203c0f",
+    "tag": "936f65fe"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/vla/-4ed": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-vla-5-f-8-454"
+    "__comp": "df203c0f",
+    "tag": "5f893e80"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tags/whisper/-00a": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "tag": "tag---new-physical-ai-and-humanoid-robotics-docs-tags-whisper-b-83-bb8"
+    "__comp": "df203c0f",
+    "tag": "b83c9c23"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/-9eb": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/-c01": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-233-5fb"
+    "__comp": "17896441",
+    "content": "23374ca6"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/tasks-sidebar-implementation/-540": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-tasks-sidebar-implementation-f-16-01d"
+    "__comp": "17896441",
+    "content": "f16f8c3c"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/humanoid-robots/-959": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-1-2-humanoid-robots-31-a-7e1"
+    "__comp": "17896441",
+    "content": "31a405b2"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/physical-ai-intro/-1cb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-1-2-physical-ai-intro-828-c89"
+    "__comp": "17896441",
+    "content": "828c0b33"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-1-2/sensors-overview/-5a4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-1-2-sensors-overview-aa-8-dab"
+    "__comp": "17896441",
+    "content": "aa8bd643"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/-fb1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-11-13-0-a-8-36b"
+    "__comp": "17896441",
+    "content": "0a835f9f"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/context-aware-behavior/-4df": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-11-13-context-aware-behavior-f-90-572"
+    "__comp": "17896441",
+    "content": "f906ef38"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/humanoid-development-overview/-251": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-11-13-humanoid-development-overview-d-0-c-1d0"
+    "__comp": "17896441",
+    "content": "d0ce7c75"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-11-13/vision-language-action-systems/-65b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-11-13-vision-language-action-systems-a-65-63c"
+    "__comp": "17896441",
+    "content": "a65cc970"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf-links-joints-sensors/-9cb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-3-5-humanoid-urdf-links-joints-sensors-395-084"
+    "__comp": "17896441",
+    "content": "395c3864"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/humanoid-urdf/-bb7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-3-5-humanoid-urdf-cbb-8db"
+    "__comp": "17896441",
+    "content": "cbb37996"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/robot-data-flow/-f07": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-3-5-robot-data-flow-669-0c6"
+    "__comp": "17896441",
+    "content": "669fee5c"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture-nodes-topics-services-actions/-b06": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-3-5-ros-2-architecture-nodes-topics-services-actions-012-802"
+    "__comp": "17896441",
+    "content": "012f4e58"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-architecture/-06f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-3-5-ros-2-architecture-7-b-4-129"
+    "__comp": "17896441",
+    "content": "7b4ac516"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-python-rclpy/-3cb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-3-5-ros-2-python-rclpy-0-e-8-778"
+    "__comp": "17896441",
+    "content": "0e8932f7"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-3-5/ros2-with-python-rclpy/-005": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-3-5-ros-2-with-python-rclpy-f-52-f42"
+    "__comp": "17896441",
+    "content": "f52c734e"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/-7ae": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-6-7-53-d-f46"
+    "__comp": "17896441",
+    "content": "53dbb306"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-physics-collisions-environment-design/-09f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-6-7-gazebo-physics-collisions-environment-design-b-93-af7"
+    "__comp": "17896441",
+    "content": "b932e3a8"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/gazebo-simulation/-d3e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-6-7-gazebo-simulation-37-c-610"
+    "__comp": "17896441",
+    "content": "37c33638"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation-lidar-depth-imu/-3f5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-6-7-sensor-simulation-lidar-depth-imu-303-555"
+    "__comp": "17896441",
+    "content": "303d260e"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-6-7/sensor-simulation/-a58": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-6-7-sensor-simulation-624-a06"
+    "__comp": "17896441",
+    "content": "624cfdb0"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/-7bf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-8-10-e-40-f62"
+    "__comp": "17896441",
+    "content": "e40edb23"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/ai-robot-brain-overview/-0e7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-8-10-ai-robot-brain-overview-1-bc-280"
+    "__comp": "17896441",
+    "content": "1bc3f5fb"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/cognitive-planning-actions/-00e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-8-10-cognitive-planning-actions-0-f-7-5f7"
+    "__comp": "17896441",
+    "content": "0f73f128"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/docs/week-8-10/nvidia-isaac-architecture/-0ad": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---new-physical-ai-and-humanoid-robotics-docs-week-8-10-nvidia-isaac-architecture-245-e1c"
+    "__comp": "17896441",
+    "content": "2455f362"
   },
   "/New-Physical-AI-and-Humanoid-Robotics/-5c0": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---new-physical-ai-and-humanoid-robotics-about-6-c-6-1ba"
+      "plugin": "6c6094d7"
     },
-    "config": "config---new-physical-ai-and-humanoid-robotics-about-5-e-9-80f"
+    "config": "5e9f5e1a"
   }
 }
